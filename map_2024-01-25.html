@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="map_2024-01-25_files/leaflet.js"></script>
+    <script src="map_2024-01-25_files/jquery-1.12.4.min.js"></script>
+    <script src="map_2024-01-25_files/bootstrap.bundle.min.js"></script>
+    <script src="map_2024-01-25_files/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="map_2024-01-25_files/leaflet.css">
+    <link rel="stylesheet" href="map_2024-01-25_files/bootstrap.min.css">
+    <link rel="stylesheet" href="map_2024-01-25_files/bootstrap.min_002.css">
+    <link rel="stylesheet" href="map_2024-01-25_files/all.min.css">
+    <link rel="stylesheet" href="map_2024-01-25_files/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="map_2024-01-25_files/leaflet.awesome.rotate.min.css">
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <style>
+                #map_533c95fd353cc57fdf2fc5e3b38262d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="map_2024-01-25_files/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="map_533c95fd353cc57fdf2fc5e3b38262d6" tabindex="0" style="outline: none;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" src="map_2024-01-25_files/32_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(729px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(985px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_007.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(729px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(985px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(729px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(985px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_006.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(473px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1241px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(473px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1241px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(473px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1241px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_008.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(729px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_006.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(985px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(729px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_008.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(985px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(473px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1241px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(217px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_007.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1497px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(473px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1241px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(217px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_006.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1497px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_008.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(217px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1497px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_002.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(217px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_007.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1497px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_006.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(217px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1497px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-39px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/32_008.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1753px, 413px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_008.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-39px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/31_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1753px, 157px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_006.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-39px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/33_007.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1753px, 669px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_003.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-39px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/30_005.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1753px, -99px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_004.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-39px, 925px, 0px); opacity: 1;"><img alt="" src="map_2024-01-25_files/34_007.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1753px, 925px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(956px, 371px, 0px); z-index: 371;" tabindex="0" role="button"><div style="background-color: #ed8d16ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(962px, 489px, 0px); z-index: 489;" tabindex="0" role="button"><div style="background-color: #138743ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(921px, 479px, 0px); z-index: 479;" tabindex="0" role="button"><div style="background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(901px, 461px, 0px); z-index: 461;" tabindex="0" role="button"><div style="background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(896px, 496px, 0px); z-index: 496;" tabindex="0" role="button"><div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(925px, 594px, 0px); z-index: 594;" tabindex="0" role="button"><div style="background-color: #015e3bff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(902px, 505px, 0px); z-index: 505;" tabindex="0" role="button"><div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(904px, 480px, 0px); z-index: 480;" tabindex="0" role="button"><div style="background-color: #024c33ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(961px, 499px, 0px); z-index: 499;" tabindex="0" role="button"><div style="background-color: #025938ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(920px, 493px, 0px); z-index: 493;" tabindex="0" role="button"><div style="background-color: #016b40ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(927px, 510px, 0px); z-index: 510;" tabindex="0" role="button"><div style="background-color: #025537ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(909px, 480px, 0px); z-index: 480;" tabindex="0" role="button"><div style="background-color: #015c3aff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(947px, 413px, 0px); z-index: 413;" tabindex="0" role="button"><div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(909px, 480px, 0px); z-index: 480;" tabindex="0" role="button"><div style="background-color: #015b39ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(948px, 499px, 0px); z-index: 499;" tabindex="0" role="button"><div style="background-color: #025336ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(909px, 442px, 0px); z-index: 442;" tabindex="0" role="button"><div style="background-color: #015e3bff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(917px, 492px, 0px); z-index: 492;" tabindex="0" role="button"><div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(941px, 540px, 0px); z-index: 540;" tabindex="0" role="button"><div style="background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(927px, 483px, 0px); z-index: 483;" tabindex="0" role="button"><div style="background-color: #ef2917ff; width: 10px; height: 10px; border-radius: 50%;"></div></div><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" style="margin-left: -5px; margin-top: -5px; width: 10px; height: 10px; transform: translate3d(919px, 476px, 0px); z-index: 476;" tabindex="0" role="button"><div style="background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;"></div></div></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right"><div class="legend leaflet-control"><svg id="legend" width="450" height="40"><g class="key" transform="translate(25,16)"><rect height="10" x="0" width="0" style="fill: rgb(3, 71, 50);"></rect><rect height="10" x="0" width="0.8016032064128256" style="fill: rgb(2, 71, 50);"></rect><rect height="10" x="0.8016032064128256" width="0.8016032064128256" style="fill: rgb(2, 72, 50);"></rect><rect height="10" x="1.6032064128256511" width="0.801603206412826" style="fill: rgb(2, 72, 50);"></rect><rect height="10" x="2.404809619238477" width="0.8016032064128251" style="fill: rgb(2, 73, 50);"></rect><rect height="10" x="3.2064128256513023" width="0.8016032064128265" style="fill: rgb(2, 73, 51);"></rect><rect height="10" x="4.008016032064129" width="0.8016032064128256" style="fill: rgb(2, 74, 51);"></rect><rect height="10" x="4.809619238476954" width="0.8016032064128256" style="fill: rgb(2, 74, 51);"></rect><rect height="10" x="5.61122244488978" width="0.8016032064128247" style="fill: rgb(2, 75, 51);"></rect><rect height="10" x="6.4128256513026045" width="0.8016032064128256" style="fill: rgb(2, 75, 51);"></rect><rect height="10" x="7.21442885771543" width="0.8016032064128273" style="fill: rgb(2, 75, 51);"></rect><rect height="10" x="8.016032064128257" width="0.8016032064128247" style="fill: rgb(2, 76, 52);"></rect><rect height="10" x="8.817635270541082" width="0.8016032064128265" style="fill: rgb(2, 76, 52);"></rect><rect height="10" x="9.619238476953909" width="0.8016032064128247" style="fill: rgb(2, 77, 52);"></rect><rect height="10" x="10.420841683366733" width="0.8016032064128265" style="fill: rgb(2, 77, 52);"></rect><rect height="10" x="11.22244488977956" width="0.8016032064128247" style="fill: rgb(2, 78, 52);"></rect><rect height="10" x="12.024048096192384" width="0.8016032064128247" style="fill: rgb(2, 78, 53);"></rect><rect height="10" x="12.825651302605209" width="0.8016032064128265" style="fill: rgb(2, 79, 53);"></rect><rect height="10" x="13.627254509018035" width="0.8016032064128247" style="fill: rgb(2, 79, 53);"></rect><rect height="10" x="14.42885771543086" width="0.8016032064128282" style="fill: rgb(2, 80, 53);"></rect><rect height="10" x="15.230460921843688" width="0.8016032064128265" style="fill: rgb(2, 80, 53);"></rect><rect height="10" x="16.032064128256515" width="0.8016032064128247" style="fill: rgb(2, 81, 53);"></rect><rect height="10" x="16.83366733466934" width="0.8016032064128247" style="fill: rgb(2, 81, 54);"></rect><rect height="10" x="17.635270541082164" width="0.8016032064128247" style="fill: rgb(2, 82, 54);"></rect><rect height="10" x="18.43687374749499" width="0.8016032064128282" style="fill: rgb(2, 82, 54);"></rect><rect height="10" x="19.238476953907817" width="0.8016032064128247" style="fill: rgb(2, 82, 54);"></rect><rect height="10" x="20.04008016032064" width="0.8016032064128247" style="fill: rgb(2, 83, 54);"></rect><rect height="10" x="20.841683366733466" width="0.8016032064128247" style="fill: rgb(2, 83, 54);"></rect><rect height="10" x="21.64328657314629" width="0.8016032064128282" style="fill: rgb(2, 84, 55);"></rect><rect height="10" x="22.44488977955912" width="0.8016032064128247" style="fill: rgb(2, 84, 55);"></rect><rect height="10" x="23.246492985971944" width="0.8016032064128247" style="fill: rgb(2, 85, 55);"></rect><rect height="10" x="24.04809619238477" width="0.8016032064128247" style="fill: rgb(2, 85, 55);"></rect><rect height="10" x="24.849699398797593" width="0.8016032064128247" style="fill: rgb(2, 86, 55);"></rect><rect height="10" x="25.651302605210418" width="0.8016032064128282" style="fill: rgb(2, 86, 56);"></rect><rect height="10" x="26.452905811623246" width="0.8016032064128247" style="fill: rgb(2, 87, 56);"></rect><rect height="10" x="27.25450901803607" width="0.8016032064128282" style="fill: rgb(2, 87, 56);"></rect><rect height="10" x="28.0561122244489" width="0.8016032064128211" style="fill: rgb(2, 88, 56);"></rect><rect height="10" x="28.85771543086172" width="0.8016032064128318" style="fill: rgb(2, 88, 56);"></rect><rect height="10" x="29.659318637274552" width="0.8016032064128247" style="fill: rgb(2, 89, 56);"></rect><rect height="10" x="30.460921843687377" width="0.8016032064128282" style="fill: rgb(2, 89, 57);"></rect><rect height="10" x="31.262525050100205" width="0.8016032064128247" style="fill: rgb(2, 89, 57);"></rect><rect height="10" x="32.06412825651303" width="0.8016032064128211" style="fill: rgb(2, 90, 57);"></rect><rect height="10" x="32.86573146292585" width="0.8016032064128282" style="fill: rgb(1, 90, 57);"></rect><rect height="10" x="33.66733466933868" width="0.8016032064128282" style="fill: rgb(1, 91, 57);"></rect><rect height="10" x="34.46893787575151" width="0.8016032064128211" style="fill: rgb(1, 91, 57);"></rect><rect height="10" x="35.27054108216433" width="0.8016032064128282" style="fill: rgb(1, 92, 58);"></rect><rect height="10" x="36.07214428857716" width="0.8016032064128211" style="fill: rgb(1, 92, 58);"></rect><rect height="10" x="36.87374749498998" width="0.8016032064128282" style="fill: rgb(1, 93, 58);"></rect><rect height="10" x="37.675350701402806" width="0.8016032064128282" style="fill: rgb(1, 93, 58);"></rect><rect height="10" x="38.476953907815634" width="0.8016032064128211" style="fill: rgb(1, 94, 58);"></rect><rect height="10" x="39.278557114228455" width="0.8016032064128282" style="fill: rgb(1, 94, 59);"></rect><rect height="10" x="40.08016032064128" width="0.8016032064128211" style="fill: rgb(1, 95, 59);"></rect><rect height="10" x="40.881763527054105" width="0.8016032064128282" style="fill: rgb(1, 95, 59);"></rect><rect height="10" x="41.68336673346693" width="0.8016032064128211" style="fill: rgb(1, 96, 59);"></rect><rect height="10" x="42.484969939879754" width="0.8016032064128282" style="fill: rgb(1, 96, 59);"></rect><rect height="10" x="43.28657314629258" width="0.8016032064128353" style="fill: rgb(1, 96, 59);"></rect><rect height="10" x="44.08817635270542" width="0.8016032064128211" style="fill: rgb(1, 97, 60);"></rect><rect height="10" x="44.88977955911824" width="0.8016032064128211" style="fill: rgb(1, 97, 60);"></rect><rect height="10" x="45.69138276553106" width="0.8016032064128282" style="fill: rgb(1, 98, 60);"></rect><rect height="10" x="46.49298597194389" width="0.8016032064128211" style="fill: rgb(1, 98, 60);"></rect><rect height="10" x="47.29458917835671" width="0.8016032064128282" style="fill: rgb(1, 99, 60);"></rect><rect height="10" x="48.09619238476954" width="0.8016032064128353" style="fill: rgb(1, 99, 60);"></rect><rect height="10" x="48.89779559118237" width="0.801603206412814" style="fill: rgb(1, 100, 61);"></rect><rect height="10" x="49.69939879759519" width="0.8016032064128211" style="fill: rgb(1, 100, 61);"></rect><rect height="10" x="50.50100200400801" width="0.8016032064128282" style="fill: rgb(1, 101, 61);"></rect><rect height="10" x="51.302605210420836" width="0.8016032064128353" style="fill: rgb(1, 101, 61);"></rect><rect height="10" x="52.10420841683367" width="0.8016032064128211" style="fill: rgb(1, 102, 61);"></rect><rect height="10" x="52.90581162324649" width="0.8016032064128211" style="fill: rgb(1, 102, 62);"></rect><rect height="10" x="53.707414829659314" width="0.8016032064128282" style="fill: rgb(1, 103, 62);"></rect><rect height="10" x="54.50901803607214" width="0.8016032064128282" style="fill: rgb(1, 103, 62);"></rect><rect height="10" x="55.31062124248497" width="0.8016032064128282" style="fill: rgb(1, 103, 62);"></rect><rect height="10" x="56.1122244488978" width="0.8016032064128211" style="fill: rgb(1, 104, 62);"></rect><rect height="10" x="56.91382765531062" width="0.8016032064128211" style="fill: rgb(1, 104, 62);"></rect><rect height="10" x="57.71543086172344" width="0.8016032064128353" style="fill: rgb(1, 105, 63);"></rect><rect height="10" x="58.517034068136276" width="0.8016032064128282" style="fill: rgb(1, 105, 63);"></rect><rect height="10" x="59.318637274549104" width="0.801603206412814" style="fill: rgb(1, 106, 63);"></rect><rect height="10" x="60.12024048096192" width="0.8016032064128353" style="fill: rgb(1, 106, 63);"></rect><rect height="10" x="60.92184368737475" width="0.801603206412814" style="fill: rgb(1, 107, 63);"></rect><rect height="10" x="61.72344689378757" width="0.8016032064128424" style="fill: rgb(1, 107, 64);"></rect><rect height="10" x="62.52505010020041" width="0.801603206412814" style="fill: rgb(1, 108, 64);"></rect><rect height="10" x="63.326653306613224" width="0.8016032064128353" style="fill: rgb(1, 108, 64);"></rect><rect height="10" x="64.12825651302606" width="0.8016032064128211" style="fill: rgb(1, 109, 64);"></rect><rect height="10" x="64.92985971943888" width="0.8016032064128211" style="fill: rgb(1, 109, 64);"></rect><rect height="10" x="65.7314629258517" width="0.8016032064128211" style="fill: rgb(1, 110, 64);"></rect><rect height="10" x="66.53306613226452" width="0.8016032064128353" style="fill: rgb(0, 110, 65);"></rect><rect height="10" x="67.33466933867736" width="0.8016032064128211" style="fill: rgb(0, 110, 65);"></rect><rect height="10" x="68.13627254509018" width="0.8016032064128353" style="fill: rgb(0, 111, 65);"></rect><rect height="10" x="68.93787575150301" width="0.8016032064128211" style="fill: rgb(0, 111, 65);"></rect><rect height="10" x="69.73947895791584" width="0.8016032064128211" style="fill: rgb(0, 112, 65);"></rect><rect height="10" x="70.54108216432866" width="0.8016032064128353" style="fill: rgb(0, 112, 65);"></rect><rect height="10" x="71.34268537074149" width="0.8016032064128211" style="fill: rgb(0, 113, 66);"></rect><rect height="10" x="72.14428857715431" width="0.8016032064128211" style="fill: rgb(0, 113, 66);"></rect><rect height="10" x="72.94589178356713" width="0.8016032064128211" style="fill: rgb(0, 114, 66);"></rect><rect height="10" x="73.74749498997996" width="0.8016032064128211" style="fill: rgb(0, 114, 66);"></rect><rect height="10" x="74.54909819639278" width="0.8016032064128353" style="fill: rgb(0, 115, 66);"></rect><rect height="10" x="75.35070140280561" width="0.8016032064128211" style="fill: rgb(0, 115, 67);"></rect><rect height="10" x="76.15230460921843" width="0.8016032064128353" style="fill: rgb(0, 116, 67);"></rect><rect height="10" x="76.95390781563127" width="0.8016032064128211" style="fill: rgb(0, 116, 67);"></rect><rect height="10" x="77.75551102204409" width="0.8016032064128211" style="fill: rgb(0, 117, 67);"></rect><rect height="10" x="78.55711422845691" width="0.8016032064128353" style="fill: rgb(0, 117, 67);"></rect><rect height="10" x="79.35871743486975" width="0.8016032064128211" style="fill: rgb(0, 117, 67);"></rect><rect height="10" x="80.16032064128257" width="0.8016032064128211" style="fill: rgb(0, 118, 68);"></rect><rect height="10" x="80.96192384769539" width="0.8016032064128211" style="fill: rgb(0, 118, 68);"></rect><rect height="10" x="81.76352705410821" width="0.8016032064128211" style="fill: rgb(0, 119, 68);"></rect><rect height="10" x="82.56513026052103" width="0.8016032064128353" style="fill: rgb(0, 119, 68);"></rect><rect height="10" x="83.36673346693387" width="0.8016032064128353" style="fill: rgb(0, 120, 68);"></rect><rect height="10" x="84.1683366733467" width="0.8016032064128069" style="fill: rgb(0, 120, 68);"></rect><rect height="10" x="84.96993987975951" width="0.8016032064128495" style="fill: rgb(0, 121, 69);"></rect><rect height="10" x="85.77154308617236" width="0.8016032064128069" style="fill: rgb(0, 121, 69);"></rect><rect height="10" x="86.57314629258516" width="0.8016032064128211" style="fill: rgb(0, 122, 69);"></rect><rect height="10" x="87.37474949899799" width="0.8016032064128495" style="fill: rgb(0, 122, 69);"></rect><rect height="10" x="88.17635270541084" width="0.8016032064128069" style="fill: rgb(0, 123, 69);"></rect><rect height="10" x="88.97795591182364" width="0.8016032064128353" style="fill: rgb(0, 123, 70);"></rect><rect height="10" x="89.77955911823648" width="0.8016032064128211" style="fill: rgb(0, 124, 70);"></rect><rect height="10" x="90.5811623246493" width="0.8016032064128211" style="fill: rgb(0, 124, 70);"></rect><rect height="10" x="91.38276553106212" width="0.8016032064128211" style="fill: rgb(0, 124, 70);"></rect><rect height="10" x="92.18436873747494" width="0.8016032064128353" style="fill: rgb(0, 125, 70);"></rect><rect height="10" x="92.98597194388778" width="0.8016032064128353" style="fill: rgb(0, 125, 70);"></rect><rect height="10" x="93.78757515030061" width="0.8016032064128069" style="fill: rgb(0, 126, 71);"></rect><rect height="10" x="94.58917835671342" width="0.8016032064128353" style="fill: rgb(0, 126, 71);"></rect><rect height="10" x="95.39078156312625" width="0.8016032064128211" style="fill: rgb(0, 127, 71);"></rect><rect height="10" x="96.19238476953907" width="0.8016032064128353" style="fill: rgb(0, 127, 71);"></rect><rect height="10" x="96.99398797595191" width="0.8016032064128353" style="fill: rgb(0, 128, 71);"></rect><rect height="10" x="97.79559118236475" width="0.8016032064128069" style="fill: rgb(0, 128, 71);"></rect><rect height="10" x="98.59719438877755" width="0.8016032064128211" style="fill: rgb(0, 129, 72);"></rect><rect height="10" x="99.39879759519037" width="0.8016032064128495" style="fill: rgb(0, 129, 72);"></rect><rect height="10" x="100.20040080160322" width="0.8016032064127927" style="fill: rgb(1, 130, 71);"></rect><rect height="10" x="101.00200400801602" width="0.8016032064128495" style="fill: rgb(3, 130, 71);"></rect><rect height="10" x="101.80360721442887" width="0.8016032064128069" style="fill: rgb(5, 131, 70);"></rect><rect height="10" x="102.60521042084167" width="0.8016032064128353" style="fill: rgb(6, 131, 70);"></rect><rect height="10" x="103.40681362725451" width="0.8016032064128353" style="fill: rgb(8, 132, 70);"></rect><rect height="10" x="104.20841683366734" width="0.8016032064128069" style="fill: rgb(9, 132, 69);"></rect><rect height="10" x="105.01002004008015" width="0.8016032064128353" style="fill: rgb(11, 133, 69);"></rect><rect height="10" x="105.81162324649299" width="0.8016032064128495" style="fill: rgb(13, 133, 68);"></rect><rect height="10" x="106.61322645290583" width="0.8016032064127927" style="fill: rgb(14, 134, 68);"></rect><rect height="10" x="107.41482965931863" width="0.8016032064128353" style="fill: rgb(16, 134, 67);"></rect><rect height="10" x="108.21643286573146" width="0.8016032064128211" style="fill: rgb(17, 135, 67);"></rect><rect height="10" x="109.01803607214428" width="0.8016032064128353" style="fill: rgb(19, 135, 67);"></rect><rect height="10" x="109.81963927855712" width="0.8016032064128211" style="fill: rgb(21, 136, 66);"></rect><rect height="10" x="110.62124248496994" width="0.8016032064128211" style="fill: rgb(22, 136, 66);"></rect><rect height="10" x="111.42284569138276" width="0.8016032064128353" style="fill: rgb(24, 137, 65);"></rect><rect height="10" x="112.2244488977956" width="0.8016032064127927" style="fill: rgb(25, 137, 65);"></rect><rect height="10" x="113.02605210420839" width="0.8016032064128495" style="fill: rgb(27, 138, 64);"></rect><rect height="10" x="113.82765531062124" width="0.8016032064128353" style="fill: rgb(29, 138, 64);"></rect><rect height="10" x="114.62925851703407" width="0.8016032064128069" style="fill: rgb(30, 139, 64);"></rect><rect height="10" x="115.43086172344688" width="0.8016032064128495" style="fill: rgb(32, 139, 63);"></rect><rect height="10" x="116.23246492985973" width="0.8016032064128211" style="fill: rgb(33, 140, 63);"></rect><rect height="10" x="117.03406813627255" width="0.8016032064128211" style="fill: rgb(35, 140, 62);"></rect><rect height="10" x="117.83567134268537" width="0.8016032064128353" style="fill: rgb(37, 141, 62);"></rect><rect height="10" x="118.63727454909821" width="0.8016032064128069" style="fill: rgb(38, 141, 61);"></rect><rect height="10" x="119.43887775551102" width="0.8016032064128211" style="fill: rgb(40, 142, 61);"></rect><rect height="10" x="120.24048096192384" width="0.8016032064128495" style="fill: rgb(41, 142, 61);"></rect><rect height="10" x="121.04208416833669" width="0.8016032064128211" style="fill: rgb(43, 143, 60);"></rect><rect height="10" x="121.8436873747495" width="0.8016032064128069" style="fill: rgb(45, 143, 60);"></rect><rect height="10" x="122.64529058116231" width="0.8016032064128211" style="fill: rgb(46, 144, 59);"></rect><rect height="10" x="123.44689378757514" width="0.8016032064128353" style="fill: rgb(48, 144, 59);"></rect><rect height="10" x="124.24849699398797" width="0.8016032064128495" style="fill: rgb(49, 145, 58);"></rect><rect height="10" x="125.05010020040082" width="0.8016032064128211" style="fill: rgb(51, 145, 58);"></rect><rect height="10" x="125.85170340681364" width="0.8016032064128069" style="fill: rgb(52, 146, 58);"></rect><rect height="10" x="126.65330661322645" width="0.8016032064128211" style="fill: rgb(54, 146, 57);"></rect><rect height="10" x="127.45490981963927" width="0.8016032064128495" style="fill: rgb(56, 147, 57);"></rect><rect height="10" x="128.25651302605212" width="0.8016032064128069" style="fill: rgb(57, 147, 56);"></rect><rect height="10" x="129.05811623246493" width="0.8016032064128353" style="fill: rgb(59, 148, 56);"></rect><rect height="10" x="129.85971943887776" width="0.8016032064128069" style="fill: rgb(60, 148, 55);"></rect><rect height="10" x="130.66132264529057" width="0.8016032064128353" style="fill: rgb(62, 149, 55);"></rect><rect height="10" x="131.4629258517034" width="0.8016032064128638" style="fill: rgb(64, 149, 55);"></rect><rect height="10" x="132.26452905811627" width="0.8016032064127785" style="fill: rgb(65, 150, 54);"></rect><rect height="10" x="133.06613226452905" width="0.8016032064128353" style="fill: rgb(67, 150, 54);"></rect><rect height="10" x="133.86773547094188" width="0.8016032064128353" style="fill: rgb(68, 151, 53);"></rect><rect height="10" x="134.66933867735472" width="0.8016032064128069" style="fill: rgb(70, 151, 53);"></rect><rect height="10" x="135.47094188376752" width="0.8016032064128353" style="fill: rgb(72, 152, 52);"></rect><rect height="10" x="136.27254509018036" width="0.8016032064128353" style="fill: rgb(73, 152, 52);"></rect><rect height="10" x="137.0741482965932" width="0.8016032064128353" style="fill: rgb(75, 153, 52);"></rect><rect height="10" x="137.87575150300603" width="0.8016032064128069" style="fill: rgb(76, 153, 51);"></rect><rect height="10" x="138.67735470941884" width="0.8016032064128353" style="fill: rgb(78, 154, 51);"></rect><rect height="10" x="139.47895791583167" width="0.8016032064128353" style="fill: rgb(80, 154, 50);"></rect><rect height="10" x="140.2805611222445" width="0.8016032064128069" style="fill: rgb(81, 155, 50);"></rect><rect height="10" x="141.0821643286573" width="0.8016032064128353" style="fill: rgb(83, 155, 49);"></rect><rect height="10" x="141.88376753507015" width="0.8016032064128353" style="fill: rgb(84, 156, 49);"></rect><rect height="10" x="142.68537074148298" width="0.8016032064128069" style="fill: rgb(86, 157, 49);"></rect><rect height="10" x="143.4869739478958" width="0.8016032064128353" style="fill: rgb(88, 157, 48);"></rect><rect height="10" x="144.28857715430863" width="0.8016032064128069" style="fill: rgb(89, 158, 48);"></rect><rect height="10" x="145.09018036072143" width="0.8016032064128353" style="fill: rgb(91, 158, 47);"></rect><rect height="10" x="145.89178356713427" width="0.8016032064128353" style="fill: rgb(92, 159, 47);"></rect><rect height="10" x="146.6933867735471" width="0.8016032064128069" style="fill: rgb(94, 159, 47);"></rect><rect height="10" x="147.4949899799599" width="0.8016032064128353" style="fill: rgb(96, 160, 46);"></rect><rect height="10" x="148.29659318637275" width="0.8016032064128069" style="fill: rgb(97, 160, 46);"></rect><rect height="10" x="149.09819639278555" width="0.8016032064128638" style="fill: rgb(99, 161, 45);"></rect><rect height="10" x="149.89979959919842" width="0.8016032064128069" style="fill: rgb(100, 161, 45);"></rect><rect height="10" x="150.70140280561122" width="0.8016032064128069" style="fill: rgb(102, 162, 44);"></rect><rect height="10" x="151.50300601202403" width="0.8016032064128353" style="fill: rgb(103, 162, 44);"></rect><rect height="10" x="152.30460921843687" width="0.8016032064128353" style="fill: rgb(105, 163, 44);"></rect><rect height="10" x="153.1062124248497" width="0.8016032064128353" style="fill: rgb(107, 163, 43);"></rect><rect height="10" x="153.90781563126254" width="0.8016032064128069" style="fill: rgb(108, 164, 43);"></rect><rect height="10" x="154.70941883767534" width="0.8016032064128353" style="fill: rgb(110, 164, 42);"></rect><rect height="10" x="155.51102204408818" width="0.8016032064128353" style="fill: rgb(111, 165, 42);"></rect><rect height="10" x="156.31262525050101" width="0.8016032064128069" style="fill: rgb(113, 165, 41);"></rect><rect height="10" x="157.11422845691382" width="0.8016032064128353" style="fill: rgb(115, 166, 41);"></rect><rect height="10" x="157.91583166332666" width="0.8016032064128353" style="fill: rgb(116, 166, 41);"></rect><rect height="10" x="158.7174348697395" width="0.8016032064128069" style="fill: rgb(118, 167, 40);"></rect><rect height="10" x="159.5190380761523" width="0.8016032064128353" style="fill: rgb(119, 167, 40);"></rect><rect height="10" x="160.32064128256513" width="0.8016032064128353" style="fill: rgb(121, 168, 39);"></rect><rect height="10" x="161.12224448897797" width="0.8016032064128069" style="fill: rgb(123, 168, 39);"></rect><rect height="10" x="161.92384769539078" width="0.8016032064128069" style="fill: rgb(124, 169, 38);"></rect><rect height="10" x="162.72545090180358" width="0.8016032064128353" style="fill: rgb(126, 169, 38);"></rect><rect height="10" x="163.52705410821642" width="0.8016032064128353" style="fill: rgb(127, 170, 38);"></rect><rect height="10" x="164.32865731462925" width="0.8016032064128069" style="fill: rgb(129, 170, 37);"></rect><rect height="10" x="165.13026052104206" width="0.8016032064128069" style="fill: rgb(131, 171, 37);"></rect><rect height="10" x="165.93186372745487" width="0.8016032064128638" style="fill: rgb(132, 171, 36);"></rect><rect height="10" x="166.73346693386773" width="0.8016032064128353" style="fill: rgb(134, 172, 36);"></rect><rect height="10" x="167.53507014028057" width="0.8016032064128353" style="fill: rgb(135, 172, 35);"></rect><rect height="10" x="168.3366733466934" width="0.8016032064128069" style="fill: rgb(137, 173, 35);"></rect><rect height="10" x="169.1382765531062" width="0.8016032064128069" style="fill: rgb(139, 173, 35);"></rect><rect height="10" x="169.93987975951902" width="0.8016032064128353" style="fill: rgb(140, 174, 34);"></rect><rect height="10" x="170.74148296593185" width="0.8016032064128638" style="fill: rgb(142, 174, 34);"></rect><rect height="10" x="171.54308617234472" width="0.8016032064128069" style="fill: rgb(143, 175, 33);"></rect><rect height="10" x="172.34468937875752" width="0.8016032064128069" style="fill: rgb(145, 175, 33);"></rect><rect height="10" x="173.14629258517033" width="0.8016032064128069" style="fill: rgb(146, 176, 32);"></rect><rect height="10" x="173.94789579158314" width="0.8016032064128353" style="fill: rgb(148, 176, 32);"></rect><rect height="10" x="174.74949899799597" width="0.8016032064128638" style="fill: rgb(150, 177, 32);"></rect><rect height="10" x="175.55110220440883" width="0.8016032064128353" style="fill: rgb(151, 177, 31);"></rect><rect height="10" x="176.35270541082167" width="0.8016032064128069" style="fill: rgb(153, 178, 31);"></rect><rect height="10" x="177.15430861723448" width="0.8016032064128069" style="fill: rgb(154, 178, 30);"></rect><rect height="10" x="177.95591182364728" width="0.8016032064128069" style="fill: rgb(156, 179, 30);"></rect><rect height="10" x="178.7575150300601" width="0.8016032064128638" style="fill: rgb(158, 179, 29);"></rect><rect height="10" x="179.55911823647295" width="0.8016032064128353" style="fill: rgb(159, 180, 29);"></rect><rect height="10" x="180.3607214428858" width="0.8016032064128069" style="fill: rgb(161, 180, 29);"></rect><rect height="10" x="181.1623246492986" width="0.8016032064128353" style="fill: rgb(162, 181, 28);"></rect><rect height="10" x="181.96392785571143" width="0.8016032064128069" style="fill: rgb(164, 181, 28);"></rect><rect height="10" x="182.76553106212424" width="0.8016032064128353" style="fill: rgb(166, 182, 27);"></rect><rect height="10" x="183.56713426853707" width="0.8016032064128069" style="fill: rgb(167, 182, 27);"></rect><rect height="10" x="184.36873747494988" width="0.8016032064128638" style="fill: rgb(169, 183, 26);"></rect><rect height="10" x="185.17034068136275" width="0.8016032064128069" style="fill: rgb(170, 183, 26);"></rect><rect height="10" x="185.97194388777555" width="0.8016032064128069" style="fill: rgb(172, 184, 26);"></rect><rect height="10" x="186.77354709418836" width="0.8016032064128638" style="fill: rgb(174, 184, 25);"></rect><rect height="10" x="187.57515030060122" width="0.8016032064128069" style="fill: rgb(175, 185, 25);"></rect><rect height="10" x="188.37675350701403" width="0.8016032064128069" style="fill: rgb(177, 185, 24);"></rect><rect height="10" x="189.17835671342684" width="0.8016032064128638" style="fill: rgb(178, 186, 24);"></rect><rect height="10" x="189.9799599198397" width="0.8016032064128069" style="fill: rgb(180, 186, 23);"></rect><rect height="10" x="190.7815631262525" width="0.8016032064128353" style="fill: rgb(182, 187, 23);"></rect><rect height="10" x="191.58316633266534" width="0.8016032064128069" style="fill: rgb(183, 187, 23);"></rect><rect height="10" x="192.38476953907815" width="0.8016032064128353" style="fill: rgb(185, 188, 22);"></rect><rect height="10" x="193.18637274549098" width="0.8016032064128353" style="fill: rgb(186, 188, 22);"></rect><rect height="10" x="193.98797595190382" width="0.8016032064128069" style="fill: rgb(188, 189, 21);"></rect><rect height="10" x="194.78957915831663" width="0.8016032064128638" style="fill: rgb(190, 189, 21);"></rect><rect height="10" x="195.5911823647295" width="0.8016032064127785" style="fill: rgb(191, 190, 20);"></rect><rect height="10" x="196.39278557114227" width="0.8016032064128353" style="fill: rgb(193, 190, 20);"></rect><rect height="10" x="197.1943887775551" width="0.8016032064128069" style="fill: rgb(194, 191, 20);"></rect><rect height="10" x="197.9959919839679" width="0.8016032064128353" style="fill: rgb(196, 191, 19);"></rect><rect height="10" x="198.79759519038075" width="0.8016032064128638" style="fill: rgb(197, 192, 19);"></rect><rect height="10" x="199.5991983967936" width="0.8016032064128353" style="fill: rgb(198, 192, 19);"></rect><rect height="10" x="200.40080160320645" width="0.8016032064127785" style="fill: rgb(199, 192, 19);"></rect><rect height="10" x="201.20240480961922" width="0.8016032064128069" style="fill: rgb(199, 191, 19);"></rect><rect height="10" x="202.00400801603203" width="0.8016032064128353" style="fill: rgb(199, 191, 19);"></rect><rect height="10" x="202.80561122244487" width="0.8016032064128638" style="fill: rgb(200, 190, 19);"></rect><rect height="10" x="203.60721442885773" width="0.8016032064128353" style="fill: rgb(200, 190, 19);"></rect><rect height="10" x="204.40881763527057" width="0.8016032064127785" style="fill: rgb(200, 189, 19);"></rect><rect height="10" x="205.21042084168334" width="0.8016032064128353" style="fill: rgb(201, 189, 19);"></rect><rect height="10" x="206.01202404809618" width="0.8016032064128353" style="fill: rgb(201, 189, 19);"></rect><rect height="10" x="206.81362725450902" width="0.8016032064128069" style="fill: rgb(201, 188, 19);"></rect><rect height="10" x="207.61523046092182" width="0.8016032064128638" style="fill: rgb(202, 188, 19);"></rect><rect height="10" x="208.41683366733469" width="0.8016032064128069" style="fill: rgb(202, 187, 19);"></rect><rect height="10" x="209.2184368737475" width="0.8016032064128069" style="fill: rgb(202, 187, 19);"></rect><rect height="10" x="210.0200400801603" width="0.8016032064128353" style="fill: rgb(203, 186, 19);"></rect><rect height="10" x="210.82164328657313" width="0.8016032064128353" style="fill: rgb(203, 186, 19);"></rect><rect height="10" x="211.62324649298597" width="0.8016032064128069" style="fill: rgb(203, 186, 19);"></rect><rect height="10" x="212.42484969939878" width="0.8016032064128922" style="fill: rgb(204, 185, 19);"></rect><rect height="10" x="213.22645290581167" width="0.8016032064127785" style="fill: rgb(204, 185, 19);"></rect><rect height="10" x="214.02805611222445" width="0.8016032064128069" style="fill: rgb(204, 184, 19);"></rect><rect height="10" x="214.82965931863725" width="0.8016032064128353" style="fill: rgb(205, 184, 19);"></rect><rect height="10" x="215.6312625250501" width="0.8016032064128353" style="fill: rgb(205, 183, 19);"></rect><rect height="10" x="216.43286573146293" width="0.8016032064128353" style="fill: rgb(205, 183, 19);"></rect><rect height="10" x="217.23446893787576" width="0.8016032064128069" style="fill: rgb(206, 182, 19);"></rect><rect height="10" x="218.03607214428857" width="0.8016032064128353" style="fill: rgb(206, 182, 19);"></rect><rect height="10" x="218.8376753507014" width="0.8016032064128353" style="fill: rgb(206, 182, 19);"></rect><rect height="10" x="219.63927855711424" width="0.8016032064128069" style="fill: rgb(207, 181, 19);"></rect><rect height="10" x="220.44088176352705" width="0.8016032064128353" style="fill: rgb(207, 181, 19);"></rect><rect height="10" x="221.24248496993988" width="0.8016032064128353" style="fill: rgb(207, 180, 19);"></rect><rect height="10" x="222.04408817635272" width="0.8016032064128069" style="fill: rgb(208, 180, 19);"></rect><rect height="10" x="222.84569138276552" width="0.8016032064128353" style="fill: rgb(208, 179, 20);"></rect><rect height="10" x="223.64729458917836" width="0.8016032064128353" style="fill: rgb(208, 179, 20);"></rect><rect height="10" x="224.4488977955912" width="0.8016032064128069" style="fill: rgb(209, 179, 20);"></rect><rect height="10" x="225.250501002004" width="0.8016032064127785" style="fill: rgb(209, 178, 20);"></rect><rect height="10" x="226.05210420841678" width="0.8016032064128922" style="fill: rgb(209, 178, 20);"></rect><rect height="10" x="226.85370741482967" width="0.8016032064128069" style="fill: rgb(210, 177, 20);"></rect><rect height="10" x="227.65531062124248" width="0.8016032064128353" style="fill: rgb(210, 177, 20);"></rect><rect height="10" x="228.4569138276553" width="0.8016032064128353" style="fill: rgb(210, 176, 20);"></rect><rect height="10" x="229.25851703406815" width="0.8016032064127785" style="fill: rgb(211, 176, 20);"></rect><rect height="10" x="230.06012024048093" width="0.8016032064128353" style="fill: rgb(211, 176, 20);"></rect><rect height="10" x="230.86172344689376" width="0.8016032064128638" style="fill: rgb(211, 175, 20);"></rect><rect height="10" x="231.66332665330663" width="0.8016032064128353" style="fill: rgb(212, 175, 20);"></rect><rect height="10" x="232.46492985971946" width="0.8016032064128069" style="fill: rgb(212, 174, 20);"></rect><rect height="10" x="233.26653306613227" width="0.8016032064128353" style="fill: rgb(212, 174, 20);"></rect><rect height="10" x="234.0681362725451" width="0.8016032064127785" style="fill: rgb(213, 173, 20);"></rect><rect height="10" x="234.86973947895788" width="0.8016032064128638" style="fill: rgb(213, 173, 20);"></rect><rect height="10" x="235.67134268537075" width="0.8016032064128353" style="fill: rgb(213, 172, 20);"></rect><rect height="10" x="236.47294589178358" width="0.8016032064128353" style="fill: rgb(214, 172, 20);"></rect><rect height="10" x="237.27454909819642" width="0.8016032064128069" style="fill: rgb(214, 172, 20);"></rect><rect height="10" x="238.07615230460922" width="0.8016032064128069" style="fill: rgb(214, 171, 20);"></rect><rect height="10" x="238.87775551102203" width="0.8016032064128638" style="fill: rgb(215, 171, 20);"></rect><rect height="10" x="239.6793587174349" width="0.8016032064127785" style="fill: rgb(215, 170, 20);"></rect><rect height="10" x="240.48096192384767" width="0.8016032064128638" style="fill: rgb(215, 170, 20);"></rect><rect height="10" x="241.28256513026054" width="0.8016032064128353" style="fill: rgb(216, 169, 20);"></rect><rect height="10" x="242.08416833667337" width="0.8016032064127785" style="fill: rgb(216, 169, 20);"></rect><rect height="10" x="242.88577154308615" width="0.8016032064128638" style="fill: rgb(216, 169, 20);"></rect><rect height="10" x="243.687374749499" width="0.8016032064127785" style="fill: rgb(217, 168, 20);"></rect><rect height="10" x="244.4889779559118" width="0.8016032064128353" style="fill: rgb(217, 168, 20);"></rect><rect height="10" x="245.29058116232463" width="0.8016032064128638" style="fill: rgb(217, 167, 20);"></rect><rect height="10" x="246.0921843687375" width="0.8016032064127785" style="fill: rgb(218, 167, 20);"></rect><rect height="10" x="246.89378757515027" width="0.8016032064128922" style="fill: rgb(218, 166, 20);"></rect><rect height="10" x="247.69539078156316" width="0.8016032064127785" style="fill: rgb(218, 166, 21);"></rect><rect height="10" x="248.49699398797594" width="0.8016032064128069" style="fill: rgb(219, 166, 21);"></rect><rect height="10" x="249.29859719438875" width="0.8016032064128922" style="fill: rgb(219, 165, 21);"></rect><rect height="10" x="250.10020040080164" width="0.8016032064127785" style="fill: rgb(219, 165, 21);"></rect><rect height="10" x="250.90180360721442" width="0.8016032064128638" style="fill: rgb(220, 164, 21);"></rect><rect height="10" x="251.70340681362728" width="0.8016032064127785" style="fill: rgb(220, 164, 21);"></rect><rect height="10" x="252.50501002004006" width="0.8016032064128353" style="fill: rgb(220, 163, 21);"></rect><rect height="10" x="253.3066132264529" width="0.8016032064128353" style="fill: rgb(221, 163, 21);"></rect><rect height="10" x="254.10821643286573" width="0.8016032064128069" style="fill: rgb(221, 162, 21);"></rect><rect height="10" x="254.90981963927854" width="0.8016032064128638" style="fill: rgb(221, 162, 21);"></rect><rect height="10" x="255.7114228456914" width="0.8016032064128353" style="fill: rgb(222, 162, 21);"></rect><rect height="10" x="256.51302605210424" width="0.8016032064127785" style="fill: rgb(222, 161, 21);"></rect><rect height="10" x="257.314629258517" width="0.8016032064128353" style="fill: rgb(222, 161, 21);"></rect><rect height="10" x="258.11623246492985" width="0.8016032064128353" style="fill: rgb(223, 160, 21);"></rect><rect height="10" x="258.9178356713427" width="0.8016032064128353" style="fill: rgb(223, 160, 21);"></rect><rect height="10" x="259.7194388777555" width="0.8016032064128353" style="fill: rgb(223, 159, 21);"></rect><rect height="10" x="260.52104208416836" width="0.8016032064127785" style="fill: rgb(224, 159, 21);"></rect><rect height="10" x="261.32264529058114" width="0.8016032064128353" style="fill: rgb(224, 159, 21);"></rect><rect height="10" x="262.12424849699397" width="0.8016032064128353" style="fill: rgb(224, 158, 21);"></rect><rect height="10" x="262.9258517034068" width="0.8016032064128353" style="fill: rgb(225, 158, 21);"></rect><rect height="10" x="263.72745490981964" width="0.8016032064128922" style="fill: rgb(225, 157, 21);"></rect><rect height="10" x="264.52905811623253" width="0.8016032064127785" style="fill: rgb(225, 157, 21);"></rect><rect height="10" x="265.3306613226453" width="0.8016032064127785" style="fill: rgb(225, 156, 21);"></rect><rect height="10" x="266.1322645290581" width="0.8016032064128353" style="fill: rgb(226, 156, 21);"></rect><rect height="10" x="266.9338677354709" width="0.8016032064128353" style="fill: rgb(226, 156, 21);"></rect><rect height="10" x="267.73547094188376" width="0.8016032064128353" style="fill: rgb(226, 155, 21);"></rect><rect height="10" x="268.5370741482966" width="0.8016032064128353" style="fill: rgb(227, 155, 21);"></rect><rect height="10" x="269.33867735470943" width="0.8016032064128353" style="fill: rgb(227, 154, 21);"></rect><rect height="10" x="270.14028056112227" width="0.8016032064127785" style="fill: rgb(227, 154, 21);"></rect><rect height="10" x="270.94188376753505" width="0.8016032064128353" style="fill: rgb(228, 153, 21);"></rect><rect height="10" x="271.7434869739479" width="0.8016032064128353" style="fill: rgb(228, 153, 21);"></rect><rect height="10" x="272.5450901803607" width="0.8016032064128353" style="fill: rgb(228, 152, 22);"></rect><rect height="10" x="273.34669338677355" width="0.8016032064128353" style="fill: rgb(229, 152, 22);"></rect><rect height="10" x="274.1482965931864" width="0.8016032064128353" style="fill: rgb(229, 152, 22);"></rect><rect height="10" x="274.9498997995992" width="0.8016032064128353" style="fill: rgb(229, 151, 22);"></rect><rect height="10" x="275.75150300601206" width="0.8016032064127785" style="fill: rgb(230, 151, 22);"></rect><rect height="10" x="276.55310621242484" width="0.8016032064128353" style="fill: rgb(230, 150, 22);"></rect><rect height="10" x="277.3547094188377" width="0.8016032064128353" style="fill: rgb(230, 150, 22);"></rect><rect height="10" x="278.1563126252505" width="0.8016032064128353" style="fill: rgb(231, 149, 22);"></rect><rect height="10" x="278.95791583166334" width="0.8016032064128353" style="fill: rgb(231, 149, 22);"></rect><rect height="10" x="279.7595190380762" width="0.8016032064128353" style="fill: rgb(231, 149, 22);"></rect><rect height="10" x="280.561122244489" width="0.8016032064127785" style="fill: rgb(232, 148, 22);"></rect><rect height="10" x="281.3627254509018" width="0.8016032064128353" style="fill: rgb(232, 148, 22);"></rect><rect height="10" x="282.1643286573146" width="0.8016032064128353" style="fill: rgb(232, 147, 22);"></rect><rect height="10" x="282.96593186372746" width="0.8016032064128353" style="fill: rgb(233, 147, 22);"></rect><rect height="10" x="283.7675350701403" width="0.8016032064128353" style="fill: rgb(233, 146, 22);"></rect><rect height="10" x="284.56913827655313" width="0.8016032064128353" style="fill: rgb(233, 146, 22);"></rect><rect height="10" x="285.37074148296597" width="0.8016032064127785" style="fill: rgb(234, 146, 22);"></rect><rect height="10" x="286.17234468937875" width="0.8016032064128353" style="fill: rgb(234, 145, 22);"></rect><rect height="10" x="286.9739478957916" width="0.8016032064128353" style="fill: rgb(234, 145, 22);"></rect><rect height="10" x="287.7755511022044" width="0.8016032064128353" style="fill: rgb(235, 144, 22);"></rect><rect height="10" x="288.57715430861725" width="0.8016032064128353" style="fill: rgb(235, 144, 22);"></rect><rect height="10" x="289.3787575150301" width="0.8016032064127785" style="fill: rgb(235, 143, 22);"></rect><rect height="10" x="290.18036072144287" width="0.8016032064128353" style="fill: rgb(236, 143, 22);"></rect><rect height="10" x="290.9819639278557" width="0.8016032064128353" style="fill: rgb(236, 142, 22);"></rect><rect height="10" x="291.78356713426854" width="0.8016032064128353" style="fill: rgb(236, 142, 22);"></rect><rect height="10" x="292.5851703406814" width="0.8016032064128353" style="fill: rgb(237, 142, 22);"></rect><rect height="10" x="293.3867735470942" width="0.8016032064127785" style="fill: rgb(237, 141, 22);"></rect><rect height="10" x="294.188376753507" width="0.8016032064128353" style="fill: rgb(237, 141, 22);"></rect><rect height="10" x="294.9899799599198" width="0.8016032064128922" style="fill: rgb(238, 140, 22);"></rect><rect height="10" x="295.7915831663327" width="0.8016032064127785" style="fill: rgb(238, 140, 22);"></rect><rect height="10" x="296.5931863727455" width="0.8016032064128353" style="fill: rgb(238, 139, 22);"></rect><rect height="10" x="297.3947895791583" width="0.8016032064127785" style="fill: rgb(239, 139, 23);"></rect><rect height="10" x="298.1963927855711" width="0.8016032064128353" style="fill: rgb(239, 139, 23);"></rect><rect height="10" x="298.99799599198394" width="0.8016032064128922" style="fill: rgb(239, 138, 23);"></rect><rect height="10" x="299.79959919839683" width="0.8016032064127785" style="fill: rgb(239, 137, 23);"></rect><rect height="10" x="300.6012024048096" width="0.8016032064128353" style="fill: rgb(239, 137, 23);"></rect><rect height="10" x="301.40280561122245" width="0.8016032064128353" style="fill: rgb(239, 136, 23);"></rect><rect height="10" x="302.2044088176353" width="0.8016032064127785" style="fill: rgb(239, 135, 23);"></rect><rect height="10" x="303.00601202404806" width="0.8016032064128922" style="fill: rgb(239, 134, 23);"></rect><rect height="10" x="303.80761523046095" width="0.8016032064127785" style="fill: rgb(239, 134, 23);"></rect><rect height="10" x="304.60921843687373" width="0.8016032064128353" style="fill: rgb(239, 133, 23);"></rect><rect height="10" x="305.41082164328657" width="0.8016032064128353" style="fill: rgb(239, 132, 23);"></rect><rect height="10" x="306.2124248496994" width="0.8016032064128353" style="fill: rgb(239, 131, 23);"></rect><rect height="10" x="307.01402805611224" width="0.8016032064128353" style="fill: rgb(239, 130, 23);"></rect><rect height="10" x="307.8156312625251" width="0.8016032064127785" style="fill: rgb(239, 130, 23);"></rect><rect height="10" x="308.61723446893785" width="0.8016032064128353" style="fill: rgb(239, 129, 23);"></rect><rect height="10" x="309.4188376753507" width="0.8016032064128353" style="fill: rgb(239, 128, 23);"></rect><rect height="10" x="310.2204408817635" width="0.8016032064128353" style="fill: rgb(239, 127, 23);"></rect><rect height="10" x="311.02204408817636" width="0.8016032064128353" style="fill: rgb(239, 127, 23);"></rect><rect height="10" x="311.8236472945892" width="0.8016032064128353" style="fill: rgb(239, 126, 23);"></rect><rect height="10" x="312.62525050100203" width="0.8016032064127785" style="fill: rgb(239, 125, 23);"></rect><rect height="10" x="313.4268537074148" width="0.8016032064128353" style="fill: rgb(239, 124, 23);"></rect><rect height="10" x="314.22845691382764" width="0.8016032064127785" style="fill: rgb(239, 123, 23);"></rect><rect height="10" x="315.0300601202404" width="0.8016032064128922" style="fill: rgb(239, 123, 23);"></rect><rect height="10" x="315.8316633266533" width="0.8016032064128353" style="fill: rgb(239, 122, 23);"></rect><rect height="10" x="316.63326653306615" width="0.8016032064128353" style="fill: rgb(239, 121, 23);"></rect><rect height="10" x="317.434869739479" width="0.8016032064128353" style="fill: rgb(239, 120, 23);"></rect><rect height="10" x="318.2364729458918" width="0.8016032064127785" style="fill: rgb(239, 120, 23);"></rect><rect height="10" x="319.0380761523046" width="0.8016032064127785" style="fill: rgb(239, 119, 23);"></rect><rect height="10" x="319.8396793587174" width="0.8016032064128922" style="fill: rgb(239, 118, 23);"></rect><rect height="10" x="320.64128256513027" width="0.8016032064128353" style="fill: rgb(239, 117, 23);"></rect><rect height="10" x="321.4428857715431" width="0.8016032064128353" style="fill: rgb(239, 116, 23);"></rect><rect height="10" x="322.24448897795594" width="0.8016032064127785" style="fill: rgb(239, 116, 23);"></rect><rect height="10" x="323.0460921843687" width="0.8016032064128353" style="fill: rgb(239, 115, 23);"></rect><rect height="10" x="323.84769539078155" width="0.8016032064128353" style="fill: rgb(239, 114, 23);"></rect><rect height="10" x="324.6492985971944" width="0.8016032064127785" style="fill: rgb(239, 113, 23);"></rect><rect height="10" x="325.45090180360717" width="0.8016032064128922" style="fill: rgb(239, 112, 23);"></rect><rect height="10" x="326.25250501002006" width="0.8016032064127785" style="fill: rgb(239, 112, 23);"></rect><rect height="10" x="327.05410821643284" width="0.8016032064128353" style="fill: rgb(239, 111, 23);"></rect><rect height="10" x="327.8557114228457" width="0.8016032064128353" style="fill: rgb(239, 110, 23);"></rect><rect height="10" x="328.6573146292585" width="0.8016032064128353" style="fill: rgb(239, 109, 23);"></rect><rect height="10" x="329.45891783567134" width="0.8016032064127785" style="fill: rgb(239, 109, 23);"></rect><rect height="10" x="330.2605210420841" width="0.8016032064128353" style="fill: rgb(239, 108, 23);"></rect><rect height="10" x="331.06212424849696" width="0.8016032064127785" style="fill: rgb(239, 107, 23);"></rect><rect height="10" x="331.86372745490974" width="0.801603206412949" style="fill: rgb(239, 106, 23);"></rect><rect height="10" x="332.6653306613227" width="0.8016032064127785" style="fill: rgb(239, 105, 23);"></rect><rect height="10" x="333.46693386773546" width="0.8016032064128353" style="fill: rgb(239, 105, 23);"></rect><rect height="10" x="334.2685370741483" width="0.8016032064128353" style="fill: rgb(239, 104, 23);"></rect><rect height="10" x="335.07014028056113" width="0.8016032064127785" style="fill: rgb(239, 103, 23);"></rect><rect height="10" x="335.8717434869739" width="0.8016032064128922" style="fill: rgb(239, 102, 23);"></rect><rect height="10" x="336.6733466933868" width="0.8016032064127785" style="fill: rgb(239, 102, 23);"></rect><rect height="10" x="337.4749498997996" width="0.8016032064128353" style="fill: rgb(239, 101, 23);"></rect><rect height="10" x="338.2765531062124" width="0.8016032064128353" style="fill: rgb(239, 100, 23);"></rect><rect height="10" x="339.07815631262525" width="0.8016032064127785" style="fill: rgb(239, 99, 23);"></rect><rect height="10" x="339.87975951903803" width="0.8016032064128353" style="fill: rgb(239, 98, 23);"></rect><rect height="10" x="340.68136272545087" width="0.8016032064128353" style="fill: rgb(239, 98, 23);"></rect><rect height="10" x="341.4829659318637" width="0.8016032064128922" style="fill: rgb(239, 97, 23);"></rect><rect height="10" x="342.2845691382766" width="0.8016032064128353" style="fill: rgb(239, 96, 23);"></rect><rect height="10" x="343.08617234468943" width="0.8016032064127785" style="fill: rgb(239, 95, 23);"></rect><rect height="10" x="343.8877755511022" width="0.8016032064128353" style="fill: rgb(239, 95, 23);"></rect><rect height="10" x="344.68937875751504" width="0.8016032064127785" style="fill: rgb(239, 94, 23);"></rect><rect height="10" x="345.4909819639278" width="0.8016032064128353" style="fill: rgb(239, 93, 23);"></rect><rect height="10" x="346.29258517034066" width="0.8016032064128922" style="fill: rgb(239, 92, 23);"></rect><rect height="10" x="347.09418837675355" width="0.8016032064127216" style="fill: rgb(239, 91, 23);"></rect><rect height="10" x="347.8957915831663" width="0.8016032064128922" style="fill: rgb(239, 91, 23);"></rect><rect height="10" x="348.69739478957916" width="0.8016032064127785" style="fill: rgb(239, 90, 23);"></rect><rect height="10" x="349.49899799599194" width="0.8016032064128353" style="fill: rgb(239, 89, 23);"></rect><rect height="10" x="350.3006012024048" width="0.8016032064128922" style="fill: rgb(239, 88, 23);"></rect><rect height="10" x="351.10220440881767" width="0.8016032064127785" style="fill: rgb(239, 87, 23);"></rect><rect height="10" x="351.90380761523045" width="0.8016032064128922" style="fill: rgb(239, 87, 23);"></rect><rect height="10" x="352.70541082164334" width="0.8016032064127785" style="fill: rgb(239, 86, 23);"></rect><rect height="10" x="353.5070140280561" width="0.8016032064128353" style="fill: rgb(239, 85, 23);"></rect><rect height="10" x="354.30861723446895" width="0.8016032064128353" style="fill: rgb(239, 84, 23);"></rect><rect height="10" x="355.1102204408818" width="0.8016032064127785" style="fill: rgb(239, 84, 23);"></rect><rect height="10" x="355.91182364729457" width="0.8016032064128353" style="fill: rgb(239, 83, 23);"></rect><rect height="10" x="356.7134268537074" width="0.8016032064127785" style="fill: rgb(239, 82, 23);"></rect><rect height="10" x="357.5150300601202" width="0.8016032064128353" style="fill: rgb(239, 81, 23);"></rect><rect height="10" x="358.316633266533" width="0.8016032064128922" style="fill: rgb(239, 80, 23);"></rect><rect height="10" x="359.1182364729459" width="0.8016032064128353" style="fill: rgb(239, 80, 23);"></rect><rect height="10" x="359.91983967935874" width="0.8016032064128353" style="fill: rgb(239, 79, 23);"></rect><rect height="10" x="360.7214428857716" width="0.8016032064127785" style="fill: rgb(239, 78, 23);"></rect><rect height="10" x="361.52304609218436" width="0.8016032064128353" style="fill: rgb(239, 77, 23);"></rect><rect height="10" x="362.3246492985972" width="0.8016032064128922" style="fill: rgb(239, 77, 23);"></rect><rect height="10" x="363.1262525050101" width="0.8016032064127785" style="fill: rgb(239, 76, 23);"></rect><rect height="10" x="363.92785571142286" width="0.8016032064128353" style="fill: rgb(239, 75, 23);"></rect><rect height="10" x="364.7294589178357" width="0.8016032064127785" style="fill: rgb(239, 74, 23);"></rect><rect height="10" x="365.5310621242485" width="0.8016032064128353" style="fill: rgb(239, 73, 23);"></rect><rect height="10" x="366.3326653306613" width="0.8016032064128353" style="fill: rgb(239, 73, 23);"></rect><rect height="10" x="367.13426853707415" width="0.8016032064127785" style="fill: rgb(239, 72, 23);"></rect><rect height="10" x="367.9358717434869" width="0.8016032064128353" style="fill: rgb(239, 71, 23);"></rect><rect height="10" x="368.73747494989976" width="0.8016032064128922" style="fill: rgb(239, 70, 23);"></rect><rect height="10" x="369.53907815631266" width="0.8016032064128353" style="fill: rgb(239, 70, 23);"></rect><rect height="10" x="370.3406813627255" width="0.8016032064128353" style="fill: rgb(239, 69, 23);"></rect><rect height="10" x="371.1422845691383" width="0.8016032064127785" style="fill: rgb(239, 68, 23);"></rect><rect height="10" x="371.9438877755511" width="0.8016032064128353" style="fill: rgb(239, 67, 23);"></rect><rect height="10" x="372.74549098196394" width="0.8016032064127785" style="fill: rgb(239, 66, 23);"></rect><rect height="10" x="373.5470941883767" width="0.8016032064128353" style="fill: rgb(239, 66, 23);"></rect><rect height="10" x="374.34869739478955" width="0.8016032064128922" style="fill: rgb(239, 65, 23);"></rect><rect height="10" x="375.15030060120245" width="0.8016032064127785" style="fill: rgb(239, 64, 23);"></rect><rect height="10" x="375.9519038076152" width="0.8016032064128353" style="fill: rgb(239, 63, 23);"></rect><rect height="10" x="376.75350701402806" width="0.8016032064127785" style="fill: rgb(239, 63, 23);"></rect><rect height="10" x="377.55511022044084" width="0.8016032064128353" style="fill: rgb(239, 62, 23);"></rect><rect height="10" x="378.3567134268537" width="0.801603206412949" style="fill: rgb(239, 61, 23);"></rect><rect height="10" x="379.1583166332666" width="0.8016032064127785" style="fill: rgb(239, 60, 23);"></rect><rect height="10" x="379.9599198396794" width="0.8016032064128353" style="fill: rgb(239, 59, 23);"></rect><rect height="10" x="380.76152304609224" width="0.8016032064127785" style="fill: rgb(239, 59, 23);"></rect><rect height="10" x="381.563126252505" width="0.8016032064128353" style="fill: rgb(239, 58, 23);"></rect><rect height="10" x="382.36472945891785" width="0.8016032064128353" style="fill: rgb(239, 57, 23);"></rect><rect height="10" x="383.1663326653307" width="0.8016032064127785" style="fill: rgb(239, 56, 23);"></rect><rect height="10" x="383.96793587174346" width="0.8016032064128353" style="fill: rgb(239, 55, 23);"></rect><rect height="10" x="384.7695390781563" width="0.8016032064127785" style="fill: rgb(239, 55, 23);"></rect><rect height="10" x="385.5711422845691" width="0.8016032064128922" style="fill: rgb(239, 54, 23);"></rect><rect height="10" x="386.37274549098197" width="0.8016032064127785" style="fill: rgb(239, 53, 23);"></rect><rect height="10" x="387.17434869739475" width="0.8016032064128922" style="fill: rgb(239, 52, 23);"></rect><rect height="10" x="387.97595190380764" width="0.8016032064128353" style="fill: rgb(239, 52, 23);"></rect><rect height="10" x="388.7775551102205" width="0.8016032064127785" style="fill: rgb(239, 51, 23);"></rect><rect height="10" x="389.57915831663325" width="0.8016032064128922" style="fill: rgb(239, 50, 23);"></rect><rect height="10" x="390.38076152304615" width="0.8016032064128353" style="fill: rgb(239, 49, 23);"></rect><rect height="10" x="391.182364729459" width="0.8016032064127785" style="fill: rgb(239, 48, 23);"></rect><rect height="10" x="391.98396793587176" width="0.8016032064127785" style="fill: rgb(239, 48, 23);"></rect><rect height="10" x="392.78557114228454" width="0.8016032064127785" style="fill: rgb(239, 47, 23);"></rect><rect height="10" x="393.5871743486973" width="0.8016032064128922" style="fill: rgb(239, 46, 23);"></rect><rect height="10" x="394.3887775551102" width="0.8016032064128353" style="fill: rgb(239, 45, 23);"></rect><rect height="10" x="395.19038076152304" width="0.8016032064127785" style="fill: rgb(239, 45, 23);"></rect><rect height="10" x="395.9919839679358" width="0.8016032064128922" style="fill: rgb(239, 44, 23);"></rect><rect height="10" x="396.7935871743487" width="0.8016032064127785" style="fill: rgb(239, 43, 23);"></rect><rect height="10" x="397.5951903807615" width="0.8016032064128922" style="fill: rgb(239, 42, 23);"></rect><rect height="10" x="398.3967935871744" width="0.8016032064128353" style="fill: rgb(239, 41, 23);"></rect><rect height="10" x="399.1983967935872" width="0.8016032064127785" style="fill: rgb(239, 41, 23);"></rect><g class="tick" style="opacity: 1;" transform="translate(0,0)"><line y2="-1" x2="0"></line><text dy="0em" style="text-anchor: middle;" y="-4" x="0">0</text></g><g class="tick" style="opacity: 1;" transform="translate(100,0)"><line y2="-1" x2="0"></line><text dy="0em" style="text-anchor: middle;" y="-4" x="0">10</text></g><g class="tick" style="opacity: 1;" transform="translate(200,0)"><line y2="-1" x2="0"></line><text dy="0em" style="text-anchor: middle;" y="-4" x="0">20</text></g><g class="tick" style="opacity: 1;" transform="translate(300,0)"><line y2="-1" x2="0"></line><text dy="0em" style="text-anchor: middle;" y="-4" x="0">30</text></g><g class="tick" style="opacity: 1;" transform="translate(400,0)"><line y2="-1" x2="0"></line><text dy="0em" style="text-anchor: middle;" y="-4" x="0">39</text></g><path class="domain" d="M0,-1V0H400V-1"></path><text class="caption" y="21">Value Scale (for positive values)</text></g></svg></div></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com/" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span aria-hidden="true">|</span> Data by © <a target="_blank" href="http://openstreetmap.org/">OpenStreetMap</a>, under <a target="_blank" href="http://www.openstreetmap.org/copyright">ODbL</a>.</div></div></div></div>
+        
+
+<script>
+    
+    
+            var map_533c95fd353cc57fdf2fc5e3b38262d6 = L.map(
+                "map_533c95fd353cc57fdf2fc5e3b38262d6",
+                {
+                    center: [-1.563655805, -80.06855387],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc8fba90100b2f4eb56c6ca3d26055d6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var marker_d22d04678daa1655e39c5a3d855dca00 = L.marker(
+                [0.933662, -79.39117],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_0abd99a2d9a382fa900a9f48b3179da4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #ed8d16ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_d22d04678daa1655e39c5a3d855dca00.setIcon(div_icon_0abd99a2d9a382fa900a9f48b3179da4);
+        
+    
+        var popup_1a357b5ae2c2fbced7d38b042f82a4ea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_af30c38751fce597559de1df5413b1a7 = $(`<div id="html_af30c38751fce597559de1df5413b1a7" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:31:29-05<br><b>Code:</b> EC00136<br><b>Latitude:</b> 0.933662<br><b>Longitude:</b> -79.39117<br><b>Altitude:</b> 10.0<br><b>Division:</b> Esmeraldas-Rio Verde-Rocafuerte<br><b>Value:</b> 29.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_1a357b5ae2c2fbced7d38b042f82a4ea.setContent(html_af30c38751fce597559de1df5413b1a7);
+            
+        
+
+        marker_d22d04678daa1655e39c5a3d855dca00.bindPopup(popup_1a357b5ae2c2fbced7d38b042f82a4ea)
+        ;
+
+        
+    
+    
+            var marker_bf1662347d0da8fdb525e891efc31a67 = L.marker(
+                [-1.671816, -79.261754],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_bebc2b7e35cf3f1a0fc5bb93da8bdc16 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #138743ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_bf1662347d0da8fdb525e891efc31a67.setIcon(div_icon_bebc2b7e35cf3f1a0fc5bb93da8bdc16);
+        
+    
+        var popup_70e7a559ff94b988c2a8d91e4b4a700b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f12597e7ff2f533230f89f975e6ba04f = $(`<div id="html_f12597e7ff2f533230f89f975e6ba04f" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:31:47-05<br><b>Code:</b> EC00102<br><b>Latitude:</b> -1.671816<br><b>Longitude:</b> -79.261754<br><b>Altitude:</b> 342.0<br><b>Division:</b> Bolivar-Chimbo-TELIMBELA<br><b>Value:</b> 10.8<br><b>Comments:</b> nan</div>`)[0];
+                popup_70e7a559ff94b988c2a8d91e4b4a700b.setContent(html_f12597e7ff2f533230f89f975e6ba04f);
+            
+        
+
+        marker_bf1662347d0da8fdb525e891efc31a67.bindPopup(popup_70e7a559ff94b988c2a8d91e4b4a700b)
+        ;
+
+        
+    
+    
+            var marker_89f347cc60163f9c6a66d988315c8dfb = L.marker(
+                [-1.453605, -80.164281],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_1354e11ea311d2aff9720307e40feb25 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_89f347cc60163f9c6a66d988315c8dfb.setIcon(div_icon_1354e11ea311d2aff9720307e40feb25);
+        
+    
+        var popup_2ed7aca4de3c5c72f55470d25ed88bb7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a3426d180e49120c5ef1773f7a468b98 = $(`<div id="html_a3426d180e49120c5ef1773f7a468b98" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:35:26-05<br><b>Code:</b> EC00113<br><b>Latitude:</b> -1.453605<br><b>Longitude:</b> -80.164281<br><b>Altitude:</b> 70.9<br><b>Division:</b> Guayas-Colimes-Colimes<br><b>Value:</b> 1.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_2ed7aca4de3c5c72f55470d25ed88bb7.setContent(html_a3426d180e49120c5ef1773f7a468b98);
+            
+        
+
+        marker_89f347cc60163f9c6a66d988315c8dfb.bindPopup(popup_2ed7aca4de3c5c72f55470d25ed88bb7)
+        ;
+
+        
+    
+    
+            var marker_7dcd06727512603a3090f5925834ecea = L.marker(
+                [-1.06215, -80.58621],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_56f3b1c714e728c653dbd14654071726 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_7dcd06727512603a3090f5925834ecea.setIcon(div_icon_56f3b1c714e728c653dbd14654071726);
+        
+    
+        var popup_9b11ae19b836f740b0c92cd7cc322833 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_118c3ac65d5327138f91cf9c9d127fa0 = $(`<div id="html_118c3ac65d5327138f91cf9c9d127fa0" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:45:00-05<br><b>Code:</b> EC00124<br><b>Latitude:</b> -1.06215<br><b>Longitude:</b> -80.58621<br><b>Altitude:</b> 248.0<br><b>Division:</b> Manabí-Montecristi-Montecristi<br><b>Value:</b> 1.0<br><b>Comments:</b> None</div>`)[0];
+                popup_9b11ae19b836f740b0c92cd7cc322833.setContent(html_118c3ac65d5327138f91cf9c9d127fa0);
+            
+        
+
+        marker_7dcd06727512603a3090f5925834ecea.bindPopup(popup_9b11ae19b836f740b0c92cd7cc322833)
+        ;
+
+        
+    
+    
+            var marker_63908240223451ea6ab9dcf49997aa9f = L.marker(
+                [-1.832667, -80.710259],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_03296deba8bb7bdb622116e3efb8aaae = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_63908240223451ea6ab9dcf49997aa9f.setIcon(div_icon_03296deba8bb7bdb622116e3efb8aaae);
+        
+    
+        var popup_4c3a943c2741f987106df2571998d4a9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b453a48c58cf6288ed15d23ed9bdaaa6 = $(`<div id="html_b453a48c58cf6288ed15d23ed9bdaaa6" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:46:15-05<br><b>Code:</b> EC00100<br><b>Latitude:</b> -1.832667<br><b>Longitude:</b> -80.710259<br><b>Altitude:</b> 39.0<br><b>Division:</b> Santa Elena-Santa Elena-Manglaralto<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_4c3a943c2741f987106df2571998d4a9.setContent(html_b453a48c58cf6288ed15d23ed9bdaaa6);
+            
+        
+
+        marker_63908240223451ea6ab9dcf49997aa9f.bindPopup(popup_4c3a943c2741f987106df2571998d4a9)
+        ;
+
+        
+    
+    
+            var marker_db80405d0b35f756240d18d42073b5c1 = L.marker(
+                [-3.977263, -80.072297],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_a8c69897f8f561dbecfeb67a6c57768a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015e3bff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_db80405d0b35f756240d18d42073b5c1.setIcon(div_icon_a8c69897f8f561dbecfeb67a6c57768a);
+        
+    
+        var popup_5ee944efe6c26b4a6e08433b7e6bfefa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_096cc0579c7389c9199b35802eadcb29 = $(`<div id="html_096cc0579c7389c9199b35802eadcb29" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:59:14-05<br><b>Code:</b> EC00107<br><b>Latitude:</b> -3.977263<br><b>Longitude:</b> -80.072297<br><b>Altitude:</b> 1217.0<br><b>Division:</b> Loja-Puyango-Alamor<br><b>Value:</b> 4.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_5ee944efe6c26b4a6e08433b7e6bfefa.setContent(html_096cc0579c7389c9199b35802eadcb29);
+            
+        
+
+        marker_db80405d0b35f756240d18d42073b5c1.bindPopup(popup_5ee944efe6c26b4a6e08433b7e6bfefa)
+        ;
+
+        
+    
+    
+            var marker_11ca899082b6236303a3082ca6ce3e5c = L.marker(
+                [-2.014112, -80.578024],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_6e9adc3b9d556cc6e4a701b1a92445cf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_11ca899082b6236303a3082ca6ce3e5c.setIcon(div_icon_6e9adc3b9d556cc6e4a701b1a92445cf);
+        
+    
+        var popup_5db192b77cb87cd6d1acc2a2f43ec83a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_56a2a8f9245dec5e617b1e414077c1ef = $(`<div id="html_56a2a8f9245dec5e617b1e414077c1ef" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:10:01-05<br><b>Code:</b> EC00101<br><b>Latitude:</b> -2.014112<br><b>Longitude:</b> -80.578024<br><b>Altitude:</b> 30.0<br><b>Division:</b> Santa Elena-Santa Elena-Colonche<br><b>Value:</b> 0.0<br><b>Comments:</b> 0.m</div>`)[0];
+                popup_5db192b77cb87cd6d1acc2a2f43ec83a.setContent(html_56a2a8f9245dec5e617b1e414077c1ef);
+            
+        
+
+        marker_11ca899082b6236303a3082ca6ce3e5c.bindPopup(popup_5db192b77cb87cd6d1acc2a2f43ec83a)
+        ;
+
+        
+    
+    
+            var marker_6f2ea253f578456f419c0621cd9900f0 = L.marker(
+                [-1.47153, -80.53735],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_eb945f295039e9479588d7dbe3e8af0f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024c33ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_6f2ea253f578456f419c0621cd9900f0.setIcon(div_icon_eb945f295039e9479588d7dbe3e8af0f);
+        
+    
+        var popup_2c9dc3930290832d5a2b2e8d156740a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_89fe702667479adbabf72e8b36aa8018 = $(`<div id="html_89fe702667479adbabf72e8b36aa8018" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:12:15-05<br><b>Code:</b> EC00117<br><b>Latitude:</b> -1.47153<br><b>Longitude:</b> -80.53735<br><b>Altitude:</b> 370.0<br><b>Division:</b> Manabí-Jipijapa-El Anegado<br><b>Value:</b> 0.8<br><b>Comments:</b> nan</div>`)[0];
+                popup_2c9dc3930290832d5a2b2e8d156740a6.setContent(html_89fe702667479adbabf72e8b36aa8018);
+            
+        
+
+        marker_6f2ea253f578456f419c0621cd9900f0.bindPopup(popup_2c9dc3930290832d5a2b2e8d156740a6)
+        ;
+
+        
+    
+    
+            var marker_1da09a0dd670c2fc7ef2fe25156a51af = L.marker(
+                [-1.88816, -79.274572],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_c8e3402872719513021ec035bf733a21 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025938ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_1da09a0dd670c2fc7ef2fe25156a51af.setIcon(div_icon_c8e3402872719513021ec035bf733a21);
+        
+    
+        var popup_b6754880dd3036395add241fd34a3139 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b159e91b846cfefbec2f82e58417feba = $(`<div id="html_b159e91b846cfefbec2f82e58417feba" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:16:51-05<br><b>Code:</b> EC00095<br><b>Latitude:</b> -1.88816<br><b>Longitude:</b> -79.274572<br><b>Altitude:</b> 41.0<br><b>Division:</b> Los Ríos-Montalvo-Montalvo<br><b>Value:</b> 3.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_b6754880dd3036395add241fd34a3139.setContent(html_b159e91b846cfefbec2f82e58417feba);
+            
+        
+
+        marker_1da09a0dd670c2fc7ef2fe25156a51af.bindPopup(popup_b6754880dd3036395add241fd34a3139)
+        ;
+
+        
+    
+    
+            var marker_64724634266e5d2f214d8401a115692e = L.marker(
+                [-1.76453, -80.171387],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_1480cd0571082c7ba2f6b8d9f69ceeb4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #016b40ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_64724634266e5d2f214d8401a115692e.setIcon(div_icon_1480cd0571082c7ba2f6b8d9f69ceeb4);
+        
+    
+        var popup_5259c17434b7af993a9cf327833c97de = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b0aea54708d4b680a7aa352170e78741 = $(`<div id="html_b0aea54708d4b680a7aa352170e78741" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:32:45-05<br><b>Code:</b> EC00110<br><b>Latitude:</b> -1.76453<br><b>Longitude:</b> -80.171387<br><b>Altitude:</b> 54.45<br><b>Division:</b> Guayas-Pedro Carbo-Valle de la Virgen<br><b>Value:</b> 6.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_5259c17434b7af993a9cf327833c97de.setContent(html_b0aea54708d4b680a7aa352170e78741);
+            
+        
+
+        marker_64724634266e5d2f214d8401a115692e.bindPopup(popup_5259c17434b7af993a9cf327833c97de)
+        ;
+
+        
+    
+    
+            var marker_5989b4502a0af6686e696c3ee6002bb0 = L.marker(
+                [-2.12683, -80.01535],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_0373d0e921be38fcbca887f8308a6080 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025537ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_5989b4502a0af6686e696c3ee6002bb0.setIcon(div_icon_0373d0e921be38fcbca887f8308a6080);
+        
+    
+        var popup_6f9de80d0f520e2c2dce181bf89b4dc1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_96f1e487174af4826185f011fad3a97e = $(`<div id="html_96f1e487174af4826185f011fad3a97e" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:53:30-05<br><b>Code:</b> EC00104<br><b>Latitude:</b> -2.12683<br><b>Longitude:</b> -80.01535<br><b>Altitude:</b> 50.0<br><b>Division:</b> Guayas-Guayaquil-Guayaquil<br><b>Value:</b> 2.4<br><b>Comments:</b> nan</div>`)[0];
+                popup_6f9de80d0f520e2c2dce181bf89b4dc1.setContent(html_96f1e487174af4826185f011fad3a97e);
+            
+        
+
+        marker_5989b4502a0af6686e696c3ee6002bb0.bindPopup(popup_6f9de80d0f520e2c2dce181bf89b4dc1)
+        ;
+
+        
+    
+    
+            var marker_80f6bc39430e6b32e2c7f4acc4c628a8 = L.marker(
+                [-1.47088, -80.426721],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_822c3460031243adbab143411d22361d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015c3aff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_80f6bc39430e6b32e2c7f4acc4c628a8.setIcon(div_icon_822c3460031243adbab143411d22361d);
+        
+    
+        var popup_6da3c8c3605e54396666a3667fa21005 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_751a29fc81c8c0453c29433e863b24bc = $(`<div id="html_751a29fc81c8c0453c29433e863b24bc" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:08:31-05<br><b>Code:</b> EC00111<br><b>Latitude:</b> -1.47088<br><b>Longitude:</b> -80.426721<br><b>Altitude:</b> 424.0<br><b>Division:</b> Manabí-Jipijapa-La Unión<br><b>Value:</b> 3.6<br><b>Comments:</b> nan</div>`)[0];
+                popup_6da3c8c3605e54396666a3667fa21005.setContent(html_751a29fc81c8c0453c29433e863b24bc);
+            
+        
+
+        marker_80f6bc39430e6b32e2c7f4acc4c628a8.bindPopup(popup_6da3c8c3605e54396666a3667fa21005)
+        ;
+
+        
+    
+    
+            var marker_f8e85e7e552a7adf097aa9612679c46f = L.marker(
+                [0.0, -79.595258],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_e29e13d84d51b16ffc551c756f5f7cfc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_f8e85e7e552a7adf097aa9612679c46f.setIcon(div_icon_e29e13d84d51b16ffc551c756f5f7cfc);
+        
+    
+        var popup_8f5a54cfca1ada6d91f80ece96ec5885 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_56243b03760b10e61868203696e5705c = $(`<div id="html_56243b03760b10e61868203696e5705c" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:26:42-05<br><b>Code:</b> EC00149<br><b>Latitude:</b> 0.0<br><b>Longitude:</b> -79.595258<br><b>Altitude:</b> 14.0<br><b>Division:</b> Guayas-Milagro-Enrique Valdez<br><b>Value:</b> 0.0<br><b>Comments:</b> Sin precipitaciones. Pequeñas gotas dentro del pluviómetro </div>`)[0];
+                popup_8f5a54cfca1ada6d91f80ece96ec5885.setContent(html_56243b03760b10e61868203696e5705c);
+            
+        
+
+        marker_f8e85e7e552a7adf097aa9612679c46f.bindPopup(popup_8f5a54cfca1ada6d91f80ece96ec5885)
+        ;
+
+        
+    
+    
+            var marker_59d96b0fc3d83288b9f8b514b360bffb = L.marker(
+                [-1.474411, -80.426109],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_62178d85e9c6433e2cf5d788df6c59ef = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015b39ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_59d96b0fc3d83288b9f8b514b360bffb.setIcon(div_icon_62178d85e9c6433e2cf5d788df6c59ef);
+        
+    
+        var popup_cdcbae59d9910d075c8c83ef04408cfb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_66db429185823fedd7fdc31c5c537f7d = $(`<div id="html_66db429185823fedd7fdc31c5c537f7d" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:35:11-05<br><b>Code:</b> EC00114<br><b>Latitude:</b> -1.474411<br><b>Longitude:</b> -80.426109<br><b>Altitude:</b> 419.0<br><b>Division:</b> Manabí-Jipijapa-La Unión<br><b>Value:</b> 3.4<br><b>Comments:</b> nan</div>`)[0];
+                popup_cdcbae59d9910d075c8c83ef04408cfb.setContent(html_66db429185823fedd7fdc31c5c537f7d);
+            
+        
+
+        marker_59d96b0fc3d83288b9f8b514b360bffb.bindPopup(popup_cdcbae59d9910d075c8c83ef04408cfb)
+        ;
+
+        
+    
+    
+            var marker_d4929fb4b9b8702accb97f10a2013250 = L.marker(
+                [-1.888638, -79.556406],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_f6035f22c9552ce750a0bbfd6d53ae36 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025336ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_d4929fb4b9b8702accb97f10a2013250.setIcon(div_icon_f6035f22c9552ce750a0bbfd6d53ae36);
+        
+    
+        var popup_bb9d846905e73175e3290bb17136faff = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4c0257176ec864143afeffc894a73fe5 = $(`<div id="html_4c0257176ec864143afeffc894a73fe5" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:50:58-05<br><b>Code:</b> EC00147<br><b>Latitude:</b> -1.888638<br><b>Longitude:</b> -79.556406<br><b>Altitude:</b> 0.0<br><b>Division:</b> Guayas-Jujan-Alfredo Baquerizo Moreno<br><b>Value:</b> 2.0<br><b>Comments:</b> lluvia leve</div>`)[0];
+                popup_bb9d846905e73175e3290bb17136faff.setContent(html_4c0257176ec864143afeffc894a73fe5);
+            
+        
+
+        marker_d4929fb4b9b8702accb97f10a2013250.bindPopup(popup_bb9d846905e73175e3290bb17136faff)
+        ;
+
+        
+    
+    
+            var marker_f9fd534c4b71ec7fbc8044f845c1de58 = L.marker(
+                [-0.644443, -80.419549],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_f89cecc392deae40c24ca087a0c26428 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015e3bff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_f9fd534c4b71ec7fbc8044f845c1de58.setIcon(div_icon_f89cecc392deae40c24ca087a0c26428);
+        
+    
+        var popup_da5db6703895a51fd213b6359fd2184a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_33acf230f01a1a1bbeb306ec53387b3e = $(`<div id="html_33acf230f01a1a1bbeb306ec53387b3e" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:08:37-05<br><b>Code:</b> EC00007<br><b>Latitude:</b> -0.644443<br><b>Longitude:</b> -80.419549<br><b>Altitude:</b> 5.0<br><b>Division:</b> Manabí-Sucre-Leonidas Plaza<br><b>Value:</b> 4.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_da5db6703895a51fd213b6359fd2184a.setContent(html_33acf230f01a1a1bbeb306ec53387b3e);
+            
+        
+
+        marker_f9fd534c4b71ec7fbc8044f845c1de58.bindPopup(popup_da5db6703895a51fd213b6359fd2184a)
+        ;
+
+        
+    
+    
+            var marker_97340807cfa3c596bb751ec217de781c = L.marker(
+                [-1.726531, -80.24902],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_941b999cebd2a1d9fed5fe6e50839d93 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_97340807cfa3c596bb751ec217de781c.setIcon(div_icon_941b999cebd2a1d9fed5fe6e50839d93);
+        
+    
+        var popup_7a975a51afffe2d87bf8c1fd9e0bb551 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6cb6ef4c3ee56d4011110db146b418bd = $(`<div id="html_6cb6ef4c3ee56d4011110db146b418bd" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:14:27-05<br><b>Code:</b> EC00131<br><b>Latitude:</b> -1.726531<br><b>Longitude:</b> -80.24902<br><b>Altitude:</b> 73.0<br><b>Division:</b> Guayas-Pedro Carbo-Jerusalén<br><b>Value:</b> -888.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_7a975a51afffe2d87bf8c1fd9e0bb551.setContent(html_6cb6ef4c3ee56d4011110db146b418bd);
+            
+        
+
+        marker_97340807cfa3c596bb751ec217de781c.bindPopup(popup_7a975a51afffe2d87bf8c1fd9e0bb551)
+        ;
+
+        
+    
+    
+            var marker_0ed9262800d87d8fef0d3380e738efd9 = L.marker(
+                [-2.79969, -79.70765],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_3fa240b30b556797493dab606e7628d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024d34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_0ed9262800d87d8fef0d3380e738efd9.setIcon(div_icon_3fa240b30b556797493dab606e7628d4);
+        
+    
+        var popup_9d307902d50ad63287f9babb649bb53e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_91d892f48bcfbfffdcc68615971cf3f2 = $(`<div id="html_91d892f48bcfbfffdcc68615971cf3f2" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:13:42-05<br><b>Code:</b> EC00144<br><b>Latitude:</b> -2.79969<br><b>Longitude:</b> -79.70765<br><b>Altitude:</b> 100.0<br><b>Division:</b> Guayas-Naranjal-Jaime Roldos<br><b>Value:</b> 1.0<br><b>Comments:</b> bendiciones informo que aun seguimos con el muro colapso del sector la toma río jagua </div>`)[0];
+                popup_9d307902d50ad63287f9babb649bb53e.setContent(html_91d892f48bcfbfffdcc68615971cf3f2);
+            
+        
+
+        marker_0ed9262800d87d8fef0d3380e738efd9.bindPopup(popup_9d307902d50ad63287f9babb649bb53e)
+        ;
+
+        
+    
+    
+            var marker_1731b77dfb5b278e9a741a75d0d65ce5 = L.marker(
+                [-1.54476, -80.021046],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_b967f7cc72cefc313a4c5e216b654461 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #ef2917ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_1731b77dfb5b278e9a741a75d0d65ce5.setIcon(div_icon_b967f7cc72cefc313a4c5e216b654461);
+        
+    
+        var popup_cad5e85552da84dcc97d52a06075a1be = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_345d56785c10e014e83fdd3352a9f02c = $(`<div id="html_345d56785c10e014e83fdd3352a9f02c" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:27:16-05<br><b>Code:</b> EC00116<br><b>Latitude:</b> -1.54476<br><b>Longitude:</b> -80.021046<br><b>Altitude:</b> 21.0<br><b>Division:</b> Guayas-Colimes-Colimes<br><b>Value:</b> 39.4<br><b>Comments:</b> nan</div>`)[0];
+                popup_cad5e85552da84dcc97d52a06075a1be.setContent(html_345d56785c10e014e83fdd3352a9f02c);
+            
+        
+
+        marker_1731b77dfb5b278e9a741a75d0d65ce5.bindPopup(popup_cad5e85552da84dcc97d52a06075a1be)
+        ;
+
+        
+    
+    
+            var marker_4f1e842a7fb8d1acfb1f71323f4f63e5 = L.marker(
+                [-1.3947621, -80.2066644],
+                {}
+            ).addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+        
+    
+            var div_icon_5d2f7df7085133f53149a552ecc7a76f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_4f1e842a7fb8d1acfb1f71323f4f63e5.setIcon(div_icon_5d2f7df7085133f53149a552ecc7a76f);
+        
+    
+        var popup_8bc82380e8ce102d57d056db4d93a04d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cd59e5da5d40e31dc42b5eae3a20c37a = $(`<div id="html_cd59e5da5d40e31dc42b5eae3a20c37a" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:32:18-05<br><b>Code:</b> EC00130<br><b>Latitude:</b> -1.3947621<br><b>Longitude:</b> -80.2066644<br><b>Altitude:</b> 61.0<br><b>Division:</b> Manabí-Olmedo-Olmedo<br><b>Value:</b> 0.4<br><b>Comments:</b> nan</div>`)[0];
+                popup_8bc82380e8ce102d57d056db4d93a04d.setContent(html_cd59e5da5d40e31dc42b5eae3a20c37a);
+            
+        
+
+        marker_4f1e842a7fb8d1acfb1f71323f4f63e5.bindPopup(popup_8bc82380e8ce102d57d056db4d93a04d)
+        ;
+
+        
+    
+    
+    var color_map_d49eeb21ca3e7da93eaf83729a86a9b6 = {};
+
+    
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.color = d3.scale.threshold()
+              .domain([0.0, 0.07895791583166333, 0.15791583166332665, 0.23687374749498996, 0.3158316633266533, 0.39478957915831664, 0.4737474949899799, 0.5527054108216433, 0.6316633266533066, 0.7106212424849698, 0.7895791583166333, 0.8685370741482965, 0.9474949899799598, 1.0264529058116232, 1.1054108216432865, 1.1843687374749499, 1.2633266533066132, 1.3422845691382765, 1.4212424849699397, 1.5002004008016032, 1.5791583166332666, 1.65811623246493, 1.737074148296593, 1.8160320641282564, 1.8949899799599197, 1.9739478957915833, 2.0529058116232464, 2.1318637274549097, 2.210821643286573, 2.2897795591182364, 2.3687374749498997, 2.447695390781563, 2.5266533066132264, 2.6056112224448897, 2.684569138276553, 2.7635270541082164, 2.8424849699398793, 2.921442885771543, 3.0004008016032064, 3.0793587174348698, 3.158316633266533, 3.237274549098196, 3.31623246492986, 3.395190380761523, 3.474148296593186, 3.55310621242485, 3.6320641282565127, 3.711022044088176, 3.7899799599198394, 3.8689378757515027, 3.9478957915831665, 4.026853707414829, 4.105811623246493, 4.184769539078156, 4.263727454909819, 4.342685370741483, 4.421643286573146, 4.500601202404809, 4.579559118236473, 4.658517034068136, 4.7374749498997994, 4.816432865731463, 4.895390781563126, 4.974348697394789, 5.053306613226453, 5.132264529058117, 5.2112224448897795, 5.290180360721442, 5.369138276553106, 5.448096192384769, 5.527054108216433, 5.606012024048097, 5.684969939879759, 5.763927855711422, 5.842885771543086, 5.921843687374749, 6.000801603206413, 6.079759519038076, 6.1587174348697395, 6.237675350701402, 6.316633266533066, 6.39559118236473, 6.474549098196392, 6.553507014028056, 6.63246492985972, 6.7114228456913825, 6.790380761523046, 6.869338677354709, 6.948296593186372, 7.027254509018036, 7.1062124248497, 7.1851703406813625, 7.264128256513025, 7.343086172344689, 7.422044088176352, 7.501002004008016, 7.579959919839679, 7.6589178356713425, 7.737875751503005, 7.816833667334669, 7.895791583166333, 7.974749498997995, 8.053707414829658, 8.132665330661322, 8.211623246492985, 8.29058116232465, 8.369539078156311, 8.448496993987977, 8.527454909819639, 8.6064128256513, 8.685370741482966, 8.764328657314628, 8.843286573146292, 8.922244488977956, 9.001202404809618, 9.080160320641282, 9.159118236472946, 9.23807615230461, 9.317034068136271, 9.395991983967935, 9.474949899799599, 9.553907815631263, 9.632865731462926, 9.711823647294588, 9.790781563126252, 9.869739478957916, 9.948697394789578, 10.027655310621244, 10.106613226452906, 10.185571142284568, 10.264529058116233, 10.343486973947895, 10.422444889779559, 10.501402805611223, 10.580360721442885, 10.659318637274549, 10.738276553106212, 10.817234468937876, 10.896192384769538, 10.975150300601202, 11.054108216432866, 11.133066132264528, 11.212024048096193, 11.290981963927855, 11.369939879759517, 11.448897795591183, 11.527855711422845, 11.606813627254509, 11.685771543086172, 11.764729458917834, 11.843687374749498, 11.922645290581162, 12.001603206412826, 12.080561122244488, 12.159519038076152, 12.238476953907815, 12.317434869739479, 12.396392785571143, 12.475350701402805, 12.554308617234469, 12.633266533066132, 12.712224448897794, 12.79118236472946, 12.870140280561122, 12.949098196392784, 13.02805611222445, 13.107014028056112, 13.185971943887775, 13.26492985971944, 13.343887775551101, 13.422845691382765, 13.501803607214429, 13.580761523046093, 13.659719438877755, 13.738677354709418, 13.817635270541082, 13.896593186372744, 13.97555110220441, 14.054509018036072, 14.133466933867734, 14.2124248496994, 14.291382765531061, 14.370340681362725, 14.449298597194389, 14.52825651302605, 14.607214428857715, 14.686172344689378, 14.765130260521042, 14.844088176352704, 14.923046092184368, 15.002004008016032, 15.080961923847696, 15.159919839679358, 15.238877755511021, 15.317835671342685, 15.396793587174349, 15.47575150300601, 15.554709418837675, 15.633667334669338, 15.712625250501, 15.791583166332666, 15.870541082164328, 15.94949899799599, 16.028456913827654, 16.107414829659316, 16.18637274549098, 16.265330661322643, 16.344288577154305, 16.42324649298597, 16.502204408817637, 16.5811623246493, 16.66012024048096, 16.739078156312623, 16.818036072144288, 16.896993987975954, 16.975951903807616, 17.054909819639278, 17.13386773547094, 17.2128256513026, 17.29178356713427, 17.370741482965933, 17.449699398797595, 17.528657314629257, 17.60761523046092, 17.686573146292584, 17.76553106212425, 17.844488977955912, 17.923446893787574, 18.002404809619236, 18.0813627254509, 18.160320641282564, 18.23927855711423, 18.31823647294589, 18.397194388777553, 18.47615230460922, 18.55511022044088, 18.634068136272543, 18.713026052104208, 18.79198396793587, 18.870941883767536, 18.949899799599198, 19.02885771543086, 19.107815631262525, 19.186773547094187, 19.265731462925853, 19.344689378757515, 19.423647294589177, 19.50260521042084, 19.581563126252505, 19.66052104208417, 19.739478957915832, 19.818436873747494, 19.897394789579156, 19.976352705410818, 20.055310621242487, 20.13426853707415, 20.21322645290581, 20.292184368737473, 20.371142284569135, 20.4501002004008, 20.529058116232466, 20.60801603206413, 20.68697394789579, 20.765931863727452, 20.844889779559118, 20.92384769539078, 21.002805611222445, 21.081763527054107, 21.16072144288577, 21.239679358717435, 21.318637274549097, 21.39759519038076, 21.476553106212425, 21.555511022044087, 21.634468937875752, 21.713426853707414, 21.792384769539076, 21.87134268537074, 21.950300601202404, 22.02925851703407, 22.10821643286573, 22.187174348697393, 22.266132264529055, 22.34509018036072, 22.424048096192386, 22.50300601202405, 22.58196392785571, 22.660921843687373, 22.739879759519035, 22.818837675350704, 22.897795591182366, 22.976753507014028, 23.05571142284569, 23.13466933867735, 23.213627254509017, 23.292585170340683, 23.371543086172345, 23.450501002004007, 23.52945891783567, 23.608416833667334, 23.687374749498996, 23.766332665330662, 23.845290581162324, 23.924248496993986, 24.00320641282565, 24.082164328657313, 24.161122244488975, 24.24008016032064, 24.319038076152303, 24.39799599198397, 24.47695390781563, 24.555911823647293, 24.634869739478958, 24.71382765531062, 24.792785571142286, 24.871743486973948, 24.95070140280561, 25.029659318637272, 25.108617234468937, 25.187575150300603, 25.266533066132265, 25.345490981963927, 25.42444889779559, 25.50340681362725, 25.58236472945892, 25.661322645290582, 25.740280561122244, 25.819238476953906, 25.898196392785568, 25.977154308617234, 26.0561122244489, 26.13507014028056, 26.214028056112223, 26.292985971943885, 26.37194388777555, 26.450901803607213, 26.52985971943888, 26.60881763527054, 26.687775551102202, 26.766733466933868, 26.84569138276553, 26.924649298597192, 27.003607214428857, 27.08256513026052, 27.161523046092185, 27.240480961923847, 27.31943887775551, 27.398396793587175, 27.477354709418837, 27.556312625250502, 27.635270541082164, 27.714228456913826, 27.793186372745488, 27.872144288577154, 27.95110220440882, 28.03006012024048, 28.109018036072143, 28.187975951903805, 28.266933867735467, 28.345891783567136, 28.4248496993988, 28.50380761523046, 28.582765531062122, 28.661723446893784, 28.74068136272545, 28.819639278557116, 28.898597194388778, 28.97755511022044, 29.0565130260521, 29.135470941883767, 29.21442885771543, 29.293386773547095, 29.372344689378757, 29.45130260521042, 29.530260521042084, 29.609218436873746, 29.68817635270541, 29.767134268537074, 29.846092184368736, 29.9250501002004, 30.004008016032063, 30.082965931863725, 30.16192384769539, 30.240881763527053, 30.319839679358715, 30.39879759519038, 30.477755511022043, 30.556713426853705, 30.63567134268537, 30.714629258517032, 30.793587174348698, 30.87254509018036, 30.95150300601202, 31.030460921843684, 31.10941883767535, 31.188376753507015, 31.267334669338677, 31.34629258517034, 31.425250501002, 31.504208416833663, 31.583166332665332, 31.662124248496994, 31.741082164328656, 31.820040080160318, 31.89899799599198, 31.977955911823646, 32.05691382765531, 32.13587174348697, 32.21482965931863, 32.2937875751503, 32.37274549098196, 32.45170340681363, 32.53066132264529, 32.60961923847695, 32.68857715430861, 32.76753507014028, 32.84649298597194, 32.92545090180361, 33.00440881763527, 33.08336673346693, 33.1623246492986, 33.241282565130255, 33.32024048096192, 33.39919839679359, 33.478156312625245, 33.55711422845691, 33.636072144288576, 33.71503006012024, 33.79398797595191, 33.872945891783566, 33.95190380761523, 34.03086172344689, 34.109819639278555, 34.18877755511022, 34.26773547094188, 34.346693386773545, 34.4256513026052, 34.50460921843687, 34.58356713426854, 34.6625250501002, 34.741482965931866, 34.820440881763524, 34.89939879759519, 34.978356713426855, 35.057314629258514, 35.13627254509018, 35.21523046092184, 35.2941883767535, 35.37314629258517, 35.452104208416834, 35.5310621242485, 35.61002004008016, 35.688977955911824, 35.76793587174349, 35.84689378757515, 35.92585170340681, 36.00480961923847, 36.08376753507014, 36.1627254509018, 36.24168336673346, 36.32064128256513, 36.39959919839679, 36.47855711422846, 36.557515030060124, 36.63647294589178, 36.71543086172345, 36.794388777555106, 36.87334669338677, 36.95230460921844, 37.031262525050096, 37.11022044088176, 37.18917835671342, 37.268136272545085, 37.34709418837676, 37.426052104208416, 37.50501002004008, 37.58396793587174, 37.662925851703406, 37.74188376753507, 37.82084168336673, 37.899799599198396, 37.978757515030054, 38.05771543086172, 38.136673346693385, 38.21563126252505, 38.294589178356716, 38.373547094188375, 38.45250501002004, 38.531462925851706, 38.610420841683364, 38.68937875751503, 38.76833667334669, 38.847294589178354, 38.92625250501002, 39.00521042084168, 39.08416833667334, 39.16312625250501, 39.242084168336675, 39.32104208416834, 39.4])
+              .range(['#034732ff', '#024732ff', '#024832ff', '#024832ff', '#024932ff', '#024933ff', '#024a33ff', '#024a33ff', '#024b33ff', '#024b33ff', '#024b33ff', '#024c34ff', '#024c34ff', '#024d34ff', '#024d34ff', '#024e34ff', '#024e35ff', '#024f35ff', '#024f35ff', '#025035ff', '#025035ff', '#025135ff', '#025136ff', '#025236ff', '#025236ff', '#025236ff', '#025336ff', '#025336ff', '#025437ff', '#025437ff', '#025537ff', '#025537ff', '#025637ff', '#025638ff', '#025738ff', '#025738ff', '#025838ff', '#025838ff', '#025938ff', '#025939ff', '#025939ff', '#025a39ff', '#015a39ff', '#015b39ff', '#015b39ff', '#015c3aff', '#015c3aff', '#015d3aff', '#015d3aff', '#015e3aff', '#015e3bff', '#015f3bff', '#015f3bff', '#01603bff', '#01603bff', '#01603bff', '#01613cff', '#01613cff', '#01623cff', '#01623cff', '#01633cff', '#01633cff', '#01643dff', '#01643dff', '#01653dff', '#01653dff', '#01663dff', '#01663eff', '#01673eff', '#01673eff', '#01673eff', '#01683eff', '#01683eff', '#01693fff', '#01693fff', '#016a3fff', '#016a3fff', '#016b3fff', '#016b40ff', '#016c40ff', '#016c40ff', '#016d40ff', '#016d40ff', '#016e40ff', '#006e41ff', '#006e41ff', '#006f41ff', '#006f41ff', '#007041ff', '#007041ff', '#007142ff', '#007142ff', '#007242ff', '#007242ff', '#007342ff', '#007343ff', '#007443ff', '#007443ff', '#007543ff', '#007543ff', '#007543ff', '#007644ff', '#007644ff', '#007744ff', '#007744ff', '#007844ff', '#007844ff', '#007945ff', '#007945ff', '#007a45ff', '#007a45ff', '#007b45ff', '#007b46ff', '#007c46ff', '#007c46ff', '#007c46ff', '#007d46ff', '#007d46ff', '#007e47ff', '#007e47ff', '#007f47ff', '#007f47ff', '#008047ff', '#008047ff', '#008148ff', '#008148ff', '#018247ff', '#038247ff', '#058346ff', '#068346ff', '#088446ff', '#098445ff', '#0b8545ff', '#0d8544ff', '#0e8644ff', '#108643ff', '#118743ff', '#138743ff', '#158842ff', '#168842ff', '#188941ff', '#198941ff', '#1b8a40ff', '#1d8a40ff', '#1e8b40ff', '#208b3fff', '#218c3fff', '#238c3eff', '#258d3eff', '#268d3dff', '#288e3dff', '#298e3dff', '#2b8f3cff', '#2d8f3cff', '#2e903bff', '#30903bff', '#31913aff', '#33913aff', '#34923aff', '#369239ff', '#389339ff', '#399338ff', '#3b9438ff', '#3c9437ff', '#3e9537ff', '#409537ff', '#419636ff', '#439636ff', '#449735ff', '#469735ff', '#489834ff', '#499834ff', '#4b9934ff', '#4c9933ff', '#4e9a33ff', '#509a32ff', '#519b32ff', '#539b31ff', '#549c31ff', '#569d31ff', '#589d30ff', '#599e30ff', '#5b9e2fff', '#5c9f2fff', '#5e9f2fff', '#60a02eff', '#61a02eff', '#63a12dff', '#64a12dff', '#66a22cff', '#67a22cff', '#69a32cff', '#6ba32bff', '#6ca42bff', '#6ea42aff', '#6fa52aff', '#71a529ff', '#73a629ff', '#74a629ff', '#76a728ff', '#77a728ff', '#79a827ff', '#7ba827ff', '#7ca926ff', '#7ea926ff', '#7faa26ff', '#81aa25ff', '#83ab25ff', '#84ab24ff', '#86ac24ff', '#87ac23ff', '#89ad23ff', '#8bad23ff', '#8cae22ff', '#8eae22ff', '#8faf21ff', '#91af21ff', '#92b020ff', '#94b020ff', '#96b120ff', '#97b11fff', '#99b21fff', '#9ab21eff', '#9cb31eff', '#9eb31dff', '#9fb41dff', '#a1b41dff', '#a2b51cff', '#a4b51cff', '#a6b61bff', '#a7b61bff', '#a9b71aff', '#aab71aff', '#acb81aff', '#aeb819ff', '#afb919ff', '#b1b918ff', '#b2ba18ff', '#b4ba17ff', '#b6bb17ff', '#b7bb17ff', '#b9bc16ff', '#babc16ff', '#bcbd15ff', '#bebd15ff', '#bfbe14ff', '#c1be14ff', '#c2bf14ff', '#c4bf13ff', '#c5c013ff', '#c6c013ff', '#c7c013ff', '#c7bf13ff', '#c7bf13ff', '#c8be13ff', '#c8be13ff', '#c8bd13ff', '#c9bd13ff', '#c9bd13ff', '#c9bc13ff', '#cabc13ff', '#cabb13ff', '#cabb13ff', '#cbba13ff', '#cbba13ff', '#cbba13ff', '#ccb913ff', '#ccb913ff', '#ccb813ff', '#cdb813ff', '#cdb713ff', '#cdb713ff', '#ceb613ff', '#ceb613ff', '#ceb613ff', '#cfb513ff', '#cfb513ff', '#cfb413ff', '#d0b413ff', '#d0b314ff', '#d0b314ff', '#d1b314ff', '#d1b214ff', '#d1b214ff', '#d2b114ff', '#d2b114ff', '#d2b014ff', '#d3b014ff', '#d3b014ff', '#d3af14ff', '#d4af14ff', '#d4ae14ff', '#d4ae14ff', '#d5ad14ff', '#d5ad14ff', '#d5ac14ff', '#d6ac14ff', '#d6ac14ff', '#d6ab14ff', '#d7ab14ff', '#d7aa14ff', '#d7aa14ff', '#d8a914ff', '#d8a914ff', '#d8a914ff', '#d9a814ff', '#d9a814ff', '#d9a714ff', '#daa714ff', '#daa614ff', '#daa615ff', '#dba615ff', '#dba515ff', '#dba515ff', '#dca415ff', '#dca415ff', '#dca315ff', '#dda315ff', '#dda215ff', '#dda215ff', '#dea215ff', '#dea115ff', '#dea115ff', '#dfa015ff', '#dfa015ff', '#df9f15ff', '#e09f15ff', '#e09f15ff', '#e09e15ff', '#e19e15ff', '#e19d15ff', '#e19d15ff', '#e19c15ff', '#e29c15ff', '#e29c15ff', '#e29b15ff', '#e39b15ff', '#e39a15ff', '#e39a15ff', '#e49915ff', '#e49915ff', '#e49816ff', '#e59816ff', '#e59816ff', '#e59716ff', '#e69716ff', '#e69616ff', '#e69616ff', '#e79516ff', '#e79516ff', '#e79516ff', '#e89416ff', '#e89416ff', '#e89316ff', '#e99316ff', '#e99216ff', '#e99216ff', '#ea9216ff', '#ea9116ff', '#ea9116ff', '#eb9016ff', '#eb9016ff', '#eb8f16ff', '#ec8f16ff', '#ec8e16ff', '#ec8e16ff', '#ed8e16ff', '#ed8d16ff', '#ed8d16ff', '#ee8c16ff', '#ee8c16ff', '#ee8b16ff', '#ef8b17ff', '#ef8b17ff', '#ef8a17ff', '#ef8917ff', '#ef8917ff', '#ef8817ff', '#ef8717ff', '#ef8617ff', '#ef8617ff', '#ef8517ff', '#ef8417ff', '#ef8317ff', '#ef8217ff', '#ef8217ff', '#ef8117ff', '#ef8017ff', '#ef7f17ff', '#ef7f17ff', '#ef7e17ff', '#ef7d17ff', '#ef7c17ff', '#ef7b17ff', '#ef7b17ff', '#ef7a17ff', '#ef7917ff', '#ef7817ff', '#ef7817ff', '#ef7717ff', '#ef7617ff', '#ef7517ff', '#ef7417ff', '#ef7417ff', '#ef7317ff', '#ef7217ff', '#ef7117ff', '#ef7017ff', '#ef7017ff', '#ef6f17ff', '#ef6e17ff', '#ef6d17ff', '#ef6d17ff', '#ef6c17ff', '#ef6b17ff', '#ef6a17ff', '#ef6917ff', '#ef6917ff', '#ef6817ff', '#ef6717ff', '#ef6617ff', '#ef6617ff', '#ef6517ff', '#ef6417ff', '#ef6317ff', '#ef6217ff', '#ef6217ff', '#ef6117ff', '#ef6017ff', '#ef5f17ff', '#ef5f17ff', '#ef5e17ff', '#ef5d17ff', '#ef5c17ff', '#ef5b17ff', '#ef5b17ff', '#ef5a17ff', '#ef5917ff', '#ef5817ff', '#ef5717ff', '#ef5717ff', '#ef5617ff', '#ef5517ff', '#ef5417ff', '#ef5417ff', '#ef5317ff', '#ef5217ff', '#ef5117ff', '#ef5017ff', '#ef5017ff', '#ef4f17ff', '#ef4e17ff', '#ef4d17ff', '#ef4d17ff', '#ef4c17ff', '#ef4b17ff', '#ef4a17ff', '#ef4917ff', '#ef4917ff', '#ef4817ff', '#ef4717ff', '#ef4617ff', '#ef4617ff', '#ef4517ff', '#ef4417ff', '#ef4317ff', '#ef4217ff', '#ef4217ff', '#ef4117ff', '#ef4017ff', '#ef3f17ff', '#ef3f17ff', '#ef3e17ff', '#ef3d17ff', '#ef3c17ff', '#ef3b17ff', '#ef3b17ff', '#ef3a17ff', '#ef3917ff', '#ef3817ff', '#ef3717ff', '#ef3717ff', '#ef3617ff', '#ef3517ff', '#ef3417ff', '#ef3417ff', '#ef3317ff', '#ef3217ff', '#ef3117ff', '#ef3017ff', '#ef3017ff', '#ef2f17ff', '#ef2e17ff', '#ef2d17ff', '#ef2d17ff', '#ef2c17ff', '#ef2b17ff', '#ef2a17ff', '#ef2917ff', '#ef2917ff']);
+    
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x = d3.scale.linear()
+              .domain([0.0, 39.4])
+              .range([0, 450 - 50]);
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.legend = L.control({position: 'topright'});
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.legend.addTo(map_533c95fd353cc57fdf2fc5e3b38262d6);
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.xAxis = d3.svg.axis()
+        .scale(color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0.0, 9.85, 19.7, 29.549999999999997, 39.4]);
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.g = color_map_d49eeb21ca3e7da93eaf83729a86a9b6.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.g.selectAll("rect")
+        .data(color_map_d49eeb21ca3e7da93eaf83729a86a9b6.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x(color_map_d49eeb21ca3e7da93eaf83729a86a9b6.color.domain()[i - 1]) : color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x.range()[0],
+            x1: i < color_map_d49eeb21ca3e7da93eaf83729a86a9b6.color.domain().length ? color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x(color_map_d49eeb21ca3e7da93eaf83729a86a9b6.color.domain()[i]) : color_map_d49eeb21ca3e7da93eaf83729a86a9b6.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_d49eeb21ca3e7da93eaf83729a86a9b6.g.call(color_map_d49eeb21ca3e7da93eaf83729a86a9b6.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Value Scale (for positive values)");
+</script>
+</body></html>
