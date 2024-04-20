@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bf59e817859dbbd3f5633ad4fb2294bd {
+                #map_15335b7a26c563cf9e427a8c0b31067f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -50,19 +50,19 @@
             font-size: 16px; 
             color: black; 
             z-index:9999;">
-    <b>FECHA:</b> 2024-04-18
+    <b>FECHA:</b> 2024-04-20
 </div>
     
-            <div class="folium-map" id="map_bf59e817859dbbd3f5633ad4fb2294bd" ></div>
+            <div class="folium-map" id="map_15335b7a26c563cf9e427a8c0b31067f" ></div>
         
 </body>
 <script>
     
     
-            var map_bf59e817859dbbd3f5633ad4fb2294bd = L.map(
-                "map_bf59e817859dbbd3f5633ad4fb2294bd",
+            var map_15335b7a26c563cf9e427a8c0b31067f = L.map(
+                "map_15335b7a26c563cf9e427a8c0b31067f",
                 {
-                    center: [-1.3684132684210526, -79.74841456842105],
+                    center: [-1.60614685, -79.89902447],
                     crs: L.CRS.EPSG3857,
                     zoom: 6,
                     zoomControl: true,
@@ -74,523 +74,548 @@
 
         
     
-            var tile_layer_71a784e26c5c583a243e79dba524ebeb = L.tileLayer(
+            var tile_layer_160ad79aeca1ebca2240d144df9f92e8 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var marker_060169460260b4fcc7b930eba481347b = L.marker(
-                [-1.474411, -80.426109],
+            var marker_bfe337ec346e96c5f4d05d2a1f4985c6 = L.marker(
+                [-1.9309, -80.68547],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_4ae3aeebbf1e8c7b85e5eb97cffc4eb7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024f35ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_060169460260b4fcc7b930eba481347b.setIcon(div_icon_4ae3aeebbf1e8c7b85e5eb97cffc4eb7);
+            var div_icon_5ebd7e3f0a16c741296bf90a01d20028 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_bfe337ec346e96c5f4d05d2a1f4985c6.setIcon(div_icon_5ebd7e3f0a16c741296bf90a01d20028);
         
     
-        var popup_8924c61b198555c836a8019b2018631a = L.popup({"maxWidth": 250});
+        var popup_577292cbc6aa76e3582ccbbd6767b425 = L.popup({"maxWidth": 250});
 
         
             
-                var html_cf10075c476027f3bb355af7b153c644 = $(`<div id="html_cf10075c476027f3bb355af7b153c644" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:35:42-05<br><b>Code:</b> EC00114<br><b>Latitude:</b> -1.474411<br><b>Longitude:</b> -80.426109<br><b>Altitude:</b> 419.0<br><b>Division:</b> Manabí-Jipijapa-La Unión<br><b>Value:</b> 1.4<br><b>Comments:</b> nan</div>`)[0];
-                popup_8924c61b198555c836a8019b2018631a.setContent(html_cf10075c476027f3bb355af7b153c644);
+                var html_e680a039cd00e900c25e77326820f48d = $(`<div id="html_e680a039cd00e900c25e77326820f48d" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 05:54:21-05<br><b>Code:</b> EC00128<br><b>Latitude:</b> -1.9309<br><b>Longitude:</b> -80.68547<br><b>Altitude:</b> 10.0<br><b>Division:</b> Santa Elena-Santa Elena-Manglaralto<br><b>Value:</b> 0.0<br><b>Comments:</b> seminublado</div>`)[0];
+                popup_577292cbc6aa76e3582ccbbd6767b425.setContent(html_e680a039cd00e900c25e77326820f48d);
             
         
 
-        marker_060169460260b4fcc7b930eba481347b.bindPopup(popup_8924c61b198555c836a8019b2018631a)
+        marker_bfe337ec346e96c5f4d05d2a1f4985c6.bindPopup(popup_577292cbc6aa76e3582ccbbd6767b425)
         ;
 
         
     
     
-            var marker_5dd8c5120e2570e21d18aa872f9575ff = L.marker(
-                [-1.347916, -79.335087],
+            var marker_788e3214cfbdbd38158defce388911eb = L.marker(
+                [-1.671816, -79.261754],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_b4bc55544a36bd4dba5524520f5d8545 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_5dd8c5120e2570e21d18aa872f9575ff.setIcon(div_icon_b4bc55544a36bd4dba5524520f5d8545);
+            var div_icon_0fb99381ad85d1efabfd933942f14b8e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025437ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_788e3214cfbdbd38158defce388911eb.setIcon(div_icon_0fb99381ad85d1efabfd933942f14b8e);
         
     
-        var popup_7743928f8e6d43cd2da39a022e193912 = L.popup({"maxWidth": 250});
+        var popup_77f58fa155744b9238272c1c2a7fec8f = L.popup({"maxWidth": 250});
 
         
             
-                var html_afc0f61ad80a29a47db80bbd7f93bb0f = $(`<div id="html_afc0f61ad80a29a47db80bbd7f93bb0f" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:53:23-05<br><b>Code:</b> EC00049<br><b>Latitude:</b> -1.347916<br><b>Longitude:</b> -79.335087<br><b>Altitude:</b> 120.0<br><b>Division:</b> Los Ríos-Ventanas-Zapotal<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_7743928f8e6d43cd2da39a022e193912.setContent(html_afc0f61ad80a29a47db80bbd7f93bb0f);
+                var html_009e82cf016b3799478fa20c5a231560 = $(`<div id="html_009e82cf016b3799478fa20c5a231560" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:10:18-05<br><b>Code:</b> EC00102<br><b>Latitude:</b> -1.671816<br><b>Longitude:</b> -79.261754<br><b>Altitude:</b> 342.0<br><b>Division:</b> Bolivar-Chimbo-TELIMBELA<br><b>Value:</b> 3.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_77f58fa155744b9238272c1c2a7fec8f.setContent(html_009e82cf016b3799478fa20c5a231560);
             
         
 
-        marker_5dd8c5120e2570e21d18aa872f9575ff.bindPopup(popup_7743928f8e6d43cd2da39a022e193912)
+        marker_788e3214cfbdbd38158defce388911eb.bindPopup(popup_77f58fa155744b9238272c1c2a7fec8f)
         ;
 
         
     
     
-            var marker_56e3298d4afaedc47efd4a085717a2de = L.marker(
-                [-1.726531, -80.24902],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_7e6f9373fe70d680a8f33257ae3791de = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_56e3298d4afaedc47efd4a085717a2de.setIcon(div_icon_7e6f9373fe70d680a8f33257ae3791de);
-        
-    
-        var popup_c0eb581ebeb40cc3b930e7c8d1603305 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_bd6013d52d7cd8fbd29f27682d8e62fe = $(`<div id="html_bd6013d52d7cd8fbd29f27682d8e62fe" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:54:44-05<br><b>Code:</b> EC00131<br><b>Latitude:</b> -1.726531<br><b>Longitude:</b> -80.24902<br><b>Altitude:</b> 73.0<br><b>Division:</b> Guayas-Pedro Carbo-Jerusalén<br><b>Value:</b> -888.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_c0eb581ebeb40cc3b930e7c8d1603305.setContent(html_bd6013d52d7cd8fbd29f27682d8e62fe);
-            
-        
-
-        marker_56e3298d4afaedc47efd4a085717a2de.bindPopup(popup_c0eb581ebeb40cc3b930e7c8d1603305)
-        ;
-
-        
-    
-    
-            var marker_e2f023520e7537f34a376dea6aa61ddf = L.marker(
-                [-0.644443, -80.419549],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_fbe923380a282504fd2695a69da0db98 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_e2f023520e7537f34a376dea6aa61ddf.setIcon(div_icon_fbe923380a282504fd2695a69da0db98);
-        
-    
-        var popup_dfbe5a42525036eb402c6e53d34198e5 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_f7d029cec199af342c0e3f90bfa5b8d5 = $(`<div id="html_f7d029cec199af342c0e3f90bfa5b8d5" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:18:40-05<br><b>Code:</b> EC00007<br><b>Latitude:</b> -0.644443<br><b>Longitude:</b> -80.419549<br><b>Altitude:</b> 5.0<br><b>Division:</b> Manabí-Sucre-Leonidas Plaza<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_dfbe5a42525036eb402c6e53d34198e5.setContent(html_f7d029cec199af342c0e3f90bfa5b8d5);
-            
-        
-
-        marker_e2f023520e7537f34a376dea6aa61ddf.bindPopup(popup_dfbe5a42525036eb402c6e53d34198e5)
-        ;
-
-        
-    
-    
-            var marker_ed0ce42b005b026ee8eb44d13fb74b71 = L.marker(
-                [-1.06215, -80.58621],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_0ea767899d164a8f2402c8d4b7c0dae5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_ed0ce42b005b026ee8eb44d13fb74b71.setIcon(div_icon_0ea767899d164a8f2402c8d4b7c0dae5);
-        
-    
-        var popup_efeda73a3cd3f6a5cd215513baa82a40 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_799c7aea3e89260053f17b975ff55201 = $(`<div id="html_799c7aea3e89260053f17b975ff55201" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:26:00-05<br><b>Code:</b> EC00124<br><b>Latitude:</b> -1.06215<br><b>Longitude:</b> -80.58621<br><b>Altitude:</b> 248.0<br><b>Division:</b> Manabí-Montecristi-Montecristi<br><b>Value:</b> 0.0<br><b>Comments:</b> None</div>`)[0];
-                popup_efeda73a3cd3f6a5cd215513baa82a40.setContent(html_799c7aea3e89260053f17b975ff55201);
-            
-        
-
-        marker_ed0ce42b005b026ee8eb44d13fb74b71.bindPopup(popup_efeda73a3cd3f6a5cd215513baa82a40)
-        ;
-
-        
-    
-    
-            var marker_f624ac59b0a88b64c2fb134c88160f09 = L.marker(
-                [-3.977263, -80.072297],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_d8cc7acffa6cd2f8a7cd2167af25334d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_f624ac59b0a88b64c2fb134c88160f09.setIcon(div_icon_d8cc7acffa6cd2f8a7cd2167af25334d);
-        
-    
-        var popup_ca9929b04a33f5435458e3eb919b9ed8 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_52f479c87923fe6353228f879dd5a801 = $(`<div id="html_52f479c87923fe6353228f879dd5a801" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:32:23-05<br><b>Code:</b> EC00107<br><b>Latitude:</b> -3.977263<br><b>Longitude:</b> -80.072297<br><b>Altitude:</b> 1217.0<br><b>Division:</b> Loja-Puyango-Alamor<br><b>Value:</b> 0.4<br><b>Comments:</b> nan</div>`)[0];
-                popup_ca9929b04a33f5435458e3eb919b9ed8.setContent(html_52f479c87923fe6353228f879dd5a801);
-            
-        
-
-        marker_f624ac59b0a88b64c2fb134c88160f09.bindPopup(popup_ca9929b04a33f5435458e3eb919b9ed8)
-        ;
-
-        
-    
-    
-            var marker_694a7f86b2e0f60eea0170ed069e668b = L.marker(
-                [-0.96967, -77.803703],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_f820f511eddb68ed0018d13487988bc1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #01613cff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_694a7f86b2e0f60eea0170ed069e668b.setIcon(div_icon_f820f511eddb68ed0018d13487988bc1);
-        
-    
-        var popup_628e54a81f5cc174e9212f0f8e52cc59 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_d1ecfcd7f73670a849760d3218e9298c = $(`<div id="html_d1ecfcd7f73670a849760d3218e9298c" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:54:18-05<br><b>Code:</b> EC00140<br><b>Latitude:</b> -0.96967<br><b>Longitude:</b> -77.803703<br><b>Altitude:</b> 523.0<br><b>Division:</b> Napo-Tena-Tena<br><b>Value:</b> 4.6<br><b>Comments:</b> nan</div>`)[0];
-                popup_628e54a81f5cc174e9212f0f8e52cc59.setContent(html_d1ecfcd7f73670a849760d3218e9298c);
-            
-        
-
-        marker_694a7f86b2e0f60eea0170ed069e668b.bindPopup(popup_628e54a81f5cc174e9212f0f8e52cc59)
-        ;
-
-        
-    
-    
-            var marker_f45fbbadd10275b3bb2abfa545263ac4 = L.marker(
-                [-2.22046, -80.24368],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_4724874a727883417080dc519f368ce7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_f45fbbadd10275b3bb2abfa545263ac4.setIcon(div_icon_4724874a727883417080dc519f368ce7);
-        
-    
-        var popup_9c75cb51d6a35e97dd31492acf930526 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_5abd0d9a7d22f9874fba4bfc673493ac = $(`<div id="html_5abd0d9a7d22f9874fba4bfc673493ac" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:00:29-05<br><b>Code:</b> EC00016<br><b>Latitude:</b> -2.22046<br><b>Longitude:</b> -80.24368<br><b>Altitude:</b> 123.0<br><b>Division:</b> Santa Elena-Santa Elena-Julio Moreno<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_9c75cb51d6a35e97dd31492acf930526.setContent(html_5abd0d9a7d22f9874fba4bfc673493ac);
-            
-        
-
-        marker_f45fbbadd10275b3bb2abfa545263ac4.bindPopup(popup_9c75cb51d6a35e97dd31492acf930526)
-        ;
-
-        
-    
-    
-            var marker_6110072626d8e7e6bb7ebdea580e0a7e = L.marker(
-                [-1.3947621, -80.2066644],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_31f1125d2b3caf37694d10f2848de449 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015f3bff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_6110072626d8e7e6bb7ebdea580e0a7e.setIcon(div_icon_31f1125d2b3caf37694d10f2848de449);
-        
-    
-        var popup_0cc25914ab0455da8103615a5deee67b = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_b08190c4eb7bfb920fc53d4e321abcfb = $(`<div id="html_b08190c4eb7bfb920fc53d4e321abcfb" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:07:10-05<br><b>Code:</b> EC00130<br><b>Latitude:</b> -1.3947621<br><b>Longitude:</b> -80.2066644<br><b>Altitude:</b> 61.0<br><b>Division:</b> Manabí-Olmedo-Olmedo<br><b>Value:</b> 4.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_0cc25914ab0455da8103615a5deee67b.setContent(html_b08190c4eb7bfb920fc53d4e321abcfb);
-            
-        
-
-        marker_6110072626d8e7e6bb7ebdea580e0a7e.bindPopup(popup_0cc25914ab0455da8103615a5deee67b)
-        ;
-
-        
-    
-    
-            var marker_16bc221ad6544973be9f1136f0bb74ef = L.marker(
+            var marker_c825f10a47d7cb31b567dc7bbf4b8b91 = L.marker(
                 [-0.936612, -80.23629],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_cfc944b9a993865fe57b851f9d1e16e7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_16bc221ad6544973be9f1136f0bb74ef.setIcon(div_icon_cfc944b9a993865fe57b851f9d1e16e7);
+            var div_icon_50dc520dd59bb3a21edcb776f4ceed45 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #258d3eff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_c825f10a47d7cb31b567dc7bbf4b8b91.setIcon(div_icon_50dc520dd59bb3a21edcb776f4ceed45);
         
     
-        var popup_fc7a3cc289e15870aa0b0051b322388b = L.popup({"maxWidth": 250});
+        var popup_db31fb7284d8e5fa894aed1bf61a0f58 = L.popup({"maxWidth": 250});
 
         
             
-                var html_924793ac1d9e77549184311b7982665b = $(`<div id="html_924793ac1d9e77549184311b7982665b" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:13:29-05<br><b>Code:</b> EC00070<br><b>Latitude:</b> -0.936612<br><b>Longitude:</b> -80.23629<br><b>Altitude:</b> 69.0<br><b>Division:</b> Manabí-Junin-Junín<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_fc7a3cc289e15870aa0b0051b322388b.setContent(html_924793ac1d9e77549184311b7982665b);
+                var html_57777219c611a8e88610c98610314a83 = $(`<div id="html_57777219c611a8e88610c98610314a83" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:17:12-05<br><b>Code:</b> EC00070<br><b>Latitude:</b> -0.936612<br><b>Longitude:</b> -80.23629<br><b>Altitude:</b> 69.0<br><b>Division:</b> Manabí-Junin-Junín<br><b>Value:</b> 17.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_db31fb7284d8e5fa894aed1bf61a0f58.setContent(html_57777219c611a8e88610c98610314a83);
             
         
 
-        marker_16bc221ad6544973be9f1136f0bb74ef.bindPopup(popup_fc7a3cc289e15870aa0b0051b322388b)
+        marker_c825f10a47d7cb31b567dc7bbf4b8b91.bindPopup(popup_db31fb7284d8e5fa894aed1bf61a0f58)
         ;
 
         
     
     
-            var marker_0c9855212f8fc1415229a00ef8d30e1e = L.marker(
-                [-2.135227, -79.595258],
+            var marker_3c53a15bc4bbae06205c130fa6b4d93c = L.marker(
+                [-1.76453, -80.171387],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_ff79f7b9e14ca83f4172b3b4c29536fd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_0c9855212f8fc1415229a00ef8d30e1e.setIcon(div_icon_ff79f7b9e14ca83f4172b3b4c29536fd);
+            var div_icon_52351245c1907e3d737491d258b6237a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #01683eff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_3c53a15bc4bbae06205c130fa6b4d93c.setIcon(div_icon_52351245c1907e3d737491d258b6237a);
         
     
-        var popup_e5138185e77f2d4763cda97aae51c5f6 = L.popup({"maxWidth": 250});
+        var popup_717bafad60490b3e00a0c515b0089db8 = L.popup({"maxWidth": 250});
 
         
             
-                var html_d603510d7a38d5fa6f790933422f50f0 = $(`<div id="html_d603510d7a38d5fa6f790933422f50f0" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:18:41-05<br><b>Code:</b> EC00149<br><b>Latitude:</b> -2.135227<br><b>Longitude:</b> -79.595258<br><b>Altitude:</b> 14.0<br><b>Division:</b> Guayas-Milagro-Enrique Valdez<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_e5138185e77f2d4763cda97aae51c5f6.setContent(html_d603510d7a38d5fa6f790933422f50f0);
+                var html_44b148ad4dc08d19bfda729a160d5b1e = $(`<div id="html_44b148ad4dc08d19bfda729a160d5b1e" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:27:27-05<br><b>Code:</b> EC00110<br><b>Latitude:</b> -1.76453<br><b>Longitude:</b> -80.171387<br><b>Altitude:</b> 54.45<br><b>Division:</b> Guayas-Pedro Carbo-Valle de la Virgen<br><b>Value:</b> 8.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_717bafad60490b3e00a0c515b0089db8.setContent(html_44b148ad4dc08d19bfda729a160d5b1e);
             
         
 
-        marker_0c9855212f8fc1415229a00ef8d30e1e.bindPopup(popup_e5138185e77f2d4763cda97aae51c5f6)
+        marker_3c53a15bc4bbae06205c130fa6b4d93c.bindPopup(popup_717bafad60490b3e00a0c515b0089db8)
         ;
 
         
     
     
-            var marker_4be95a79566401a0cde4e92958342421 = L.marker(
+            var marker_798a22cde520d686d608fbdfc94ad9ec = L.marker(
+                [-1.726531, -80.24902],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_10d61a1ab33109c5bda171f7a7e6a2a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025838ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_798a22cde520d686d608fbdfc94ad9ec.setIcon(div_icon_10d61a1ab33109c5bda171f7a7e6a2a2);
+        
+    
+        var popup_b65c7ccbb49640eb5d97c3e10e97915a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c84f3c30f5f7187c7581c9016f455a8f = $(`<div id="html_c84f3c30f5f7187c7581c9016f455a8f" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:56:07-05<br><b>Code:</b> EC00131<br><b>Latitude:</b> -1.726531<br><b>Longitude:</b> -80.24902<br><b>Altitude:</b> 73.0<br><b>Division:</b> Guayas-Pedro Carbo-Jerusalén<br><b>Value:</b> 4.4<br><b>Comments:</b> nan</div>`)[0];
+                popup_b65c7ccbb49640eb5d97c3e10e97915a.setContent(html_c84f3c30f5f7187c7581c9016f455a8f);
+            
+        
+
+        marker_798a22cde520d686d608fbdfc94ad9ec.bindPopup(popup_b65c7ccbb49640eb5d97c3e10e97915a)
+        ;
+
+        
+    
+    
+            var marker_bc456f662d855287c8afc95976767f20 = L.marker(
+                [-1.88816, -79.274572],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_6e8a1984dc18e024ec92dedf8fdcef52 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025035ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_bc456f662d855287c8afc95976767f20.setIcon(div_icon_6e8a1984dc18e024ec92dedf8fdcef52);
+        
+    
+        var popup_d01f36e000fb275163c9d5301814c503 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_38f28ee693483d54e6f2635c1d700b08 = $(`<div id="html_38f28ee693483d54e6f2635c1d700b08" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:58:40-05<br><b>Code:</b> EC00095<br><b>Latitude:</b> -1.88816<br><b>Longitude:</b> -79.274572<br><b>Altitude:</b> 41.0<br><b>Division:</b> Los Ríos-Montalvo-Montalvo<br><b>Value:</b> 2.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_d01f36e000fb275163c9d5301814c503.setContent(html_38f28ee693483d54e6f2635c1d700b08);
+            
+        
+
+        marker_bc456f662d855287c8afc95976767f20.bindPopup(popup_d01f36e000fb275163c9d5301814c503)
+        ;
+
+        
+    
+    
+            var marker_e530da698d5ce8b8df60b7d5a17100e4 = L.marker(
+                [-1.06215, -80.58621],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_526ad9c528a2f1612744681aa41881ec = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_e530da698d5ce8b8df60b7d5a17100e4.setIcon(div_icon_526ad9c528a2f1612744681aa41881ec);
+        
+    
+        var popup_0296d3c1719fd45d7dcfb596b72a72dc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ad5d79760ec5c3b03765e69ac24cb3fa = $(`<div id="html_ad5d79760ec5c3b03765e69ac24cb3fa" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:28:00-05<br><b>Code:</b> EC00124<br><b>Latitude:</b> -1.06215<br><b>Longitude:</b> -80.58621<br><b>Altitude:</b> 248.0<br><b>Division:</b> Manabí-Montecristi-Montecristi<br><b>Value:</b> 0.0<br><b>Comments:</b> None</div>`)[0];
+                popup_0296d3c1719fd45d7dcfb596b72a72dc.setContent(html_ad5d79760ec5c3b03765e69ac24cb3fa);
+            
+        
+
+        marker_e530da698d5ce8b8df60b7d5a17100e4.bindPopup(popup_0296d3c1719fd45d7dcfb596b72a72dc)
+        ;
+
+        
+    
+    
+            var marker_3e702188b4ff495ab65c7205bbb19a54 = L.marker(
                 [-0.34345, -77.81147],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_6ba015257dade164edf8f4c8b4f08aa8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #007443ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_4be95a79566401a0cde4e92958342421.setIcon(div_icon_6ba015257dade164edf8f4c8b4f08aa8);
+            var div_icon_f41c476c085d7bdd20e4ce2213ee4d90 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #007b45ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_3e702188b4ff495ab65c7205bbb19a54.setIcon(div_icon_f41c476c085d7bdd20e4ce2213ee4d90);
         
     
-        var popup_ed9762c4d159cc1e88cd1f715cbae723 = L.popup({"maxWidth": 250});
+        var popup_fa51f28b5b03b2dea5fe6174eb990de0 = L.popup({"maxWidth": 250});
 
         
             
-                var html_e98d9de548a969d2c2e4447471228141 = $(`<div id="html_e98d9de548a969d2c2e4447471228141" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:29:37-05<br><b>Code:</b> EC00153<br><b>Latitude:</b> -0.34345<br><b>Longitude:</b> -77.81147<br><b>Altitude:</b> 1610.0<br><b>Division:</b> Napo-El Chaco-El Chaco<br><b>Value:</b> 8.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_ed9762c4d159cc1e88cd1f715cbae723.setContent(html_e98d9de548a969d2c2e4447471228141);
+                var html_5c477bd8271e65e28e29b3db56f1b0f2 = $(`<div id="html_5c477bd8271e65e28e29b3db56f1b0f2" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:11:33-05<br><b>Code:</b> EC00153<br><b>Latitude:</b> -0.34345<br><b>Longitude:</b> -77.81147<br><b>Altitude:</b> 1610.0<br><b>Division:</b> Napo-El Chaco-El Chaco<br><b>Value:</b> 13.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_fa51f28b5b03b2dea5fe6174eb990de0.setContent(html_5c477bd8271e65e28e29b3db56f1b0f2);
             
         
 
-        marker_4be95a79566401a0cde4e92958342421.bindPopup(popup_ed9762c4d159cc1e88cd1f715cbae723)
+        marker_3e702188b4ff495ab65c7205bbb19a54.bindPopup(popup_fa51f28b5b03b2dea5fe6174eb990de0)
         ;
 
         
     
     
-            var marker_cd61edaefaf6fb5f713c7d704c4cb1b9 = L.marker(
+            var marker_a21461d9dec3d4a7920d8f086e16240b = L.marker(
+                [-3.977263, -80.072297],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_3685d2cb53ef76ea653998e78ec24f30 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #ef2917ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_a21461d9dec3d4a7920d8f086e16240b.setIcon(div_icon_3685d2cb53ef76ea653998e78ec24f30);
+        
+    
+        var popup_52fe5b1b37e9409127398694196e4c0f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4868afa324d1578e46a205cd19a68d98 = $(`<div id="html_4868afa324d1578e46a205cd19a68d98" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:20:42-05<br><b>Code:</b> EC00107<br><b>Latitude:</b> -3.977263<br><b>Longitude:</b> -80.072297<br><b>Altitude:</b> 1217.0<br><b>Division:</b> Loja-Puyango-Alamor<br><b>Value:</b> 58.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_52fe5b1b37e9409127398694196e4c0f.setContent(html_4868afa324d1578e46a205cd19a68d98);
+            
+        
+
+        marker_a21461d9dec3d4a7920d8f086e16240b.bindPopup(popup_52fe5b1b37e9409127398694196e4c0f)
+        ;
+
+        
+    
+    
+            var marker_2d089fd25f1fc2e24ec0d6a444480db6 = L.marker(
+                [-0.644443, -80.419549],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_20cf15ea9e68e97f30cb22c1a5a15ec3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_2d089fd25f1fc2e24ec0d6a444480db6.setIcon(div_icon_20cf15ea9e68e97f30cb22c1a5a15ec3);
+        
+    
+        var popup_3d84cc9031f3e0a899757e5b780d5aee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dd990461296194ebcd08d7f0f242075b = $(`<div id="html_dd990461296194ebcd08d7f0f242075b" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:35:55-05<br><b>Code:</b> EC00007<br><b>Latitude:</b> -0.644443<br><b>Longitude:</b> -80.419549<br><b>Altitude:</b> 5.0<br><b>Division:</b> Manabí-Sucre-Leonidas Plaza<br><b>Value:</b> 0.6<br><b>Comments:</b> nan</div>`)[0];
+                popup_3d84cc9031f3e0a899757e5b780d5aee.setContent(html_dd990461296194ebcd08d7f0f242075b);
+            
+        
+
+        marker_2d089fd25f1fc2e24ec0d6a444480db6.bindPopup(popup_3d84cc9031f3e0a899757e5b780d5aee)
+        ;
+
+        
+    
+    
+            var marker_4c6df1833d1eaaa71e6d2b20e1aaa41b = L.marker(
                 [-0.551561, -80.041205],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_322a5ed1d3950351eaa2cece534ca547 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #01603bff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_cd61edaefaf6fb5f713c7d704c4cb1b9.setIcon(div_icon_322a5ed1d3950351eaa2cece534ca547);
+            var div_icon_3e86c75c5f6216bce59d9f3c87e6f594 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #016a3fff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_4c6df1833d1eaaa71e6d2b20e1aaa41b.setIcon(div_icon_3e86c75c5f6216bce59d9f3c87e6f594);
         
     
-        var popup_1d87bb37905afe025165f337356457aa = L.popup({"maxWidth": 250});
+        var popup_76cc7602c628fbd49bf7c42fa4bf39a4 = L.popup({"maxWidth": 250});
 
         
             
-                var html_bc6bf83b5d1bf2e301326e3abd3497d6 = $(`<div id="html_bc6bf83b5d1bf2e301326e3abd3497d6" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:08:30-05<br><b>Code:</b> EC00054<br><b>Latitude:</b> -0.551561<br><b>Longitude:</b> -80.041205<br><b>Altitude:</b> 77.0<br><b>Division:</b> Manabí-Chone-Ricaurte<br><b>Value:</b> 4.4<br><b>Comments:</b> nan</div>`)[0];
-                popup_1d87bb37905afe025165f337356457aa.setContent(html_bc6bf83b5d1bf2e301326e3abd3497d6);
+                var html_ba76857242d81b093afee5c57275a3c8 = $(`<div id="html_ba76857242d81b093afee5c57275a3c8" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:46:06-05<br><b>Code:</b> EC00054<br><b>Latitude:</b> -0.551561<br><b>Longitude:</b> -80.041205<br><b>Altitude:</b> 77.0<br><b>Division:</b> Manabí-Chone-Ricaurte<br><b>Value:</b> 8.8<br><b>Comments:</b> nan</div>`)[0];
+                popup_76cc7602c628fbd49bf7c42fa4bf39a4.setContent(html_ba76857242d81b093afee5c57275a3c8);
             
         
 
-        marker_cd61edaefaf6fb5f713c7d704c4cb1b9.bindPopup(popup_1d87bb37905afe025165f337356457aa)
+        marker_4c6df1833d1eaaa71e6d2b20e1aaa41b.bindPopup(popup_76cc7602c628fbd49bf7c42fa4bf39a4)
         ;
 
         
     
     
-            var marker_9403dd07929b23bc1bcf100704f15da2 = L.marker(
-                [-0.15376, -77.64216],
+            var marker_bb020e901fd7daf0d7b54cd63f7edf97 = L.marker(
+                [-1.474411, -80.426109],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_446276404785153d8f28f112354e2ce1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #ef2917ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_9403dd07929b23bc1bcf100704f15da2.setIcon(div_icon_446276404785153d8f28f112354e2ce1);
+            var div_icon_f8557b283c296e988b3cf3368e0b7d52 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025035ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_bb020e901fd7daf0d7b54cd63f7edf97.setIcon(div_icon_f8557b283c296e988b3cf3368e0b7d52);
         
     
-        var popup_67fade6d0393c27eb16e4f7fba96c183 = L.popup({"maxWidth": 250});
+        var popup_caa7711ce9338e2d185d848edaba88e6 = L.popup({"maxWidth": 250});
 
         
             
-                var html_83ae81544a0cf46ea8708666585273aa = $(`<div id="html_83ae81544a0cf46ea8708666585273aa" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:23:51-05<br><b>Code:</b> EC00152<br><b>Latitude:</b> -0.15376<br><b>Longitude:</b> -77.64216<br><b>Altitude:</b> 1272.0<br><b>Division:</b> Napo-El Chaco-Gonzalo Diaz de Pineda<br><b>Value:</b> 41.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_67fade6d0393c27eb16e4f7fba96c183.setContent(html_83ae81544a0cf46ea8708666585273aa);
+                var html_df53ecdc4976329127d81c9ff4ff6584 = $(`<div id="html_df53ecdc4976329127d81c9ff4ff6584" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:21:34-05<br><b>Code:</b> EC00114<br><b>Latitude:</b> -1.474411<br><b>Longitude:</b> -80.426109<br><b>Altitude:</b> 419.0<br><b>Division:</b> Manabí-Jipijapa-La Unión<br><b>Value:</b> 2.2<br><b>Comments:</b> nan</div>`)[0];
+                popup_caa7711ce9338e2d185d848edaba88e6.setContent(html_df53ecdc4976329127d81c9ff4ff6584);
             
         
 
-        marker_9403dd07929b23bc1bcf100704f15da2.bindPopup(popup_67fade6d0393c27eb16e4f7fba96c183)
+        marker_bb020e901fd7daf0d7b54cd63f7edf97.bindPopup(popup_caa7711ce9338e2d185d848edaba88e6)
         ;
 
         
     
     
-            var marker_1527d16f1e33c333e114255d074d40ae = L.marker(
-                [-0.703272, -80.167776],
+            var marker_63a4ed0cfb443d368702378bc3f024ba = L.marker(
+                [-1.347916, -79.335087],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_d26a708faa6ba65fe286abd0c094a319 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_1527d16f1e33c333e114255d074d40ae.setIcon(div_icon_d26a708faa6ba65fe286abd0c094a319);
+            var div_icon_42fa38db732bbce304f4171ad5f38efa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024e34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_63a4ed0cfb443d368702378bc3f024ba.setIcon(div_icon_42fa38db732bbce304f4171ad5f38efa);
         
     
-        var popup_a5569dd55647936b25d127cf79effd33 = L.popup({"maxWidth": 250});
+        var popup_f211731d3cf35312d372305c45c67377 = L.popup({"maxWidth": 250});
 
         
             
-                var html_f4e8680233ebe0dde4c824a90102523b = $(`<div id="html_f4e8680233ebe0dde4c824a90102523b" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:00:00-05<br><b>Code:</b> EC00052<br><b>Latitude:</b> -0.703272<br><b>Longitude:</b> -80.167776<br><b>Altitude:</b> 8.0<br><b>Division:</b> Manabí-Chone-San Antonio<br><b>Value:</b> 0.0<br><b>Comments:</b> Enviado por Whatsapp</div>`)[0];
-                popup_a5569dd55647936b25d127cf79effd33.setContent(html_f4e8680233ebe0dde4c824a90102523b);
+                var html_89d224b18caf48dd3081f473a0545113 = $(`<div id="html_89d224b18caf48dd3081f473a0545113" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:43:10-05<br><b>Code:</b> EC00049<br><b>Latitude:</b> -1.347916<br><b>Longitude:</b> -79.335087<br><b>Altitude:</b> 120.0<br><b>Division:</b> Los Ríos-Ventanas-Zapotal<br><b>Value:</b> 1.8<br><b>Comments:</b> nan</div>`)[0];
+                popup_f211731d3cf35312d372305c45c67377.setContent(html_89d224b18caf48dd3081f473a0545113);
             
         
 
-        marker_1527d16f1e33c333e114255d074d40ae.bindPopup(popup_a5569dd55647936b25d127cf79effd33)
+        marker_63a4ed0cfb443d368702378bc3f024ba.bindPopup(popup_f211731d3cf35312d372305c45c67377)
         ;
 
         
     
     
-            var marker_a70853f4f6ddee1472ac4f8ac47351cd = L.marker(
+            var marker_499511b69e2b81d4ff65ce75a7edeefd = L.marker(
+                [-2.12683, -80.01535],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_5c369d311fae58d66b690906311f69d2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_499511b69e2b81d4ff65ce75a7edeefd.setIcon(div_icon_5c369d311fae58d66b690906311f69d2);
+        
+    
+        var popup_66dd3fc47d2c2b301d6c17abfaeda179 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a9543145fac7db04185d77c57e50696d = $(`<div id="html_a9543145fac7db04185d77c57e50696d" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:58:23-05<br><b>Code:</b> EC00104<br><b>Latitude:</b> -2.12683<br><b>Longitude:</b> -80.01535<br><b>Altitude:</b> 50.0<br><b>Division:</b> Guayas-Guayaquil-Guayaquil<br><b>Value:</b> 0.0<br><b>Comments:</b> nan</div>`)[0];
+                popup_66dd3fc47d2c2b301d6c17abfaeda179.setContent(html_a9543145fac7db04185d77c57e50696d);
+            
+        
+
+        marker_499511b69e2b81d4ff65ce75a7edeefd.bindPopup(popup_66dd3fc47d2c2b301d6c17abfaeda179)
+        ;
+
+        
+    
+    
+            var marker_1c7be96577a8f522eb017e24abba17a8 = L.marker(
+                [-1.928511, -80.173447],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_78eaeb2477ebd2e10420f6e1c993d98d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024e34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_1c7be96577a8f522eb017e24abba17a8.setIcon(div_icon_78eaeb2477ebd2e10420f6e1c993d98d);
+        
+    
+        var popup_6f8b16ded98d81505154576cfe0a17f6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1b2a8fc76cf50b454f02191c71dbb236 = $(`<div id="html_1b2a8fc76cf50b454f02191c71dbb236" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:04:00-05<br><b>Code:</b> EC00103<br><b>Latitude:</b> -1.928511<br><b>Longitude:</b> -80.173447<br><b>Altitude:</b> 51.0<br><b>Division:</b> Guayas-Isidro Ayora-Isidro Ayora<br><b>Value:</b> 1.8<br><b>Comments:</b> Precipitado en la lluvia de la mañana de ayer. Reporte via Whatsapp.</div>`)[0];
+                popup_6f8b16ded98d81505154576cfe0a17f6.setContent(html_1b2a8fc76cf50b454f02191c71dbb236);
+            
+        
+
+        marker_1c7be96577a8f522eb017e24abba17a8.bindPopup(popup_6f8b16ded98d81505154576cfe0a17f6)
+        ;
+
+        
+    
+    
+            var marker_f0456a1878612123bcd01a6de9598394 = L.marker(
+                [-1.887971, -79.277124],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_a66800af6c060b4641b8b3a3c4067321 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_f0456a1878612123bcd01a6de9598394.setIcon(div_icon_a66800af6c060b4641b8b3a3c4067321);
+        
+    
+        var popup_dd3b9d8e6cfaae21c5f90e58750a2bff = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d664196e1eb12def1712562084187b7 = $(`<div id="html_4d664196e1eb12def1712562084187b7" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:49:00-05<br><b>Code:</b> EC00106<br><b>Latitude:</b> -1.887971<br><b>Longitude:</b> -79.277124<br><b>Altitude:</b> 231.0<br><b>Division:</b> Los Ríos-Montalvo-Montalvo<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
+                popup_dd3b9d8e6cfaae21c5f90e58750a2bff.setContent(html_4d664196e1eb12def1712562084187b7);
+            
+        
+
+        marker_f0456a1878612123bcd01a6de9598394.bindPopup(popup_dd3b9d8e6cfaae21c5f90e58750a2bff)
+        ;
+
+        
+    
+    
+            var marker_efcb376c4dd486e6b373933b38e79298 = L.marker(
                 [-2.1223054, -79.971067],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_a227e1864fe314ff6f8ae732667b6e5d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_a70853f4f6ddee1472ac4f8ac47351cd.setIcon(div_icon_a227e1864fe314ff6f8ae732667b6e5d);
+            var div_icon_ace776aca52846629e4d4c0455576dad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_efcb376c4dd486e6b373933b38e79298.setIcon(div_icon_ace776aca52846629e4d4c0455576dad);
         
     
-        var popup_8423e9a926d8a4eb7378a2b2fc74c708 = L.popup({"maxWidth": 250});
+        var popup_720c74b2cbde30900adb921904ed6724 = L.popup({"maxWidth": 250});
 
         
             
-                var html_2fdafe21ac479326aa8daab623908355 = $(`<div id="html_2fdafe21ac479326aa8daab623908355" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:59:00-05<br><b>Code:</b> EC00008<br><b>Latitude:</b> -2.1223054<br><b>Longitude:</b> -79.971067<br><b>Altitude:</b> 57.0<br><b>Division:</b> Guayas-Guayaquil-Guayaquil<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
-                popup_8423e9a926d8a4eb7378a2b2fc74c708.setContent(html_2fdafe21ac479326aa8daab623908355);
+                var html_d22ceeee08624c30a14680fddd5440ea = $(`<div id="html_d22ceeee08624c30a14680fddd5440ea" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:09:00-05<br><b>Code:</b> EC00008<br><b>Latitude:</b> -2.1223054<br><b>Longitude:</b> -79.971067<br><b>Altitude:</b> 57.0<br><b>Division:</b> Guayas-Guayaquil-Guayaquil<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
+                popup_720c74b2cbde30900adb921904ed6724.setContent(html_d22ceeee08624c30a14680fddd5440ea);
             
         
 
-        marker_a70853f4f6ddee1472ac4f8ac47351cd.bindPopup(popup_8423e9a926d8a4eb7378a2b2fc74c708)
+        marker_efcb376c4dd486e6b373933b38e79298.bindPopup(popup_720c74b2cbde30900adb921904ed6724)
         ;
 
         
     
     
-            var marker_93cb1b6cb4579d116619145d04d4afe5 = L.marker(
+            var marker_d9304319ec54d20e18a9bef4358128ba = L.marker(
+                [-1.47187, -79.923421],
+                {}
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
+        
+    
+            var div_icon_276734b8a7c0c2172dd0aaa198bd5c9f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_d9304319ec54d20e18a9bef4358128ba.setIcon(div_icon_276734b8a7c0c2172dd0aaa198bd5c9f);
+        
+    
+        var popup_cb8f01573cda341924f53a9922bac0e6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d269dbb9985d718b62f60f48f48380eb = $(`<div id="html_d269dbb9985d718b62f60f48f48380eb" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:20:00-05<br><b>Code:</b> EC00115<br><b>Latitude:</b> -1.47187<br><b>Longitude:</b> -79.923421<br><b>Altitude:</b> 22.0<br><b>Division:</b> Guayas-Balzar-Balzar<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
+                popup_cb8f01573cda341924f53a9922bac0e6.setContent(html_d269dbb9985d718b62f60f48f48380eb);
+            
+        
+
+        marker_d9304319ec54d20e18a9bef4358128ba.bindPopup(popup_cb8f01573cda341924f53a9922bac0e6)
+        ;
+
+        
+    
+    
+            var marker_499ed74f73624e7c16eb45d6226c4e06 = L.marker(
                 [-1.4330396, -79.3394014],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_2f1ee112a69e831ed4bdbdee7a457274 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_93cb1b6cb4579d116619145d04d4afe5.setIcon(div_icon_2f1ee112a69e831ed4bdbdee7a457274);
+            var div_icon_38b8281f4885130dd958dc3302f27e21 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_499ed74f73624e7c16eb45d6226c4e06.setIcon(div_icon_38b8281f4885130dd958dc3302f27e21);
         
     
-        var popup_c6b90f6f997f5f079f486abf21cb2606 = L.popup({"maxWidth": 250});
+        var popup_46c615c712b88920435e74f04a49f1e9 = L.popup({"maxWidth": 250});
 
         
             
-                var html_0fcf02aa272bdd93b963f707858bc163 = $(`<div id="html_0fcf02aa272bdd93b963f707858bc163" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:49:00-05<br><b>Code:</b> EC00132<br><b>Latitude:</b> -1.4330396<br><b>Longitude:</b> -79.3394014<br><b>Altitude:</b> 202.0<br><b>Division:</b> Los Ríos-Ventanas-Los Ángeles<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
-                popup_c6b90f6f997f5f079f486abf21cb2606.setContent(html_0fcf02aa272bdd93b963f707858bc163);
+                var html_21b0983602557b9a0da197c98a659b22 = $(`<div id="html_21b0983602557b9a0da197c98a659b22" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:38:00-05<br><b>Code:</b> EC00132<br><b>Latitude:</b> -1.4330396<br><b>Longitude:</b> -79.3394014<br><b>Altitude:</b> 202.0<br><b>Division:</b> Los Ríos-Ventanas-Los Ángeles<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
+                popup_46c615c712b88920435e74f04a49f1e9.setContent(html_21b0983602557b9a0da197c98a659b22);
             
         
 
-        marker_93cb1b6cb4579d116619145d04d4afe5.bindPopup(popup_c6b90f6f997f5f079f486abf21cb2606)
+        marker_499ed74f73624e7c16eb45d6226c4e06.bindPopup(popup_46c615c712b88920435e74f04a49f1e9)
         ;
 
         
     
     
-            var marker_070aec54e026f1a28e9c4b371586c7d9 = L.marker(
-                [-0.970352, -80.362671],
-                {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
-        
-    
-            var div_icon_563551591bed8449abe5a878dfc5c4d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_070aec54e026f1a28e9c4b371586c7d9.setIcon(div_icon_563551591bed8449abe5a878dfc5c4d4);
-        
-    
-        var popup_66cc7adf4eb4e3beb39d37e2165d0320 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_e7b85dd005a8e029f10059feef6ab982 = $(`<div id="html_e7b85dd005a8e029f10059feef6ab982" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:00:00-05<br><b>Code:</b> EC00071<br><b>Latitude:</b> -0.970352<br><b>Longitude:</b> -80.362671<br><b>Altitude:</b> 172.0<br><b>Division:</b> Manabí-Rio Chico-Playa Prieta<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
-                popup_66cc7adf4eb4e3beb39d37e2165d0320.setContent(html_e7b85dd005a8e029f10059feef6ab982);
-            
-        
-
-        marker_070aec54e026f1a28e9c4b371586c7d9.bindPopup(popup_66cc7adf4eb4e3beb39d37e2165d0320)
-        ;
-
-        
-    
-    
-            var marker_ba18ff30a3fe8933014d6dd95ae7d580 = L.marker(
+            var marker_5a2f98b12d22391114843eca0717933e = L.marker(
                 [-1.832667, -80.710259],
                 {}
-            ).addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+            ).addTo(map_15335b7a26c563cf9e427a8c0b31067f);
         
     
-            var div_icon_80db03632e2af66e6084bd28f63fb5ec = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_ba18ff30a3fe8933014d6dd95ae7d580.setIcon(div_icon_80db03632e2af66e6084bd28f63fb5ec);
+            var div_icon_43d67a237dd44bfcdd6e07fc33c28411 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
+            marker_5a2f98b12d22391114843eca0717933e.setIcon(div_icon_43d67a237dd44bfcdd6e07fc33c28411);
         
     
-        var popup_fea6f05f2814dbb83782dc30413003b2 = L.popup({"maxWidth": 250});
+        var popup_01424710df19c5a56c8f7eefbb825d1a = L.popup({"maxWidth": 250});
 
         
             
-                var html_85e74a28ac9b741961d5678ea85d716b = $(`<div id="html_85e74a28ac9b741961d5678ea85d716b" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:14:00-05<br><b>Code:</b> EC00100<br><b>Latitude:</b> -1.832667<br><b>Longitude:</b> -80.710259<br><b>Altitude:</b> 39.0<br><b>Division:</b> Santa Elena-Santa Elena-Manglaralto<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
-                popup_fea6f05f2814dbb83782dc30413003b2.setContent(html_85e74a28ac9b741961d5678ea85d716b);
+                var html_7ff1544485c19294de42e3a1b096bd06 = $(`<div id="html_7ff1544485c19294de42e3a1b096bd06" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:50:00-05<br><b>Code:</b> EC00100<br><b>Latitude:</b> -1.832667<br><b>Longitude:</b> -80.710259<br><b>Altitude:</b> 39.0<br><b>Division:</b> Santa Elena-Santa Elena-Manglaralto<br><b>Value:</b> 0.0<br><b>Comments:</b> Reporte via Whatsapp</div>`)[0];
+                popup_01424710df19c5a56c8f7eefbb825d1a.setContent(html_7ff1544485c19294de42e3a1b096bd06);
             
         
 
-        marker_ba18ff30a3fe8933014d6dd95ae7d580.bindPopup(popup_fea6f05f2814dbb83782dc30413003b2)
+        marker_5a2f98b12d22391114843eca0717933e.bindPopup(popup_01424710df19c5a56c8f7eefbb825d1a)
         ;
 
         
     
     
-    var color_map_22ff8d35abced203f86801ec5f31f48e = {};
+    var color_map_980dcd14c5350a6fb4579f7a0c4c6c7d = {};
 
     
-    color_map_22ff8d35abced203f86801ec5f31f48e.color = d3.scale.threshold()
-              .domain([0.0, 0.08216432865731463, 0.16432865731462926, 0.24649298597194388, 0.3286573146292585, 0.41082164328657317, 0.49298597194388777, 0.5751503006012024, 0.657314629258517, 0.7394789579158316, 0.8216432865731463, 0.9038076152304609, 0.9859719438877755, 1.0681362725450902, 1.1503006012024048, 1.2324649298597194, 1.314629258517034, 1.3967935871743486, 1.4789579158316633, 1.5611222444889779, 1.6432865731462927, 1.7254509018036073, 1.8076152304609219, 1.8897795591182365, 1.971943887775551, 2.0541082164328657, 2.1362725450901805, 2.218436873747495, 2.3006012024048097, 2.382765531062124, 2.464929859719439, 2.5470941883767537, 2.629258517034068, 2.711422845691383, 2.7935871743486973, 2.875751503006012, 2.9579158316633265, 3.0400801603206413, 3.1222444889779557, 3.2044088176352705, 3.2865731462925853, 3.3687374749498997, 3.4509018036072145, 3.533066132264529, 3.6152304609218437, 3.697394789579158, 3.779559118236473, 3.8617234468937878, 3.943887775551102, 4.026052104208417, 4.108216432865731, 4.190380761523046, 4.272545090180361, 4.354709418837675, 4.43687374749499, 4.519038076152305, 4.601202404809619, 4.683366733466934, 4.765531062124248, 4.847695390781563, 4.929859719438878, 5.012024048096192, 5.094188376753507, 5.176352705410822, 5.258517034068136, 5.340681362725451, 5.422845691382766, 5.50501002004008, 5.587174348697395, 5.669338677354709, 5.751503006012024, 5.833667334669339, 5.915831663326653, 5.997995991983968, 6.080160320641283, 6.162324649298597, 6.244488977955911, 6.326653306613227, 6.408817635270541, 6.490981963927855, 6.573146292585171, 6.655310621242485, 6.7374749498997994, 6.819639278557114, 6.901803607214429, 6.9839679358717435, 7.066132264529058, 7.148296593186373, 7.2304609218436875, 7.312625250501002, 7.394789579158316, 7.4769539078156315, 7.559118236472946, 7.64128256513026, 7.7234468937875755, 7.80561122244489, 7.887775551102204, 7.969939879759519, 8.052104208416834, 8.134268537074147, 8.216432865731463, 8.298597194388778, 8.380761523046091, 8.462925851703407, 8.545090180360722, 8.627254509018035, 8.70941883767535, 8.791583166332666, 8.87374749498998, 8.955911823647295, 9.03807615230461, 9.120240480961924, 9.202404809619239, 9.284569138276552, 9.366733466933868, 9.448897795591183, 9.531062124248496, 9.613226452905812, 9.695390781563127, 9.77755511022044, 9.859719438877756, 9.94188376753507, 10.024048096192384, 10.1062124248497, 10.188376753507015, 10.270541082164328, 10.352705410821644, 10.434869739478957, 10.517034068136272, 10.599198396793588, 10.681362725450901, 10.763527054108216, 10.845691382765532, 10.927855711422845, 11.01002004008016, 11.092184368737476, 11.17434869739479, 11.256513026052104, 11.338677354709418, 11.420841683366733, 11.503006012024048, 11.585170340681362, 11.667334669338677, 11.749498997995993, 11.831663326653306, 11.913827655310621, 11.995991983967937, 12.07815631262525, 12.160320641282565, 12.24248496993988, 12.324649298597194, 12.40681362725451, 12.488977955911823, 12.571142284569138, 12.653306613226453, 12.735470941883767, 12.817635270541082, 12.899799599198397, 12.98196392785571, 13.064128256513026, 13.146292585170341, 13.228456913827655, 13.31062124248497, 13.392785571142285, 13.474949899799599, 13.557114228456914, 13.639278557114228, 13.721442885771543, 13.803607214428858, 13.885771543086172, 13.967935871743487, 14.050100200400802, 14.132264529058116, 14.214428857715431, 14.296593186372746, 14.37875751503006, 14.460921843687375, 14.54308617234469, 14.625250501002004, 14.707414829659319, 14.789579158316633, 14.871743486973948, 14.953907815631263, 15.036072144288577, 15.118236472945892, 15.200400801603207, 15.28256513026052, 15.364729458917836, 15.446893787575151, 15.529058116232465, 15.61122244488978, 15.693386773547093, 15.775551102204409, 15.857715430861724, 15.939879759519037, 16.022044088176354, 16.104208416833668, 16.18637274549098, 16.268537074148295, 16.350701402805612, 16.432865731462925, 16.51503006012024, 16.597194388777556, 16.67935871743487, 16.761523046092183, 16.8436873747495, 16.925851703406813, 17.008016032064127, 17.090180360721444, 17.172344689378757, 17.25450901803607, 17.336673346693388, 17.4188376753507, 17.501002004008015, 17.583166332665332, 17.665330661322646, 17.74749498997996, 17.829659318637276, 17.91182364729459, 17.993987975951903, 18.07615230460922, 18.158316633266534, 18.240480961923847, 18.322645290581164, 18.404809619238478, 18.48697394789579, 18.569138276553105, 18.65130260521042, 18.733466933867735, 18.81563126252505, 18.897795591182366, 18.97995991983968, 19.062124248496993, 19.14428857715431, 19.226452905811623, 19.308617234468937, 19.390781563126254, 19.472945891783567, 19.55511022044088, 19.637274549098198, 19.71943887775551, 19.801603206412825, 19.88376753507014, 19.965931863727455, 20.04809619238477, 20.130260521042086, 20.2124248496994, 20.294589178356713, 20.37675350701403, 20.458917835671343, 20.541082164328657, 20.62324649298597, 20.705410821643287, 20.7875751503006, 20.869739478957914, 20.95190380761523, 21.034068136272545, 21.11623246492986, 21.198396793587175, 21.28056112224449, 21.362725450901802, 21.44488977955912, 21.527054108216433, 21.609218436873746, 21.691382765531063, 21.773547094188377, 21.85571142284569, 21.937875751503007, 22.02004008016032, 22.102204408817634, 22.18436873747495, 22.266533066132265, 22.34869739478958, 22.430861723446895, 22.51302605210421, 22.595190380761522, 22.677354709418836, 22.759519038076153, 22.841683366733466, 22.92384769539078, 23.006012024048097, 23.08817635270541, 23.170340681362724, 23.25250501002004, 23.334669338677354, 23.416833667334668, 23.498997995991985, 23.5811623246493, 23.663326653306612, 23.74549098196393, 23.827655310621243, 23.909819639278556, 23.991983967935873, 24.074148296593187, 24.1563126252505, 24.238476953907817, 24.32064128256513, 24.402805611222444, 24.48496993987976, 24.567134268537075, 24.649298597194388, 24.731462925851705, 24.81362725450902, 24.895791583166332, 24.977955911823646, 25.060120240480963, 25.142284569138276, 25.22444889779559, 25.306613226452907, 25.38877755511022, 25.470941883767534, 25.55310621242485, 25.635270541082164, 25.717434869739478, 25.799599198396795, 25.881763527054108, 25.96392785571142, 26.04609218436874, 26.128256513026052, 26.210420841683366, 26.292585170340683, 26.374749498997996, 26.45691382765531, 26.539078156312627, 26.62124248496994, 26.703406813627254, 26.78557114228457, 26.867735470941884, 26.949899799599198, 27.03206412825651, 27.11422845691383, 27.196392785571142, 27.278557114228455, 27.360721442885772, 27.442885771543086, 27.5250501002004, 27.607214428857716, 27.68937875751503, 27.771543086172343, 27.85370741482966, 27.935871743486974, 28.018036072144287, 28.100200400801604, 28.182364729458918, 28.26452905811623, 28.34669338677355, 28.428857715430862, 28.511022044088175, 28.593186372745492, 28.675350701402806, 28.75751503006012, 28.839679358717436, 28.92184368737475, 29.004008016032063, 29.08617234468938, 29.168336673346694, 29.250501002004007, 29.33266533066132, 29.414829659318638, 29.49699398797595, 29.579158316633265, 29.661322645290582, 29.743486973947896, 29.82565130260521, 29.907815631262526, 29.98997995991984, 30.072144288577153, 30.15430861723447, 30.236472945891784, 30.318637274549097, 30.400801603206414, 30.482965931863728, 30.56513026052104, 30.647294589178358, 30.72945891783567, 30.811623246492985, 30.893787575150302, 30.975951903807616, 31.05811623246493, 31.140280561122246, 31.22244488977956, 31.304609218436873, 31.386773547094187, 31.468937875751504, 31.551102204408817, 31.63326653306613, 31.715430861723448, 31.79759519038076, 31.879759519038075, 31.96192384769539, 32.04408817635271, 32.12625250501002, 32.208416833667336, 32.29058116232465, 32.37274549098196, 32.454909819639276, 32.53707414829659, 32.61923847695391, 32.701402805611224, 32.78356713426854, 32.86573146292585, 32.947895791583164, 33.03006012024048, 33.1122244488978, 33.19438877755511, 33.276553106212425, 33.35871743486974, 33.44088176352705, 33.523046092184366, 33.605210420841686, 33.687374749499, 33.76953907815631, 33.85170340681363, 33.93386773547094, 34.016032064128254, 34.098196392785574, 34.18036072144289, 34.2625250501002, 34.344689378757515, 34.42685370741483, 34.50901803607214, 34.591182364729455, 34.673346693386776, 34.75551102204409, 34.8376753507014, 34.91983967935872, 35.00200400801603, 35.08416833667334, 35.166332665330664, 35.24849699398798, 35.33066132264529, 35.412825651302605, 35.49498997995992, 35.57715430861723, 35.65931863727455, 35.741482965931866, 35.82364729458918, 35.90581162324649, 35.987975951903806, 36.07014028056112, 36.15230460921844, 36.234468937875754, 36.31663326653307, 36.39879759519038, 36.480961923847694, 36.56312625250501, 36.64529058116233, 36.72745490981964, 36.809619238476955, 36.89178356713427, 36.97394789579158, 37.056112224448896, 37.13827655310621, 37.22044088176353, 37.30260521042084, 37.38476953907816, 37.46693386773547, 37.549098196392784, 37.6312625250501, 37.71342685370742, 37.79559118236473, 37.877755511022045, 37.95991983967936, 38.04208416833667, 38.124248496993985, 38.206412825651306, 38.28857715430862, 38.37074148296593, 38.452905811623246, 38.53507014028056, 38.61723446893787, 38.699398797595194, 38.78156312625251, 38.86372745490982, 38.945891783567134, 39.02805611222445, 39.11022044088176, 39.192384769539075, 39.274549098196395, 39.35671342685371, 39.43887775551102, 39.521042084168336, 39.60320641282565, 39.68537074148296, 39.76753507014028, 39.8496993987976, 39.93186372745491, 40.014028056112224, 40.09619238476954, 40.17835671342685, 40.26052104208417, 40.342685370741485, 40.4248496993988, 40.50701402805611, 40.589178356713425, 40.67134268537074, 40.75350701402806, 40.83567134268537, 40.91783567134269, 41.0])
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.color = d3.scale.threshold()
+              .domain([0.0, 0.11623246492985972, 0.23246492985971945, 0.3486973947895792, 0.4649298597194389, 0.5811623246492986, 0.6973947895791583, 0.8136272545090181, 0.9298597194388778, 1.0460921843687374, 1.1623246492985972, 1.2785571142284569, 1.3947895791583167, 1.5110220440881763, 1.6272545090180361, 1.7434869739478958, 1.8597194388777556, 1.9759519038076152, 2.092184368737475, 2.208416833667335, 2.3246492985971945, 2.440881763527054, 2.5571142284569137, 2.6733466933867733, 2.7895791583166334, 2.905811623246493, 3.0220440881763526, 3.1382765531062122, 3.2545090180360723, 3.370741482965932, 3.4869739478957915, 3.603206412825651, 3.719438877755511, 3.835671342685371, 3.9519038076152304, 4.0681362725450905, 4.18436873747495, 4.30060120240481, 4.41683366733467, 4.533066132264529, 4.649298597194389, 4.765531062124248, 4.881763527054108, 4.997995991983968, 5.114228456913827, 5.2304609218436875, 5.346693386773547, 5.462925851703407, 5.579158316633267, 5.695390781563126, 5.811623246492986, 5.927855711422846, 6.044088176352705, 6.160320641282565, 6.2765531062124245, 6.3927855711422845, 6.509018036072145, 6.625250501002004, 6.741482965931864, 6.857715430861724, 6.973947895791583, 7.090180360721443, 7.206412825651302, 7.322645290581162, 7.438877755511022, 7.5551102204408815, 7.671342685370742, 7.787575150300601, 7.903807615230461, 8.02004008016032, 8.136272545090181, 8.25250501002004, 8.3687374749499, 8.48496993987976, 8.60120240480962, 8.71743486973948, 8.83366733466934, 8.949899799599198, 9.066132264529058, 9.182364729458918, 9.298597194388778, 9.414829659318638, 9.531062124248496, 9.647294589178356, 9.763527054108216, 9.879759519038076, 9.995991983967937, 10.112224448897795, 10.228456913827655, 10.344689378757515, 10.460921843687375, 10.577154308617235, 10.693386773547093, 10.809619238476953, 10.925851703406813, 11.042084168336673, 11.158316633266534, 11.274549098196394, 11.390781563126252, 11.507014028056112, 11.623246492985972, 11.739478957915832, 11.855711422845692, 11.97194388777555, 12.08817635270541, 12.20440881763527, 12.32064128256513, 12.43687374749499, 12.553106212424849, 12.669338677354709, 12.785571142284569, 12.901803607214429, 13.01803607214429, 13.134268537074147, 13.250501002004007, 13.366733466933868, 13.482965931863728, 13.599198396793588, 13.715430861723448, 13.831663326653306, 13.947895791583166, 14.064128256513026, 14.180360721442886, 14.296593186372746, 14.412825651302605, 14.529058116232465, 14.645290581162325, 14.761523046092185, 14.877755511022045, 14.993987975951903, 15.110220440881763, 15.226452905811623, 15.342685370741483, 15.458917835671343, 15.575150300601202, 15.691382765531062, 15.807615230460922, 15.923847695390782, 16.04008016032064, 16.1563126252505, 16.272545090180362, 16.38877755511022, 16.50501002004008, 16.62124248496994, 16.7374749498998, 16.85370741482966, 16.96993987975952, 17.08617234468938, 17.20240480961924, 17.318637274549097, 17.43486973947896, 17.551102204408817, 17.66733466933868, 17.783567134268537, 17.899799599198396, 18.016032064128257, 18.132264529058116, 18.248496993987978, 18.364729458917836, 18.480961923847694, 18.597194388777556, 18.713426853707414, 18.829659318637276, 18.945891783567134, 19.062124248496993, 19.178356713426854, 19.294589178356713, 19.410821643286575, 19.527054108216433, 19.64328657314629, 19.759519038076153, 19.87575150300601, 19.991983967935873, 20.10821643286573, 20.22444889779559, 20.34068136272545, 20.45691382765531, 20.57314629258517, 20.68937875751503, 20.805611222444888, 20.92184368737475, 21.03807615230461, 21.15430861723447, 21.27054108216433, 21.386773547094187, 21.50300601202405, 21.619238476953907, 21.73547094188377, 21.851703406813627, 21.96793587174349, 22.084168336673347, 22.200400801603205, 22.316633266533067, 22.432865731462925, 22.549098196392787, 22.665330661322646, 22.781563126252504, 22.897795591182366, 23.014028056112224, 23.130260521042086, 23.246492985971944, 23.362725450901802, 23.478957915831664, 23.595190380761522, 23.711422845691384, 23.827655310621243, 23.9438877755511, 24.060120240480963, 24.17635270541082, 24.292585170340683, 24.40881763527054, 24.5250501002004, 24.64128256513026, 24.75751503006012, 24.87374749498998, 24.98997995991984, 25.106212424849698, 25.22244488977956, 25.338677354709418, 25.45490981963928, 25.571142284569138, 25.687374749498996, 25.803607214428858, 25.919839679358716, 26.03607214428858, 26.152304609218437, 26.268537074148295, 26.384769539078157, 26.501002004008015, 26.617234468937877, 26.733466933867735, 26.849699398797597, 26.965931863727455, 27.082164328657313, 27.198396793587175, 27.314629258517034, 27.430861723446895, 27.547094188376754, 27.663326653306612, 27.779559118236474, 27.895791583166332, 28.012024048096194, 28.128256513026052, 28.24448897795591, 28.360721442885772, 28.47695390781563, 28.593186372745492, 28.70941883767535, 28.82565130260521, 28.94188376753507, 29.05811623246493, 29.17434869739479, 29.29058116232465, 29.406813627254508, 29.52304609218437, 29.639278557114228, 29.75551102204409, 29.871743486973948, 29.987975951903806, 30.104208416833668, 30.220440881763526, 30.336673346693388, 30.452905811623246, 30.569138276553105, 30.685370741482966, 30.801603206412825, 30.917835671342687, 31.034068136272545, 31.150300601202403, 31.266533066132265, 31.382765531062123, 31.498997995991985, 31.615230460921843, 31.731462925851705, 31.847695390781563, 31.96392785571142, 32.08016032064128, 32.19639278557114, 32.312625250501, 32.42885771543086, 32.545090180360724, 32.66132264529058, 32.77755511022044, 32.8937875751503, 33.01002004008016, 33.12625250501002, 33.24248496993988, 33.35871743486974, 33.4749498997996, 33.591182364729455, 33.70741482965932, 33.82364729458918, 33.93987975951904, 34.056112224448896, 34.17234468937876, 34.28857715430862, 34.40480961923848, 34.521042084168336, 34.637274549098194, 34.75350701402806, 34.86973947895792, 34.985971943887776, 35.102204408817634, 35.21843687374749, 35.33466933867736, 35.450901803607216, 35.567134268537075, 35.68336673346693, 35.79959919839679, 35.91583166332666, 36.032064128256515, 36.14829659318637, 36.26452905811623, 36.38076152304609, 36.496993987975955, 36.61322645290581, 36.72945891783567, 36.84569138276553, 36.96192384769539, 37.078156312625254, 37.19438877755511, 37.31062124248497, 37.42685370741483, 37.54308617234469, 37.65931863727455, 37.77555110220441, 37.89178356713427, 38.00801603206413, 38.124248496993985, 38.24048096192385, 38.35671342685371, 38.47294589178357, 38.589178356713425, 38.705410821643284, 38.82164328657315, 38.93787575150301, 39.054108216432866, 39.170340681362724, 39.28657314629258, 39.40280561122245, 39.519038076152306, 39.635270541082164, 39.75150300601202, 39.86773547094188, 39.983967935871746, 40.100200400801604, 40.21643286573146, 40.33266533066132, 40.44889779559118, 40.565130260521045, 40.6813627254509, 40.79759519038076, 40.91382765531062, 41.03006012024048, 41.14629258517034, 41.2625250501002, 41.37875751503006, 41.49498997995992, 41.611222444889776, 41.72745490981964, 41.8436873747495, 41.95991983967936, 42.07615230460922, 42.192384769539075, 42.30861723446894, 42.4248496993988, 42.54108216432866, 42.657314629258515, 42.77354709418837, 42.88977955911824, 43.0060120240481, 43.122244488977955, 43.23847695390781, 43.35470941883767, 43.47094188376754, 43.587174348697395, 43.703406813627254, 43.81963927855711, 43.93587174348698, 44.052104208416836, 44.168336673346694, 44.28456913827655, 44.40080160320641, 44.517034068136276, 44.633266533066134, 44.74949899799599, 44.86573146292585, 44.98196392785571, 45.098196392785574, 45.21442885771543, 45.33066132264529, 45.44689378757515, 45.56312625250501, 45.67935871743487, 45.79559118236473, 45.91182364729459, 46.02805611222445, 46.144288577154306, 46.26052104208417, 46.37675350701403, 46.49298597194389, 46.609218436873746, 46.725450901803605, 46.84168336673347, 46.95791583166333, 47.07414829659319, 47.190380761523045, 47.3066132264529, 47.42284569138277, 47.53907815631263, 47.655310621242485, 47.77154308617234, 47.8877755511022, 48.00400801603207, 48.120240480961925, 48.236472945891784, 48.35270541082164, 48.4689378757515, 48.585170340681366, 48.701402805611224, 48.81763527054108, 48.93386773547094, 49.0501002004008, 49.166332665330664, 49.28256513026052, 49.39879759519038, 49.51503006012024, 49.6312625250501, 49.74749498997996, 49.86372745490982, 49.97995991983968, 50.09619238476954, 50.212424849699396, 50.32865731462926, 50.44488977955912, 50.56112224448898, 50.677354709418836, 50.793587174348694, 50.90981963927856, 51.02605210420842, 51.142284569138276, 51.258517034068134, 51.37474949899799, 51.49098196392786, 51.607214428857716, 51.723446893787575, 51.83967935871743, 51.95591182364729, 52.07214428857716, 52.188376753507015, 52.30460921843687, 52.42084168336673, 52.53707414829659, 52.653306613226455, 52.76953907815631, 52.88577154308617, 53.00200400801603, 53.11823647294589, 53.234468937875754, 53.35070140280561, 53.46693386773547, 53.58316633266533, 53.699398797595194, 53.81563126252505, 53.93186372745491, 54.04809619238477, 54.16432865731463, 54.28056112224449, 54.39679358717435, 54.51302605210421, 54.62925851703407, 54.745490981963925, 54.86172344689379, 54.97795591182365, 55.09418837675351, 55.210420841683366, 55.326653306613224, 55.44288577154309, 55.55911823647295, 55.675350701402806, 55.791583166332664, 55.90781563126252, 56.02404809619239, 56.140280561122246, 56.256513026052104, 56.37274549098196, 56.48897795591182, 56.605210420841686, 56.721442885771545, 56.8376753507014, 56.95390781563126, 57.07014028056112, 57.186372745490985, 57.30260521042084, 57.4188376753507, 57.53507014028056, 57.65130260521042, 57.76753507014028, 57.88376753507014, 58.0])
               .range(['#034732ff', '#024732ff', '#024832ff', '#024832ff', '#024932ff', '#024933ff', '#024a33ff', '#024a33ff', '#024b33ff', '#024b33ff', '#024b33ff', '#024c34ff', '#024c34ff', '#024d34ff', '#024d34ff', '#024e34ff', '#024e35ff', '#024f35ff', '#024f35ff', '#025035ff', '#025035ff', '#025135ff', '#025136ff', '#025236ff', '#025236ff', '#025236ff', '#025336ff', '#025336ff', '#025437ff', '#025437ff', '#025537ff', '#025537ff', '#025637ff', '#025638ff', '#025738ff', '#025738ff', '#025838ff', '#025838ff', '#025938ff', '#025939ff', '#025939ff', '#025a39ff', '#015a39ff', '#015b39ff', '#015b39ff', '#015c3aff', '#015c3aff', '#015d3aff', '#015d3aff', '#015e3aff', '#015e3bff', '#015f3bff', '#015f3bff', '#01603bff', '#01603bff', '#01603bff', '#01613cff', '#01613cff', '#01623cff', '#01623cff', '#01633cff', '#01633cff', '#01643dff', '#01643dff', '#01653dff', '#01653dff', '#01663dff', '#01663eff', '#01673eff', '#01673eff', '#01673eff', '#01683eff', '#01683eff', '#01693fff', '#01693fff', '#016a3fff', '#016a3fff', '#016b3fff', '#016b40ff', '#016c40ff', '#016c40ff', '#016d40ff', '#016d40ff', '#016e40ff', '#006e41ff', '#006e41ff', '#006f41ff', '#006f41ff', '#007041ff', '#007041ff', '#007142ff', '#007142ff', '#007242ff', '#007242ff', '#007342ff', '#007343ff', '#007443ff', '#007443ff', '#007543ff', '#007543ff', '#007543ff', '#007644ff', '#007644ff', '#007744ff', '#007744ff', '#007844ff', '#007844ff', '#007945ff', '#007945ff', '#007a45ff', '#007a45ff', '#007b45ff', '#007b46ff', '#007c46ff', '#007c46ff', '#007c46ff', '#007d46ff', '#007d46ff', '#007e47ff', '#007e47ff', '#007f47ff', '#007f47ff', '#008047ff', '#008047ff', '#008148ff', '#008148ff', '#018247ff', '#038247ff', '#058346ff', '#068346ff', '#088446ff', '#098445ff', '#0b8545ff', '#0d8544ff', '#0e8644ff', '#108643ff', '#118743ff', '#138743ff', '#158842ff', '#168842ff', '#188941ff', '#198941ff', '#1b8a40ff', '#1d8a40ff', '#1e8b40ff', '#208b3fff', '#218c3fff', '#238c3eff', '#258d3eff', '#268d3dff', '#288e3dff', '#298e3dff', '#2b8f3cff', '#2d8f3cff', '#2e903bff', '#30903bff', '#31913aff', '#33913aff', '#34923aff', '#369239ff', '#389339ff', '#399338ff', '#3b9438ff', '#3c9437ff', '#3e9537ff', '#409537ff', '#419636ff', '#439636ff', '#449735ff', '#469735ff', '#489834ff', '#499834ff', '#4b9934ff', '#4c9933ff', '#4e9a33ff', '#509a32ff', '#519b32ff', '#539b31ff', '#549c31ff', '#569d31ff', '#589d30ff', '#599e30ff', '#5b9e2fff', '#5c9f2fff', '#5e9f2fff', '#60a02eff', '#61a02eff', '#63a12dff', '#64a12dff', '#66a22cff', '#67a22cff', '#69a32cff', '#6ba32bff', '#6ca42bff', '#6ea42aff', '#6fa52aff', '#71a529ff', '#73a629ff', '#74a629ff', '#76a728ff', '#77a728ff', '#79a827ff', '#7ba827ff', '#7ca926ff', '#7ea926ff', '#7faa26ff', '#81aa25ff', '#83ab25ff', '#84ab24ff', '#86ac24ff', '#87ac23ff', '#89ad23ff', '#8bad23ff', '#8cae22ff', '#8eae22ff', '#8faf21ff', '#91af21ff', '#92b020ff', '#94b020ff', '#96b120ff', '#97b11fff', '#99b21fff', '#9ab21eff', '#9cb31eff', '#9eb31dff', '#9fb41dff', '#a1b41dff', '#a2b51cff', '#a4b51cff', '#a6b61bff', '#a7b61bff', '#a9b71aff', '#aab71aff', '#acb81aff', '#aeb819ff', '#afb919ff', '#b1b918ff', '#b2ba18ff', '#b4ba17ff', '#b6bb17ff', '#b7bb17ff', '#b9bc16ff', '#babc16ff', '#bcbd15ff', '#bebd15ff', '#bfbe14ff', '#c1be14ff', '#c2bf14ff', '#c4bf13ff', '#c5c013ff', '#c6c013ff', '#c7c013ff', '#c7bf13ff', '#c7bf13ff', '#c8be13ff', '#c8be13ff', '#c8bd13ff', '#c9bd13ff', '#c9bd13ff', '#c9bc13ff', '#cabc13ff', '#cabb13ff', '#cabb13ff', '#cbba13ff', '#cbba13ff', '#cbba13ff', '#ccb913ff', '#ccb913ff', '#ccb813ff', '#cdb813ff', '#cdb713ff', '#cdb713ff', '#ceb613ff', '#ceb613ff', '#ceb613ff', '#cfb513ff', '#cfb513ff', '#cfb413ff', '#d0b413ff', '#d0b314ff', '#d0b314ff', '#d1b314ff', '#d1b214ff', '#d1b214ff', '#d2b114ff', '#d2b114ff', '#d2b014ff', '#d3b014ff', '#d3b014ff', '#d3af14ff', '#d4af14ff', '#d4ae14ff', '#d4ae14ff', '#d5ad14ff', '#d5ad14ff', '#d5ac14ff', '#d6ac14ff', '#d6ac14ff', '#d6ab14ff', '#d7ab14ff', '#d7aa14ff', '#d7aa14ff', '#d8a914ff', '#d8a914ff', '#d8a914ff', '#d9a814ff', '#d9a814ff', '#d9a714ff', '#daa714ff', '#daa614ff', '#daa615ff', '#dba615ff', '#dba515ff', '#dba515ff', '#dca415ff', '#dca415ff', '#dca315ff', '#dda315ff', '#dda215ff', '#dda215ff', '#dea215ff', '#dea115ff', '#dea115ff', '#dfa015ff', '#dfa015ff', '#df9f15ff', '#e09f15ff', '#e09f15ff', '#e09e15ff', '#e19e15ff', '#e19d15ff', '#e19d15ff', '#e19c15ff', '#e29c15ff', '#e29c15ff', '#e29b15ff', '#e39b15ff', '#e39a15ff', '#e39a15ff', '#e49915ff', '#e49915ff', '#e49816ff', '#e59816ff', '#e59816ff', '#e59716ff', '#e69716ff', '#e69616ff', '#e69616ff', '#e79516ff', '#e79516ff', '#e79516ff', '#e89416ff', '#e89416ff', '#e89316ff', '#e99316ff', '#e99216ff', '#e99216ff', '#ea9216ff', '#ea9116ff', '#ea9116ff', '#eb9016ff', '#eb9016ff', '#eb8f16ff', '#ec8f16ff', '#ec8e16ff', '#ec8e16ff', '#ed8e16ff', '#ed8d16ff', '#ed8d16ff', '#ee8c16ff', '#ee8c16ff', '#ee8b16ff', '#ef8b17ff', '#ef8b17ff', '#ef8a17ff', '#ef8917ff', '#ef8917ff', '#ef8817ff', '#ef8717ff', '#ef8617ff', '#ef8617ff', '#ef8517ff', '#ef8417ff', '#ef8317ff', '#ef8217ff', '#ef8217ff', '#ef8117ff', '#ef8017ff', '#ef7f17ff', '#ef7f17ff', '#ef7e17ff', '#ef7d17ff', '#ef7c17ff', '#ef7b17ff', '#ef7b17ff', '#ef7a17ff', '#ef7917ff', '#ef7817ff', '#ef7817ff', '#ef7717ff', '#ef7617ff', '#ef7517ff', '#ef7417ff', '#ef7417ff', '#ef7317ff', '#ef7217ff', '#ef7117ff', '#ef7017ff', '#ef7017ff', '#ef6f17ff', '#ef6e17ff', '#ef6d17ff', '#ef6d17ff', '#ef6c17ff', '#ef6b17ff', '#ef6a17ff', '#ef6917ff', '#ef6917ff', '#ef6817ff', '#ef6717ff', '#ef6617ff', '#ef6617ff', '#ef6517ff', '#ef6417ff', '#ef6317ff', '#ef6217ff', '#ef6217ff', '#ef6117ff', '#ef6017ff', '#ef5f17ff', '#ef5f17ff', '#ef5e17ff', '#ef5d17ff', '#ef5c17ff', '#ef5b17ff', '#ef5b17ff', '#ef5a17ff', '#ef5917ff', '#ef5817ff', '#ef5717ff', '#ef5717ff', '#ef5617ff', '#ef5517ff', '#ef5417ff', '#ef5417ff', '#ef5317ff', '#ef5217ff', '#ef5117ff', '#ef5017ff', '#ef5017ff', '#ef4f17ff', '#ef4e17ff', '#ef4d17ff', '#ef4d17ff', '#ef4c17ff', '#ef4b17ff', '#ef4a17ff', '#ef4917ff', '#ef4917ff', '#ef4817ff', '#ef4717ff', '#ef4617ff', '#ef4617ff', '#ef4517ff', '#ef4417ff', '#ef4317ff', '#ef4217ff', '#ef4217ff', '#ef4117ff', '#ef4017ff', '#ef3f17ff', '#ef3f17ff', '#ef3e17ff', '#ef3d17ff', '#ef3c17ff', '#ef3b17ff', '#ef3b17ff', '#ef3a17ff', '#ef3917ff', '#ef3817ff', '#ef3717ff', '#ef3717ff', '#ef3617ff', '#ef3517ff', '#ef3417ff', '#ef3417ff', '#ef3317ff', '#ef3217ff', '#ef3117ff', '#ef3017ff', '#ef3017ff', '#ef2f17ff', '#ef2e17ff', '#ef2d17ff', '#ef2d17ff', '#ef2c17ff', '#ef2b17ff', '#ef2a17ff', '#ef2917ff', '#ef2917ff']);
     
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.x = d3.scale.linear()
-              .domain([0.0, 41.0])
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x = d3.scale.linear()
+              .domain([0.0, 58.0])
               .range([0, 450 - 50]);
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.legend = L.control({position: 'topright'});
-    color_map_22ff8d35abced203f86801ec5f31f48e.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
-    color_map_22ff8d35abced203f86801ec5f31f48e.legend.addTo(map_bf59e817859dbbd3f5633ad4fb2294bd);
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.legend = L.control({position: 'topright'});
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.legend.addTo(map_15335b7a26c563cf9e427a8c0b31067f);
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.xAxis = d3.svg.axis()
-        .scale(color_map_22ff8d35abced203f86801ec5f31f48e.x)
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.xAxis = d3.svg.axis()
+        .scale(color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x)
         .orient("top")
         .tickSize(1)
-        .tickValues([0.0, 10.25, 20.5, 30.75, 41.0]);
+        .tickValues([0.0, 14.5, 29.0, 43.5, 58.0]);
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.svg = d3.select(".legend.leaflet-control").append("svg")
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.svg = d3.select(".legend.leaflet-control").append("svg")
         .attr("id", 'legend')
         .attr("width", 450)
         .attr("height", 40);
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.g = color_map_22ff8d35abced203f86801ec5f31f48e.svg.append("g")
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.g = color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.svg.append("g")
         .attr("class", "key")
         .attr("transform", "translate(25,16)");
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.g.selectAll("rect")
-        .data(color_map_22ff8d35abced203f86801ec5f31f48e.color.range().map(function(d, i) {
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.g.selectAll("rect")
+        .data(color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.color.range().map(function(d, i) {
           return {
-            x0: i ? color_map_22ff8d35abced203f86801ec5f31f48e.x(color_map_22ff8d35abced203f86801ec5f31f48e.color.domain()[i - 1]) : color_map_22ff8d35abced203f86801ec5f31f48e.x.range()[0],
-            x1: i < color_map_22ff8d35abced203f86801ec5f31f48e.color.domain().length ? color_map_22ff8d35abced203f86801ec5f31f48e.x(color_map_22ff8d35abced203f86801ec5f31f48e.color.domain()[i]) : color_map_22ff8d35abced203f86801ec5f31f48e.x.range()[1],
+            x0: i ? color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x(color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.color.domain()[i - 1]) : color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x.range()[0],
+            x1: i < color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.color.domain().length ? color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x(color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.color.domain()[i]) : color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.x.range()[1],
             z: d
           };
         }))
@@ -600,7 +625,7 @@
         .attr("width", function(d) { return d.x1 - d.x0; })
         .style("fill", function(d) { return d.z; });
 
-    color_map_22ff8d35abced203f86801ec5f31f48e.g.call(color_map_22ff8d35abced203f86801ec5f31f48e.xAxis).append("text")
+    color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.g.call(color_map_980dcd14c5350a6fb4579f7a0c4c6c7d.xAxis).append("text")
         .attr("class", "caption")
         .attr("y", 21)
         .text("Value Scale (for positive values)");
