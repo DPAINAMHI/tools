@@ -1,736 +1,131 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    
-        <script>
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_026fdcbfb0c8bad41045cd2fc63a3ae3 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            </style>
-        
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Volunclima - CIIFEN</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    
-    
-<div style="position: fixed; 
-            top: 10px; 
-            left: 50%; 
-            transform: translateX(-50%); 
-            background-color: white; 
-            padding: 5px; 
-            border-radius: 5px; 
-            font-size: 16px; 
-            color: black; 
-            z-index:9999;">
-    <b>FECHA:</b> 2025-02-12
-</div>
-    
-            <div class="folium-map" id="map_026fdcbfb0c8bad41045cd2fc63a3ae3" ></div>
-        
+    <table>
+        <caption>Volunclima - Datos del 2025-06-03</caption>
+        <table class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>DATE</th>
+      <th>CODE</th>
+      <th>VALUE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-06-03</td>
+      <td>ECX0001</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00070</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00109</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00101</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00073</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00001</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00157</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00208</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00188</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00189</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00210</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00163</td>
+      <td>16.6</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00107</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00211</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00168</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00120</td>
+      <td>4.4</td>
+    </tr>
+    <tr>
+      <td>2025-06-03</td>
+      <td>EC00137</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+    </table>
 </body>
-<script>
-    
-    
-            var map_026fdcbfb0c8bad41045cd2fc63a3ae3 = L.map(
-                "map_026fdcbfb0c8bad41045cd2fc63a3ae3",
-                {
-                    center: [-1.9289473041666667, -80.05604876666666],
-                    crs: L.CRS.EPSG3857,
-                    zoom: 6,
-                    zoomControl: true,
-                    preferCanvas: false,
-                }
-            );
-
-            
-
-        
-    
-            var tile_layer_d11e250b6d2ac28ceb9309b5109bcb1e = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            );
-        
-    
-            tile_layer_d11e250b6d2ac28ceb9309b5109bcb1e.addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var marker_7521354b21c421943c9fe2b7aa09a5c8 = L.marker(
-                [-2.014112, -80.578024],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_e4a8b15a1aff0d95bd5d9f55f7c1f0fc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025136ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_7521354b21c421943c9fe2b7aa09a5c8.setIcon(div_icon_e4a8b15a1aff0d95bd5d9f55f7c1f0fc);
-        
-    
-        var popup_a9014939408d413e7931846725b2c713 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_44d7b97db1d51a404ad32ab54ece4c59 = $(`<div id="html_44d7b97db1d51a404ad32ab54ece4c59" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:31:37-05<br><b>Code:</b> EC00101<br><b>Latitude:</b> -2.014112<br><b>Longitude:</b> -80.578024<br><b>Altitude:</b> 30.0<br><b>Division:</b> Santa Elena-Santa Elena-Colonche<br><b>Value:</b> 10.0<br><b>Comments:</b> 10.m</div>`)[0];
-                popup_a9014939408d413e7931846725b2c713.setContent(html_44d7b97db1d51a404ad32ab54ece4c59);
-            
-        
-
-        marker_7521354b21c421943c9fe2b7aa09a5c8.bindPopup(popup_a9014939408d413e7931846725b2c713)
-        ;
-
-        
-    
-    
-            var marker_681a79f1d9d94485ad481174f5be7a3a = L.marker(
-                [-4.5487974, -79.420629],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_c3d1a3f7d084a6f4c991298d1b3e8cac = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: gray; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_681a79f1d9d94485ad481174f5be7a3a.setIcon(div_icon_c3d1a3f7d084a6f4c991298d1b3e8cac);
-        
-    
-        var popup_69205046be108609475a3c43c5945333 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_bc3f0d21f7981e254229bb0c5e93b4d5 = $(`<div id="html_bc3f0d21f7981e254229bb0c5e93b4d5" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:37:54-05<br><b>Code:</b> EC00193<br><b>Latitude:</b> -4.5487974<br><b>Longitude:</b> -79.420629<br><b>Altitude:</b> 1825.0<br><b>Division:</b> Loja-Espíndola-Amaluza<br><b>Value:</b> -888.0<br><b>Comments:</b> más revote</div>`)[0];
-                popup_69205046be108609475a3c43c5945333.setContent(html_bc3f0d21f7981e254229bb0c5e93b4d5);
-            
-        
-
-        marker_681a79f1d9d94485ad481174f5be7a3a.bindPopup(popup_69205046be108609475a3c43c5945333)
-        ;
-
-        
-    
-    
-            var marker_424f5b0670df74cd1b5f217659bfec34 = L.marker(
-                [-1.3947621, -80.2066644],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_4d17ef7de2973a5341b52eddd01157ef = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024f35ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_424f5b0670df74cd1b5f217659bfec34.setIcon(div_icon_4d17ef7de2973a5341b52eddd01157ef);
-        
-    
-        var popup_5450951a83d6cd881577f8917e2a966d = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_8e480198382c5c7ea6351adb6a94e676 = $(`<div id="html_8e480198382c5c7ea6351adb6a94e676" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:54:27-05<br><b>Code:</b> EC00130<br><b>Latitude:</b> -1.3947621<br><b>Longitude:</b> -80.2066644<br><b>Altitude:</b> 61.0<br><b>Division:</b> Manabí-Olmedo-Olmedo<br><b>Value:</b> 8.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_5450951a83d6cd881577f8917e2a966d.setContent(html_8e480198382c5c7ea6351adb6a94e676);
-            
-        
-
-        marker_424f5b0670df74cd1b5f217659bfec34.bindPopup(popup_5450951a83d6cd881577f8917e2a966d)
-        ;
-
-        
-    
-    
-            var marker_c00d6fd9b7cd2b8fa3e1e0c3d7739240 = L.marker(
-                [-2.79969, -79.70765],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_ef508bc2646ab7cd12224997aaed7dcb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024932ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_c00d6fd9b7cd2b8fa3e1e0c3d7739240.setIcon(div_icon_ef508bc2646ab7cd12224997aaed7dcb);
-        
-    
-        var popup_d63fd25f54e968b39aa1a9f704b0e5c7 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_8bc29d472793bc6952581a4325b727c0 = $(`<div id="html_8bc29d472793bc6952581a4325b727c0" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:06:22-05<br><b>Code:</b> EC00144<br><b>Latitude:</b> -2.79969<br><b>Longitude:</b> -79.70765<br><b>Altitude:</b> 100.0<br><b>Division:</b> Guayas-Naranjal-Jaime Roldos<br><b>Value:</b> 1.8<br><b>Comments:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento </div>`)[0];
-                popup_d63fd25f54e968b39aa1a9f704b0e5c7.setContent(html_8bc29d472793bc6952581a4325b727c0);
-            
-        
-
-        marker_c00d6fd9b7cd2b8fa3e1e0c3d7739240.bindPopup(popup_d63fd25f54e968b39aa1a9f704b0e5c7)
-        ;
-
-        
-    
-    
-            var marker_53cb33820cb05ba3bec1e201c579f631 = L.marker(
-                [-1.666813, -80.216623],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_b945e4a99b7cbd6f1ae6f5de107cd116 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015e3aff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_53cb33820cb05ba3bec1e201c579f631.setIcon(div_icon_b945e4a99b7cbd6f1ae6f5de107cd116);
-        
-    
-        var popup_1804f93bd69e9191ff8790ecb555741a = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_760c8baec84f871176c2583dc5b19f89 = $(`<div id="html_760c8baec84f871176c2583dc5b19f89" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:12:19-05<br><b>Code:</b> EC00109<br><b>Latitude:</b> -1.666813<br><b>Longitude:</b> -80.216623<br><b>Altitude:</b> 88.0<br><b>Division:</b> Manabí-Paján-Guale<br><b>Value:</b> 21.8<br><b>Comments:</b> nan</div>`)[0];
-                popup_1804f93bd69e9191ff8790ecb555741a.setContent(html_760c8baec84f871176c2583dc5b19f89);
-            
-        
-
-        marker_53cb33820cb05ba3bec1e201c579f631.bindPopup(popup_1804f93bd69e9191ff8790ecb555741a)
-        ;
-
-        
-    
-    
-            var marker_3fd74dc47f072703bb26d58c1aa80204 = L.marker(
-                [-4.491392, -79.425645],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_7aa013d4be8713ae5300353be240bce3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024b33ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_3fd74dc47f072703bb26d58c1aa80204.setIcon(div_icon_7aa013d4be8713ae5300353be240bce3);
-        
-    
-        var popup_ffee3ac86e2aed983a679f62cf70dbe0 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_43470f324435e7e623ffd980dda0d53e = $(`<div id="html_43470f324435e7e623ffd980dda0d53e" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:24:42-05<br><b>Code:</b> EC00192<br><b>Latitude:</b> -4.491392<br><b>Longitude:</b> -79.425645<br><b>Altitude:</b> 1500.0<br><b>Division:</b> Loja-Espíndola-Amaluza<br><b>Value:</b> 3.6<br><b>Comments:</b> nan</div>`)[0];
-                popup_ffee3ac86e2aed983a679f62cf70dbe0.setContent(html_43470f324435e7e623ffd980dda0d53e);
-            
-        
-
-        marker_3fd74dc47f072703bb26d58c1aa80204.bindPopup(popup_ffee3ac86e2aed983a679f62cf70dbe0)
-        ;
-
-        
-    
-    
-            var marker_882073d2a46c2ed66406853d25f8b719 = L.marker(
-                [-0.108217, -77.130771],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_cae04c3cfd57fc5ca14c4f9724c8319e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_882073d2a46c2ed66406853d25f8b719.setIcon(div_icon_cae04c3cfd57fc5ca14c4f9724c8319e);
-        
-    
-        var popup_96e6a496281fef565d692a05c9ba87a3 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_5a676b73c19e600ee81133d0757ae79b = $(`<div id="html_5a676b73c19e600ee81133d0757ae79b" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:06:05-05<br><b>Code:</b> EC00165<br><b>Latitude:</b> -0.108217<br><b>Longitude:</b> -77.130771<br><b>Altitude:</b> 346.0<br><b>Division:</b> Orellana-Joya de los Sachas-San Sebastián del Coca<br><b>Value:</b> 2.4<br><b>Comments:</b> mañana nublado </div>`)[0];
-                popup_96e6a496281fef565d692a05c9ba87a3.setContent(html_5a676b73c19e600ee81133d0757ae79b);
-            
-        
-
-        marker_882073d2a46c2ed66406853d25f8b719.bindPopup(popup_96e6a496281fef565d692a05c9ba87a3)
-        ;
-
-        
-    
-    
-            var marker_99fa2dd9973b4faa2d429c316cf5c0ce = L.marker(
-                [-0.551561, -80.041205],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_cb3a92ab44bd51462ddd43d2643f37a7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024b33ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_99fa2dd9973b4faa2d429c316cf5c0ce.setIcon(div_icon_cb3a92ab44bd51462ddd43d2643f37a7);
-        
-    
-        var popup_67549a6018c9bffe17add931ee0b8f62 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_f26efc400cf4142c541e8b644cc8814c = $(`<div id="html_f26efc400cf4142c541e8b644cc8814c" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:06:09-05<br><b>Code:</b> EC00054<br><b>Latitude:</b> -0.551561<br><b>Longitude:</b> -80.041205<br><b>Altitude:</b> 77.0<br><b>Division:</b> Manabí-Chone-Ricaurte<br><b>Value:</b> 4.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_67549a6018c9bffe17add931ee0b8f62.setContent(html_f26efc400cf4142c541e8b644cc8814c);
-            
-        
-
-        marker_99fa2dd9973b4faa2d429c316cf5c0ce.bindPopup(popup_67549a6018c9bffe17add931ee0b8f62)
-        ;
-
-        
-    
-    
-            var marker_c5bfd92586a5d92b9bcdf593aafb3c28 = L.marker(
-                [0.04975, -77.32854],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_0fb6d6a039c776de00503ae0e54b871a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024832ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_c5bfd92586a5d92b9bcdf593aafb3c28.setIcon(div_icon_0fb6d6a039c776de00503ae0e54b871a);
-        
-    
-        var popup_63c875855e47a7427e0dc777cbbad250 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_37666d64588829580bb793cf569a6f74 = $(`<div id="html_37666d64588829580bb793cf569a6f74" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:16:00-05<br><b>Code:</b> EC00157<br><b>Latitude:</b> 0.04975<br><b>Longitude:</b> -77.32854<br><b>Altitude:</b> 489.0<br><b>Division:</b> Sucumbios-Gonzalo Pizarro-Lumbaqui<br><b>Value:</b> 1.4<br><b>Comments:</b> nan</div>`)[0];
-                popup_63c875855e47a7427e0dc777cbbad250.setContent(html_37666d64588829580bb793cf569a6f74);
-            
-        
-
-        marker_c5bfd92586a5d92b9bcdf593aafb3c28.bindPopup(popup_63c875855e47a7427e0dc777cbbad250)
-        ;
-
-        
-    
-    
-            var marker_2fe3dbdbe235c90bc034baf5b0fb6d8b = L.marker(
-                [-1.789895, -79.784786],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_825f6ea69cbb36a38ca79c54c8eeec84 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024c34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_2fe3dbdbe235c90bc034baf5b0fb6d8b.setIcon(div_icon_825f6ea69cbb36a38ca79c54c8eeec84);
-        
-    
-        var popup_9af4de7af3b3bd2941af4de34dce0833 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_a9d2ed812ce7e01f69509f57e0a45f10 = $(`<div id="html_a9d2ed812ce7e01f69509f57e0a45f10" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:19:16-05<br><b>Code:</b> ECX0001<br><b>Latitude:</b> -1.789895<br><b>Longitude:</b> -79.784786<br><b>Altitude:</b> 9.0<br><b>Division:</b> Guayas-Salitre-General Vernaza<br><b>Value:</b> 4.8<br><b>Comments:</b> nan</div>`)[0];
-                popup_9af4de7af3b3bd2941af4de34dce0833.setContent(html_a9d2ed812ce7e01f69509f57e0a45f10);
-            
-        
-
-        marker_2fe3dbdbe235c90bc034baf5b0fb6d8b.bindPopup(popup_9af4de7af3b3bd2941af4de34dce0833)
-        ;
-
-        
-    
-    
-            var marker_facc331487374d92bbaaf01300914ce7 = L.marker(
-                [-1.06215, -80.58621],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_a0c9b7c56171ed52800c010c3aa5fbee = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024932ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_facc331487374d92bbaaf01300914ce7.setIcon(div_icon_a0c9b7c56171ed52800c010c3aa5fbee);
-        
-    
-        var popup_22dd9d93c450e50be461ed282967b431 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_705b27f37ede0b9293d34964acb0fb75 = $(`<div id="html_705b27f37ede0b9293d34964acb0fb75" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:29:00-05<br><b>Code:</b> EC00124<br><b>Latitude:</b> -1.06215<br><b>Longitude:</b> -80.58621<br><b>Altitude:</b> 248.0<br><b>Division:</b> Manabí-Montecristi-Montecristi<br><b>Value:</b> 2.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_22dd9d93c450e50be461ed282967b431.setContent(html_705b27f37ede0b9293d34964acb0fb75);
-            
-        
-
-        marker_facc331487374d92bbaaf01300914ce7.bindPopup(popup_22dd9d93c450e50be461ed282967b431)
-        ;
-
-        
-    
-    
-            var marker_82ef48c46d1fb1b52d8837a4cbf05e83 = L.marker(
-                [-3.77562, -79.56582],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_c0775515a96b88d0058bde202e51eaa2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #015a39ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_82ef48c46d1fb1b52d8837a4cbf05e83.setIcon(div_icon_c0775515a96b88d0058bde202e51eaa2);
-        
-    
-        var popup_60894853080f6bf92f84be71f8180a3c = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_4d5ec00f8006259682d924ca15fb182f = $(`<div id="html_4d5ec00f8006259682d924ca15fb182f" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:32:00-05<br><b>Code:</b> EC00203<br><b>Latitude:</b> -3.77562<br><b>Longitude:</b> -79.56582<br><b>Altitude:</b> 900.0<br><b>Division:</b> Loja-Chaguarpamba-Chaguarpamba<br><b>Value:</b> 18.6<br><b>Comments:</b> Niebla en la mañana, medio día y tarde sol, fin de la tarde  llovizna ligera a las 16:47 y noche lluvia</div>`)[0];
-                popup_60894853080f6bf92f84be71f8180a3c.setContent(html_4d5ec00f8006259682d924ca15fb182f);
-            
-        
-
-        marker_82ef48c46d1fb1b52d8837a4cbf05e83.bindPopup(popup_60894853080f6bf92f84be71f8180a3c)
-        ;
-
-        
-    
-    
-            var marker_f062f823b2648ff44183d32960711d20 = L.marker(
-                [-0.90243, -89.444203],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_622057f3d507ffc1913c3431f485b76f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025938ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_f062f823b2648ff44183d32960711d20.setIcon(div_icon_622057f3d507ffc1913c3431f485b76f);
-        
-    
-        var popup_5af21f66fa54a7695d3e0fbf88a80dec = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_a4fd0b06b597f01740303ae62bda7e69 = $(`<div id="html_a4fd0b06b597f01740303ae62bda7e69" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:45:00-05<br><b>Code:</b> EC00145<br><b>Latitude:</b> -0.90243<br><b>Longitude:</b> -89.444203<br><b>Altitude:</b> 273.7<br><b>Division:</b> Galápagos-San Cristóbal-El Progreso<br><b>Value:</b> 16.8<br><b>Comments:</b> Nublado, 2 chubascos de 20 minutos en la madrugada. </div>`)[0];
-                popup_5af21f66fa54a7695d3e0fbf88a80dec.setContent(html_a4fd0b06b597f01740303ae62bda7e69);
-            
-        
-
-        marker_f062f823b2648ff44183d32960711d20.bindPopup(popup_5af21f66fa54a7695d3e0fbf88a80dec)
-        ;
-
-        
-    
-    
-            var marker_96ec57eb6b4cc3d652c8066086e830c7 = L.marker(
-                [-1.72112, -80.236382],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_e7bae5181356b9039a90c148a85aee1f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024c34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_96ec57eb6b4cc3d652c8066086e830c7.setIcon(div_icon_e7bae5181356b9039a90c148a85aee1f);
-        
-    
-        var popup_c14963c18e13a0d6d083f5eafa0fdc7f = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_5d1df3d1a8e9652895ef274b704f8922 = $(`<div id="html_5d1df3d1a8e9652895ef274b704f8922" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:39:33-05<br><b>Code:</b> EC00035<br><b>Latitude:</b> -1.72112<br><b>Longitude:</b> -80.236382<br><b>Altitude:</b> 80.0<br><b>Division:</b> Guayas-Pedro Carbo-Pedro Carbo<br><b>Value:</b> 5.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_c14963c18e13a0d6d083f5eafa0fdc7f.setContent(html_5d1df3d1a8e9652895ef274b704f8922);
-            
-        
-
-        marker_96ec57eb6b4cc3d652c8066086e830c7.bindPopup(popup_c14963c18e13a0d6d083f5eafa0fdc7f)
-        ;
-
-        
-    
-    
-            var marker_fedd8ab78d0ffb081a7e9df99bd834eb = L.marker(
-                [-1.671183, -79.462777],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_8275828d77f84d26e2c26e7e29695729 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025035ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_fedd8ab78d0ffb081a7e9df99bd834eb.setIcon(div_icon_8275828d77f84d26e2c26e7e29695729);
-        
-    
-        var popup_f515dea226cef19298e28078edd39c0f = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_c8d6eb2e2754ff7cb7d9da94ce6e60cb = $(`<div id="html_c8d6eb2e2754ff7cb7d9da94ce6e60cb" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:42:01-05<br><b>Code:</b> EC00184<br><b>Latitude:</b> -1.671183<br><b>Longitude:</b> -79.462777<br><b>Altitude:</b> 9.0<br><b>Division:</b> Los Ríos-Babahoyo-Caracol<br><b>Value:</b> 9.0<br><b>Comments:</b> nan</div>`)[0];
-                popup_f515dea226cef19298e28078edd39c0f.setContent(html_c8d6eb2e2754ff7cb7d9da94ce6e60cb);
-            
-        
-
-        marker_fedd8ab78d0ffb081a7e9df99bd834eb.bindPopup(popup_f515dea226cef19298e28078edd39c0f)
-        ;
-
-        
-    
-    
-            var marker_a7372ab77d120ab212c2d7a639671d6d = L.marker(
-                [-0.90611, -89.6052],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_32ae07d06cb5bf927fd0e68b79c02c45 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024832ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_a7372ab77d120ab212c2d7a639671d6d.setIcon(div_icon_32ae07d06cb5bf927fd0e68b79c02c45);
-        
-    
-        var popup_1a07575233b19288e9d6882aa818055a = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_ad82a577e9645089846314888a40bceb = $(`<div id="html_ad82a577e9645089846314888a40bceb" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:42:34-05<br><b>Code:</b> EC00204<br><b>Latitude:</b> -0.90611<br><b>Longitude:</b> -89.6052<br><b>Altitude:</b> 60.0<br><b>Division:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br><b>Value:</b> 1.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_1a07575233b19288e9d6882aa818055a.setContent(html_ad82a577e9645089846314888a40bceb);
-            
-        
-
-        marker_a7372ab77d120ab212c2d7a639671d6d.bindPopup(popup_1a07575233b19288e9d6882aa818055a)
-        ;
-
-        
-    
-    
-            var marker_d81242196eaa677cfb6bed7954c8bc32 = L.marker(
-                [-0.213273, -78.087508],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_5b0880e21a55b9ce52a2e5c9d1500487 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #034732ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_d81242196eaa677cfb6bed7954c8bc32.setIcon(div_icon_5b0880e21a55b9ce52a2e5c9d1500487);
-        
-    
-        var popup_fd92b911daa28a48bbbacc0d71b4b0cb = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_51d4e1fa470e1bdc0fdd84c51b36cd8a = $(`<div id="html_51d4e1fa470e1bdc0fdd84c51b36cd8a" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:47:00-05<br><b>Code:</b> EC00163<br><b>Latitude:</b> -0.213273<br><b>Longitude:</b> -78.087508<br><b>Altitude:</b> 3202.0<br><b>Division:</b> Napo-El Chaco-Oyacachi<br><b>Value:</b> 0.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_fd92b911daa28a48bbbacc0d71b4b0cb.setContent(html_51d4e1fa470e1bdc0fdd84c51b36cd8a);
-            
-        
-
-        marker_d81242196eaa677cfb6bed7954c8bc32.bindPopup(popup_fd92b911daa28a48bbbacc0d71b4b0cb)
-        ;
-
-        
-    
-    
-            var marker_b8a62d5c54a7d33b905bc5a55f8bd191 = L.marker(
-                [-0.43917, -76.99806],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_264b4937012fdf6fffc003dc6b4e3505 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024832ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_b8a62d5c54a7d33b905bc5a55f8bd191.setIcon(div_icon_264b4937012fdf6fffc003dc6b4e3505);
-        
-    
-        var popup_b40316758b12a609313982c9f2f3fbf1 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_120bcf1b5c602cbf2829b9e2f5b8d379 = $(`<div id="html_120bcf1b5c602cbf2829b9e2f5b8d379" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:57:00-05<br><b>Code:</b> EC00120<br><b>Latitude:</b> -0.43917<br><b>Longitude:</b> -76.99806<br><b>Altitude:</b> 265.0<br><b>Division:</b> Orellana-Francisco de Orellana-El coca<br><b>Value:</b> 1.2<br><b>Comments:</b> nan</div>`)[0];
-                popup_b40316758b12a609313982c9f2f3fbf1.setContent(html_120bcf1b5c602cbf2829b9e2f5b8d379);
-            
-        
-
-        marker_b8a62d5c54a7d33b905bc5a55f8bd191.bindPopup(popup_b40316758b12a609313982c9f2f3fbf1)
-        ;
-
-        
-    
-    
-            var marker_902886de486ee62f926287f44e7d56bb = L.marker(
-                [-4.0750559, -79.3129304],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_75151508ad8dff9525f84e28f022848f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #025637ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_902886de486ee62f926287f44e7d56bb.setIcon(div_icon_75151508ad8dff9525f84e28f022848f);
-        
-    
-        var popup_e9bcc8554aead180b0e14c372758cb4e = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_e0579785603597662fb1659d3c2f1753 = $(`<div id="html_e0579785603597662fb1659d3c2f1753" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:28:00-05<br><b>Code:</b> EC00200<br><b>Latitude:</b> -4.0750559<br><b>Longitude:</b> -79.3129304<br><b>Altitude:</b> 777.0<br><b>Division:</b> Loja-Catamayo-El Tambo<br><b>Value:</b> 14.0<br><b>Comments:</b> Reportado via Whatsapp </div>`)[0];
-                popup_e9bcc8554aead180b0e14c372758cb4e.setContent(html_e0579785603597662fb1659d3c2f1753);
-            
-        
-
-        marker_902886de486ee62f926287f44e7d56bb.bindPopup(popup_e9bcc8554aead180b0e14c372758cb4e)
-        ;
-
-        
-    
-    
-            var marker_ec6277c18ef1fafb8c909b46dedc5cd9 = L.marker(
-                [-4.196835, -79.536481],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_b1cf607634e830e2e570dc122bc031d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #01663eff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_ec6277c18ef1fafb8c909b46dedc5cd9.setIcon(div_icon_b1cf607634e830e2e570dc122bc031d4);
-        
-    
-        var popup_242793ac7505c6d33da1aa6165233757 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_f35f42781485c6e757f7f8b4e3d2e34f = $(`<div id="html_f35f42781485c6e757f7f8b4e3d2e34f" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:40:00-05<br><b>Code:</b> EC00196<br><b>Latitude:</b> -4.196835<br><b>Longitude:</b> -79.536481<br><b>Altitude:</b> 1830.0<br><b>Division:</b> Loja-Gonzanama-Changaimina<br><b>Value:</b> 29.6<br><b>Comments:</b> Reportado via Whatsapp </div>`)[0];
-                popup_242793ac7505c6d33da1aa6165233757.setContent(html_f35f42781485c6e757f7f8b4e3d2e34f);
-            
-        
-
-        marker_ec6277c18ef1fafb8c909b46dedc5cd9.bindPopup(popup_242793ac7505c6d33da1aa6165233757)
-        ;
-
-        
-    
-    
-            var marker_1b16992d35b2f36024bf4c5edfc369eb = L.marker(
-                [-4.0228367, -79.9794717],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_7f73d43c73f2dcbd5337a7fee9f17837 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #ef2917ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_1b16992d35b2f36024bf4c5edfc369eb.setIcon(div_icon_7f73d43c73f2dcbd5337a7fee9f17837);
-        
-    
-        var popup_424fa5a3f7fe4d632214b97a54f18186 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_17d7fd88d85b41ba40d9214c9ac5fe8d = $(`<div id="html_17d7fd88d85b41ba40d9214c9ac5fe8d" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 07:04:00-05<br><b>Code:</b> EC00202<br><b>Latitude:</b> -4.0228367<br><b>Longitude:</b> -79.9794717<br><b>Altitude:</b> 1135.0<br><b>Division:</b> Loja-Puyango-Mercadillo<br><b>Value:</b> 220.0<br><b>Comments:</b> Reportado via Whatsapp </div>`)[0];
-                popup_424fa5a3f7fe4d632214b97a54f18186.setContent(html_17d7fd88d85b41ba40d9214c9ac5fe8d);
-            
-        
-
-        marker_1b16992d35b2f36024bf4c5edfc369eb.bindPopup(popup_424fa5a3f7fe4d632214b97a54f18186)
-        ;
-
-        
-    
-    
-            var marker_d040a153b14f5f828e48c12d44d701c9 = L.marker(
-                [0.348899, -77.942256],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_183cb3867769e0873d940bc835eca1d2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024933ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_d040a153b14f5f828e48c12d44d701c9.setIcon(div_icon_183cb3867769e0873d940bc835eca1d2);
-        
-    
-        var popup_4f99ad922aa564195be09be23f74726b = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_b450de514ff3521c3a111884efaab6b0 = $(`<div id="html_b450de514ff3521c3a111884efaab6b0" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 09:43:29-05<br><b>Code:</b> EC00168<br><b>Latitude:</b> 0.348899<br><b>Longitude:</b> -77.942256<br><b>Altitude:</b> 2121.0<br><b>Division:</b> Imbabura-Pimampiro-Pimampiro<br><b>Value:</b> 2.4<br><b>Comments:</b> nan</div>`)[0];
-                popup_4f99ad922aa564195be09be23f74726b.setContent(html_b450de514ff3521c3a111884efaab6b0);
-            
-        
-
-        marker_d040a153b14f5f828e48c12d44d701c9.bindPopup(popup_4f99ad922aa564195be09be23f74726b)
-        ;
-
-        
-    
-    
-            var marker_4ded83dabd24993ddded13fc00c08ab7 = L.marker(
-                [-4.0276412, -79.7278939],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_0c5d14dbe0dd10baf8269534b6595e71 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #007543ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_4ded83dabd24993ddded13fc00c08ab7.setIcon(div_icon_0c5d14dbe0dd10baf8269534b6595e71);
-        
-    
-        var popup_2517f51b61d7967719e1ef2c6cc6220e = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_75ef90c399dc8b5a1c051491ddea013a = $(`<div id="html_75ef90c399dc8b5a1c051491ddea013a" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 08:19:00-05<br><b>Code:</b> EC00198<br><b>Latitude:</b> -4.0276412<br><b>Longitude:</b> -79.7278939<br><b>Altitude:</b> 945.0<br><b>Division:</b> Loja-Paltas-Casanga<br><b>Value:</b> 43.2<br><b>Comments:</b> Reportado via Whatsapp </div>`)[0];
-                popup_2517f51b61d7967719e1ef2c6cc6220e.setContent(html_75ef90c399dc8b5a1c051491ddea013a);
-            
-        
-
-        marker_4ded83dabd24993ddded13fc00c08ab7.bindPopup(popup_2517f51b61d7967719e1ef2c6cc6220e)
-        ;
-
-        
-    
-    
-            var marker_3037b2b113e9e5acf18c2bb69c02900b = L.marker(
-                [-0.31472, -77.01944],
-                {}
-            ).addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-        
-    
-            var div_icon_04a1c6b3b14bf57494fa4f1290895c77 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background-color: #024c34ff; width: 10px; height: 10px; border-radius: 50%;\"\u003e\u003c/div\u003e", "iconAnchor": [5, 5], "iconSize": [10, 10]});
-            marker_3037b2b113e9e5acf18c2bb69c02900b.setIcon(div_icon_04a1c6b3b14bf57494fa4f1290895c77);
-        
-    
-        var popup_651fd7a4509e7eeac131f406d56f38b5 = L.popup({"maxWidth": 250});
-
-        
-            
-                var html_264267e129a06f0e062a1ded1c2ddca6 = $(`<div id="html_264267e129a06f0e062a1ded1c2ddca6" style="width: 100.0%; height: 100.0%;"><b>Time:</b> 06:30:00-05<br><b>Code:</b> EC00121<br><b>Latitude:</b> -0.31472<br><b>Longitude:</b> -77.01944<br><b>Altitude:</b> 282.0<br><b>Division:</b> Orellana-Joya de los Sachas-San Sebastián del Coca<br><b>Value:</b> 5.0<br><b>Comments:</b> Reportado via Whatsapp </div>`)[0];
-                popup_651fd7a4509e7eeac131f406d56f38b5.setContent(html_264267e129a06f0e062a1ded1c2ddca6);
-            
-        
-
-        marker_3037b2b113e9e5acf18c2bb69c02900b.bindPopup(popup_651fd7a4509e7eeac131f406d56f38b5)
-        ;
-
-        
-    
-    
-    var color_map_cb5b0718819bbbdba1fbd9abd8c2d524 = {};
-
-    
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.color = d3.scale.threshold()
-              .domain([0.0, 0.4408817635270541, 0.8817635270541082, 1.3226452905811623, 1.7635270541082164, 2.2044088176352705, 2.6452905811623246, 3.0861723446893787, 3.527054108216433, 3.967935871743487, 4.408817635270541, 4.849699398797595, 5.290581162324649, 5.731462925851703, 6.1723446893787575, 6.613226452905812, 7.054108216432866, 7.49498997995992, 7.935871743486974, 8.376753507014028, 8.817635270541082, 9.258517034068136, 9.69939879759519, 10.140280561122244, 10.581162324649299, 11.022044088176353, 11.462925851703407, 11.90380761523046, 12.344689378757515, 12.785571142284569, 13.226452905811623, 13.667334669338677, 14.108216432865731, 14.549098196392785, 14.98997995991984, 15.430861723446894, 15.871743486973948, 16.312625250501004, 16.753507014028056, 17.194388777555112, 17.635270541082164, 18.07615230460922, 18.517034068136272, 18.95791583166333, 19.39879759519038, 19.839679358717436, 20.28056112224449, 20.721442885771545, 21.162324649298597, 21.603206412825653, 22.044088176352705, 22.48496993987976, 22.925851703406813, 23.36673346693387, 23.80761523046092, 24.248496993987978, 24.68937875751503, 25.130260521042086, 25.571142284569138, 26.012024048096194, 26.452905811623246, 26.893787575150302, 27.334669338677354, 27.77555110220441, 28.216432865731463, 28.65731462925852, 29.09819639278557, 29.539078156312627, 29.97995991983968, 30.420841683366735, 30.861723446893787, 31.302605210420843, 31.743486973947896, 32.18436873747495, 32.62525050100201, 33.06613226452906, 33.50701402805611, 33.947895791583164, 34.388777555110224, 34.829659318637276, 35.27054108216433, 35.71142284569138, 36.15230460921844, 36.59318637274549, 37.034068136272545, 37.4749498997996, 37.91583166332666, 38.35671342685371, 38.79759519038076, 39.23847695390781, 39.67935871743487, 40.120240480961925, 40.56112224448898, 41.00200400801603, 41.44288577154309, 41.88376753507014, 42.324649298597194, 42.765531062124246, 43.206412825651306, 43.64729458917836, 44.08817635270541, 44.52905811623246, 44.96993987975952, 45.410821643286575, 45.85170340681363, 46.29258517034068, 46.73346693386774, 47.17434869739479, 47.61523046092184, 48.056112224448896, 48.496993987975955, 48.93787575150301, 49.37875751503006, 49.81963927855711, 50.26052104208417, 50.701402805611224, 51.142284569138276, 51.58316633266533, 52.02404809619239, 52.46492985971944, 52.90581162324649, 53.346693386773545, 53.787575150300604, 54.22845691382766, 54.66933867735471, 55.11022044088176, 55.55110220440882, 55.99198396793587, 56.432865731462925, 56.87374749498998, 57.31462925851704, 57.75551102204409, 58.19639278557114, 58.637274549098194, 59.078156312625254, 59.519038076152306, 59.95991983967936, 60.40080160320641, 60.84168336673347, 61.28256513026052, 61.723446893787575, 62.16432865731463, 62.605210420841686, 63.04609218436874, 63.48697394789579, 63.92785571142284, 64.3687374749499, 64.80961923847696, 65.25050100200401, 65.69138276553106, 66.13226452905812, 66.57314629258516, 67.01402805611222, 67.45490981963928, 67.89579158316633, 68.33667334669339, 68.77755511022045, 69.21843687374749, 69.65931863727455, 70.1002004008016, 70.54108216432866, 70.98196392785572, 71.42284569138276, 71.86372745490982, 72.30460921843688, 72.74549098196393, 73.18637274549098, 73.62725450901803, 74.06813627254509, 74.50901803607215, 74.9498997995992, 75.39078156312625, 75.83166332665331, 76.27254509018036, 76.71342685370742, 77.15430861723446, 77.59519038076152, 78.03607214428858, 78.47695390781563, 78.91783567134269, 79.35871743486975, 79.79959919839679, 80.24048096192385, 80.6813627254509, 81.12224448897796, 81.56312625250501, 82.00400801603206, 82.44488977955912, 82.88577154308618, 83.32665330661322, 83.76753507014028, 84.20841683366733, 84.64929859719439, 85.09018036072145, 85.53106212424849, 85.97194388777555, 86.41282565130261, 86.85370741482966, 87.29458917835672, 87.73547094188376, 88.17635270541082, 88.61723446893788, 89.05811623246493, 89.49899799599199, 89.93987975951904, 90.38076152304609, 90.82164328657315, 91.2625250501002, 91.70340681362725, 92.14428857715431, 92.58517034068136, 93.02605210420842, 93.46693386773548, 93.90781563126252, 94.34869739478958, 94.78957915831663, 95.23046092184369, 95.67134268537075, 96.11222444889779, 96.55310621242485, 96.99398797595191, 97.43486973947896, 97.87575150300601, 98.31663326653306, 98.75751503006012, 99.19839679358718, 99.63927855711422, 100.08016032064128, 100.52104208416834, 100.96192384769539, 101.40280561122245, 101.84368737474949, 102.28456913827655, 102.72545090180361, 103.16633266533066, 103.60721442885772, 104.04809619238478, 104.48897795591182, 104.92985971943888, 105.37074148296593, 105.81162324649299, 106.25250501002004, 106.69338677354709, 107.13426853707415, 107.57515030060121, 108.01603206412825, 108.45691382765531, 108.89779559118236, 109.33867735470942, 109.77955911823648, 110.22044088176352, 110.66132264529058, 111.10220440881764, 111.54308617234469, 111.98396793587175, 112.42484969939879, 112.86573146292585, 113.30661322645291, 113.74749498997996, 114.18837675350701, 114.62925851703407, 115.07014028056112, 115.51102204408818, 115.95190380761522, 116.39278557114228, 116.83366733466934, 117.27454909819639, 117.71543086172345, 118.15631262525051, 118.59719438877755, 119.03807615230461, 119.47895791583166, 119.91983967935872, 120.36072144288578, 120.80160320641282, 121.24248496993988, 121.68336673346694, 122.12424849699399, 122.56513026052104, 123.00601202404809, 123.44689378757515, 123.88777555110221, 124.32865731462925, 124.76953907815631, 125.21042084168337, 125.65130260521042, 126.09218436873748, 126.53306613226452, 126.97394789579158, 127.41482965931864, 127.85571142284569, 128.29659318637275, 128.7374749498998, 129.17835671342687, 129.6192384769539, 130.06012024048096, 130.50100200400803, 130.94188376753507, 131.38276553106212, 131.82364729458916, 132.26452905811624, 132.70541082164328, 133.14629258517033, 133.5871743486974, 134.02805611222445, 134.4689378757515, 134.90981963927857, 135.3507014028056, 135.79158316633266, 136.23246492985973, 136.67334669338678, 137.11422845691382, 137.5551102204409, 137.99599198396794, 138.43687374749499, 138.87775551102203, 139.3186372745491, 139.75951903807615, 140.2004008016032, 140.64128256513027, 141.0821643286573, 141.52304609218436, 141.96392785571143, 142.40480961923848, 142.84569138276552, 143.2865731462926, 143.72745490981964, 144.1683366733467, 144.60921843687376, 145.0501002004008, 145.49098196392785, 145.9318637274549, 146.37274549098197, 146.81362725450902, 147.25450901803606, 147.69539078156313, 148.13627254509018, 148.57715430861722, 149.0180360721443, 149.45891783567134, 149.8997995991984, 150.34068136272546, 150.7815631262525, 151.22244488977955, 151.66332665330663, 152.10420841683367, 152.54509018036072, 152.98597194388776, 153.42685370741484, 153.86773547094188, 154.30861723446893, 154.749498997996, 155.19038076152304, 155.6312625250501, 156.07214428857716, 156.5130260521042, 156.95390781563125, 157.39478957915833, 157.83567134268537, 158.27655310621242, 158.7174348697395, 159.15831663326654, 159.59919839679358, 160.04008016032063, 160.4809619238477, 160.92184368737475, 161.3627254509018, 161.80360721442887, 162.2444889779559, 162.68537074148296, 163.12625250501003, 163.56713426853707, 164.00801603206412, 164.4488977955912, 164.88977955911824, 165.33066132264528, 165.77154308617236, 166.2124248496994, 166.65330661322645, 167.0941883767535, 167.53507014028057, 167.9759519038076, 168.41683366733466, 168.85771543086173, 169.29859719438878, 169.73947895791582, 170.1803607214429, 170.62124248496994, 171.06212424849699, 171.50300601202406, 171.9438877755511, 172.38476953907815, 172.82565130260522, 173.26653306613227, 173.7074148296593, 174.14829659318636, 174.58917835671343, 175.03006012024048, 175.47094188376752, 175.9118236472946, 176.35270541082164, 176.7935871743487, 177.23446893787576, 177.6753507014028, 178.11623246492985, 178.55711422845692, 178.99799599198397, 179.43887775551102, 179.8797595190381, 180.32064128256513, 180.76152304609218, 181.20240480961922, 181.6432865731463, 182.08416833667334, 182.5250501002004, 182.96593186372746, 183.4068136272545, 183.84769539078155, 184.28857715430863, 184.72945891783567, 185.17034068136272, 185.6112224448898, 186.05210420841684, 186.49298597194388, 186.93386773547095, 187.374749498998, 187.81563126252505, 188.2565130260521, 188.69739478957916, 189.1382765531062, 189.57915831663325, 190.02004008016033, 190.46092184368737, 190.90180360721442, 191.3426853707415, 191.78356713426854, 192.22444889779558, 192.66533066132266, 193.1062124248497, 193.54709418837675, 193.98797595190382, 194.42885771543087, 194.8697394789579, 195.31062124248496, 195.75150300601203, 196.19238476953907, 196.63326653306612, 197.0741482965932, 197.51503006012024, 197.95591182364728, 198.39679358717436, 198.8376753507014, 199.27855711422845, 199.71943887775552, 200.16032064128257, 200.6012024048096, 201.0420841683367, 201.48296593186373, 201.92384769539078, 202.36472945891782, 202.8056112224449, 203.24649298597194, 203.68737474949899, 204.12825651302606, 204.5691382765531, 205.01002004008015, 205.45090180360722, 205.89178356713427, 206.3326653306613, 206.7735470941884, 207.21442885771543, 207.65531062124248, 208.09619238476955, 208.5370741482966, 208.97795591182364, 209.4188376753507, 209.85971943887776, 210.3006012024048, 210.74148296593185, 211.18236472945893, 211.62324649298597, 212.06412825651302, 212.5050100200401, 212.94589178356713, 213.38677354709418, 213.82765531062125, 214.2685370741483, 214.70941883767534, 215.15030060120242, 215.59118236472946, 216.0320641282565, 216.47294589178355, 216.91382765531063, 217.35470941883767, 217.79559118236472, 218.2364729458918, 218.67735470941884, 219.11823647294588, 219.55911823647295, 220.0])
-              .range(['#034732ff', '#024732ff', '#024832ff', '#024832ff', '#024932ff', '#024933ff', '#024a33ff', '#024a33ff', '#024b33ff', '#024b33ff', '#024b33ff', '#024c34ff', '#024c34ff', '#024d34ff', '#024d34ff', '#024e34ff', '#024e35ff', '#024f35ff', '#024f35ff', '#025035ff', '#025035ff', '#025135ff', '#025136ff', '#025236ff', '#025236ff', '#025236ff', '#025336ff', '#025336ff', '#025437ff', '#025437ff', '#025537ff', '#025537ff', '#025637ff', '#025638ff', '#025738ff', '#025738ff', '#025838ff', '#025838ff', '#025938ff', '#025939ff', '#025939ff', '#025a39ff', '#015a39ff', '#015b39ff', '#015b39ff', '#015c3aff', '#015c3aff', '#015d3aff', '#015d3aff', '#015e3aff', '#015e3bff', '#015f3bff', '#015f3bff', '#01603bff', '#01603bff', '#01603bff', '#01613cff', '#01613cff', '#01623cff', '#01623cff', '#01633cff', '#01633cff', '#01643dff', '#01643dff', '#01653dff', '#01653dff', '#01663dff', '#01663eff', '#01673eff', '#01673eff', '#01673eff', '#01683eff', '#01683eff', '#01693fff', '#01693fff', '#016a3fff', '#016a3fff', '#016b3fff', '#016b40ff', '#016c40ff', '#016c40ff', '#016d40ff', '#016d40ff', '#016e40ff', '#006e41ff', '#006e41ff', '#006f41ff', '#006f41ff', '#007041ff', '#007041ff', '#007142ff', '#007142ff', '#007242ff', '#007242ff', '#007342ff', '#007343ff', '#007443ff', '#007443ff', '#007543ff', '#007543ff', '#007543ff', '#007644ff', '#007644ff', '#007744ff', '#007744ff', '#007844ff', '#007844ff', '#007945ff', '#007945ff', '#007a45ff', '#007a45ff', '#007b45ff', '#007b46ff', '#007c46ff', '#007c46ff', '#007c46ff', '#007d46ff', '#007d46ff', '#007e47ff', '#007e47ff', '#007f47ff', '#007f47ff', '#008047ff', '#008047ff', '#008148ff', '#008148ff', '#018247ff', '#038247ff', '#058346ff', '#068346ff', '#088446ff', '#098445ff', '#0b8545ff', '#0d8544ff', '#0e8644ff', '#108643ff', '#118743ff', '#138743ff', '#158842ff', '#168842ff', '#188941ff', '#198941ff', '#1b8a40ff', '#1d8a40ff', '#1e8b40ff', '#208b3fff', '#218c3fff', '#238c3eff', '#258d3eff', '#268d3dff', '#288e3dff', '#298e3dff', '#2b8f3cff', '#2d8f3cff', '#2e903bff', '#30903bff', '#31913aff', '#33913aff', '#34923aff', '#369239ff', '#389339ff', '#399338ff', '#3b9438ff', '#3c9437ff', '#3e9537ff', '#409537ff', '#419636ff', '#439636ff', '#449735ff', '#469735ff', '#489834ff', '#499834ff', '#4b9934ff', '#4c9933ff', '#4e9a33ff', '#509a32ff', '#519b32ff', '#539b31ff', '#549c31ff', '#569d31ff', '#589d30ff', '#599e30ff', '#5b9e2fff', '#5c9f2fff', '#5e9f2fff', '#60a02eff', '#61a02eff', '#63a12dff', '#64a12dff', '#66a22cff', '#67a22cff', '#69a32cff', '#6ba32bff', '#6ca42bff', '#6ea42aff', '#6fa52aff', '#71a529ff', '#73a629ff', '#74a629ff', '#76a728ff', '#77a728ff', '#79a827ff', '#7ba827ff', '#7ca926ff', '#7ea926ff', '#7faa26ff', '#81aa25ff', '#83ab25ff', '#84ab24ff', '#86ac24ff', '#87ac23ff', '#89ad23ff', '#8bad23ff', '#8cae22ff', '#8eae22ff', '#8faf21ff', '#91af21ff', '#92b020ff', '#94b020ff', '#96b120ff', '#97b11fff', '#99b21fff', '#9ab21eff', '#9cb31eff', '#9eb31dff', '#9fb41dff', '#a1b41dff', '#a2b51cff', '#a4b51cff', '#a6b61bff', '#a7b61bff', '#a9b71aff', '#aab71aff', '#acb81aff', '#aeb819ff', '#afb919ff', '#b1b918ff', '#b2ba18ff', '#b4ba17ff', '#b6bb17ff', '#b7bb17ff', '#b9bc16ff', '#babc16ff', '#bcbd15ff', '#bebd15ff', '#bfbe14ff', '#c1be14ff', '#c2bf14ff', '#c4bf13ff', '#c5c013ff', '#c6c013ff', '#c7c013ff', '#c7bf13ff', '#c7bf13ff', '#c8be13ff', '#c8be13ff', '#c8bd13ff', '#c9bd13ff', '#c9bd13ff', '#c9bc13ff', '#cabc13ff', '#cabb13ff', '#cabb13ff', '#cbba13ff', '#cbba13ff', '#cbba13ff', '#ccb913ff', '#ccb913ff', '#ccb813ff', '#cdb813ff', '#cdb713ff', '#cdb713ff', '#ceb613ff', '#ceb613ff', '#ceb613ff', '#cfb513ff', '#cfb513ff', '#cfb413ff', '#d0b413ff', '#d0b314ff', '#d0b314ff', '#d1b314ff', '#d1b214ff', '#d1b214ff', '#d2b114ff', '#d2b114ff', '#d2b014ff', '#d3b014ff', '#d3b014ff', '#d3af14ff', '#d4af14ff', '#d4ae14ff', '#d4ae14ff', '#d5ad14ff', '#d5ad14ff', '#d5ac14ff', '#d6ac14ff', '#d6ac14ff', '#d6ab14ff', '#d7ab14ff', '#d7aa14ff', '#d7aa14ff', '#d8a914ff', '#d8a914ff', '#d8a914ff', '#d9a814ff', '#d9a814ff', '#d9a714ff', '#daa714ff', '#daa614ff', '#daa615ff', '#dba615ff', '#dba515ff', '#dba515ff', '#dca415ff', '#dca415ff', '#dca315ff', '#dda315ff', '#dda215ff', '#dda215ff', '#dea215ff', '#dea115ff', '#dea115ff', '#dfa015ff', '#dfa015ff', '#df9f15ff', '#e09f15ff', '#e09f15ff', '#e09e15ff', '#e19e15ff', '#e19d15ff', '#e19d15ff', '#e19c15ff', '#e29c15ff', '#e29c15ff', '#e29b15ff', '#e39b15ff', '#e39a15ff', '#e39a15ff', '#e49915ff', '#e49915ff', '#e49816ff', '#e59816ff', '#e59816ff', '#e59716ff', '#e69716ff', '#e69616ff', '#e69616ff', '#e79516ff', '#e79516ff', '#e79516ff', '#e89416ff', '#e89416ff', '#e89316ff', '#e99316ff', '#e99216ff', '#e99216ff', '#ea9216ff', '#ea9116ff', '#ea9116ff', '#eb9016ff', '#eb9016ff', '#eb8f16ff', '#ec8f16ff', '#ec8e16ff', '#ec8e16ff', '#ed8e16ff', '#ed8d16ff', '#ed8d16ff', '#ee8c16ff', '#ee8c16ff', '#ee8b16ff', '#ef8b17ff', '#ef8b17ff', '#ef8a17ff', '#ef8917ff', '#ef8917ff', '#ef8817ff', '#ef8717ff', '#ef8617ff', '#ef8617ff', '#ef8517ff', '#ef8417ff', '#ef8317ff', '#ef8217ff', '#ef8217ff', '#ef8117ff', '#ef8017ff', '#ef7f17ff', '#ef7f17ff', '#ef7e17ff', '#ef7d17ff', '#ef7c17ff', '#ef7b17ff', '#ef7b17ff', '#ef7a17ff', '#ef7917ff', '#ef7817ff', '#ef7817ff', '#ef7717ff', '#ef7617ff', '#ef7517ff', '#ef7417ff', '#ef7417ff', '#ef7317ff', '#ef7217ff', '#ef7117ff', '#ef7017ff', '#ef7017ff', '#ef6f17ff', '#ef6e17ff', '#ef6d17ff', '#ef6d17ff', '#ef6c17ff', '#ef6b17ff', '#ef6a17ff', '#ef6917ff', '#ef6917ff', '#ef6817ff', '#ef6717ff', '#ef6617ff', '#ef6617ff', '#ef6517ff', '#ef6417ff', '#ef6317ff', '#ef6217ff', '#ef6217ff', '#ef6117ff', '#ef6017ff', '#ef5f17ff', '#ef5f17ff', '#ef5e17ff', '#ef5d17ff', '#ef5c17ff', '#ef5b17ff', '#ef5b17ff', '#ef5a17ff', '#ef5917ff', '#ef5817ff', '#ef5717ff', '#ef5717ff', '#ef5617ff', '#ef5517ff', '#ef5417ff', '#ef5417ff', '#ef5317ff', '#ef5217ff', '#ef5117ff', '#ef5017ff', '#ef5017ff', '#ef4f17ff', '#ef4e17ff', '#ef4d17ff', '#ef4d17ff', '#ef4c17ff', '#ef4b17ff', '#ef4a17ff', '#ef4917ff', '#ef4917ff', '#ef4817ff', '#ef4717ff', '#ef4617ff', '#ef4617ff', '#ef4517ff', '#ef4417ff', '#ef4317ff', '#ef4217ff', '#ef4217ff', '#ef4117ff', '#ef4017ff', '#ef3f17ff', '#ef3f17ff', '#ef3e17ff', '#ef3d17ff', '#ef3c17ff', '#ef3b17ff', '#ef3b17ff', '#ef3a17ff', '#ef3917ff', '#ef3817ff', '#ef3717ff', '#ef3717ff', '#ef3617ff', '#ef3517ff', '#ef3417ff', '#ef3417ff', '#ef3317ff', '#ef3217ff', '#ef3117ff', '#ef3017ff', '#ef3017ff', '#ef2f17ff', '#ef2e17ff', '#ef2d17ff', '#ef2d17ff', '#ef2c17ff', '#ef2b17ff', '#ef2a17ff', '#ef2917ff', '#ef2917ff']);
-    
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x = d3.scale.linear()
-              .domain([0.0, 220.0])
-              .range([0, 450 - 50]);
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.legend = L.control({position: 'topright'});
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.legend.addTo(map_026fdcbfb0c8bad41045cd2fc63a3ae3);
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.xAxis = d3.svg.axis()
-        .scale(color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x)
-        .orient("top")
-        .tickSize(1)
-        .tickValues([0.0, 55.0, 110.0, 165.0, 220.0]);
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.svg = d3.select(".legend.leaflet-control").append("svg")
-        .attr("id", 'legend')
-        .attr("width", 450)
-        .attr("height", 40);
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.g = color_map_cb5b0718819bbbdba1fbd9abd8c2d524.svg.append("g")
-        .attr("class", "key")
-        .attr("transform", "translate(25,16)");
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.g.selectAll("rect")
-        .data(color_map_cb5b0718819bbbdba1fbd9abd8c2d524.color.range().map(function(d, i) {
-          return {
-            x0: i ? color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x(color_map_cb5b0718819bbbdba1fbd9abd8c2d524.color.domain()[i - 1]) : color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x.range()[0],
-            x1: i < color_map_cb5b0718819bbbdba1fbd9abd8c2d524.color.domain().length ? color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x(color_map_cb5b0718819bbbdba1fbd9abd8c2d524.color.domain()[i]) : color_map_cb5b0718819bbbdba1fbd9abd8c2d524.x.range()[1],
-            z: d
-          };
-        }))
-      .enter().append("rect")
-        .attr("height", 40 - 30)
-        .attr("x", function(d) { return d.x0; })
-        .attr("width", function(d) { return d.x1 - d.x0; })
-        .style("fill", function(d) { return d.z; });
-
-    color_map_cb5b0718819bbbdba1fbd9abd8c2d524.g.call(color_map_cb5b0718819bbbdba1fbd9abd8c2d524.xAxis).append("text")
-        .attr("class", "caption")
-        .attr("y", 21)
-        .text("Value Scale (for positive values)");
-</script>
 </html>
