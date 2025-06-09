@@ -3,13 +3,21 @@
 <head>
     
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
@@ -17,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ccefbda66da7510c067dcf6b750d9942 {
+                #map_b58564a707436519633e0ef63513dd03 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -26,53 +34,27 @@
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
-
-            <style>html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            </style>
-
-            <style>#map {
-                position:absolute;
-                top:0;
-                bottom:0;
-                right:0;
-                left:0;
-                }
-            </style>
-
-            <script>
-                L_NO_TOUCH = false;
-                L_DISABLE_3D = false;
-            </script>
-
         
 </head>
 <body>
     
     
-    <h3 align="center" style="font-family:Arial">Volunclima - Datos del 2025-06-07</h3>
+    <h3 align="center" style="font-family:Arial">Volunclima - Datos del 08/06/2025</h3>
     
-            <div class="folium-map" id="map_ccefbda66da7510c067dcf6b750d9942" ></div>
+            <div class="folium-map" id="map_b58564a707436519633e0ef63513dd03" ></div>
         
 </body>
 <script>
     
     
-            var map_ccefbda66da7510c067dcf6b750d9942 = L.map(
-                "map_ccefbda66da7510c067dcf6b750d9942",
+            var map_b58564a707436519633e0ef63513dd03 = L.map(
+                "map_b58564a707436519633e0ef63513dd03",
                 {
                     center: [-1.5, -78.0],
                     crs: L.CRS.EPSG3857,
-                    ...{
-  "zoom": 6,
-  "zoomControl": true,
-  "preferCanvas": false,
-}
-
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
                 }
             );
 
@@ -80,1056 +62,955 @@
 
         
     
-            var tile_layer_832b1f8447dc1d968c925c3ae7f138b7 = L.tileLayer(
+            var tile_layer_92ec8752f49d6dd8ca6b92c2b69200e1 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {
-  "minZoom": 0,
-  "maxZoom": 19,
-  "maxNativeZoom": 19,
-  "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
-  "subdomains": "abc",
-  "detectRetina": false,
-  "tms": false,
-  "opacity": 1,
-}
-
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_832b1f8447dc1d968c925c3ae7f138b7.addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            tile_layer_92ec8752f49d6dd8ca6b92c2b69200e1.addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-            var circle_marker_a666f11b317928743c77e9f7733236fb = L.circleMarker(
+            var circle_marker_97cde254f6cfa7a04672fffcf1ef4252 = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_4ba56f3f69596be9ae133ae8cbe1ab5a = L.popup({
-  "maxWidth": 300,
-});
+        var popup_30537772014f7a2fadbf6241671029eb = L.popup({"maxWidth": 300});
 
         
             
-                var html_74789b9fb137685a8154526921078d0d = $(`<div id="html_74789b9fb137685a8154526921078d0d" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:12-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento         </div>`)[0];
-                popup_4ba56f3f69596be9ae133ae8cbe1ab5a.setContent(html_74789b9fb137685a8154526921078d0d);
+                var html_44d9682e76af6d2eaeda1c4f70138e3b = $(`<div id="html_44d9682e76af6d2eaeda1c4f70138e3b" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:12-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento         </div>`)[0];
+                popup_30537772014f7a2fadbf6241671029eb.setContent(html_44d9682e76af6d2eaeda1c4f70138e3b);
             
         
 
-        circle_marker_a666f11b317928743c77e9f7733236fb.bindPopup(popup_4ba56f3f69596be9ae133ae8cbe1ab5a)
+        circle_marker_97cde254f6cfa7a04672fffcf1ef4252.bindPopup(popup_30537772014f7a2fadbf6241671029eb)
         ;
 
         
     
     
-            var circle_marker_060f1327d3088396b4cce7a5bbaa5938 = L.circleMarker(
+            var circle_marker_75264441e7e7612b6ac7121130a35972 = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_85073470ce97da9a13e21027b465cf6d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_776eb709990d41df24ca4635ab686bb1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_48b2e8360df0903942e6d0ab2a33d31e = $(`<div id="html_48b2e8360df0903942e6d0ab2a33d31e" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:46:36-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
-                popup_85073470ce97da9a13e21027b465cf6d.setContent(html_48b2e8360df0903942e6d0ab2a33d31e);
+                var html_4673020362e45baf284efc2678278cfc = $(`<div id="html_4673020362e45baf284efc2678278cfc" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:46:36-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
+                popup_776eb709990d41df24ca4635ab686bb1.setContent(html_4673020362e45baf284efc2678278cfc);
             
         
 
-        circle_marker_060f1327d3088396b4cce7a5bbaa5938.bindPopup(popup_85073470ce97da9a13e21027b465cf6d)
+        circle_marker_75264441e7e7612b6ac7121130a35972.bindPopup(popup_776eb709990d41df24ca4635ab686bb1)
         ;
 
         
     
     
-            var circle_marker_96cbacece6b37ab0b2434d0244ffb0fc = L.circleMarker(
+            var circle_marker_e6ac202fea15a5dcf5c1e39021379ae5 = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_da2054902809468f4fc27728ace990b2 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_7320578273ed1d59aafc4e2a736cc11e = L.popup({"maxWidth": 300});
 
         
             
-                var html_4e00a1813658cc9f4d1e7e22af1da110 = $(`<div id="html_4e00a1813658cc9f4d1e7e22af1da110" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:32:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_da2054902809468f4fc27728ace990b2.setContent(html_4e00a1813658cc9f4d1e7e22af1da110);
+                var html_d8c0335221303401cdd7efbfb1ab8ba0 = $(`<div id="html_d8c0335221303401cdd7efbfb1ab8ba0" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:32:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_7320578273ed1d59aafc4e2a736cc11e.setContent(html_d8c0335221303401cdd7efbfb1ab8ba0);
             
         
 
-        circle_marker_96cbacece6b37ab0b2434d0244ffb0fc.bindPopup(popup_da2054902809468f4fc27728ace990b2)
+        circle_marker_e6ac202fea15a5dcf5c1e39021379ae5.bindPopup(popup_7320578273ed1d59aafc4e2a736cc11e)
         ;
 
         
     
     
-            var circle_marker_5cc2589d21ba95b824ec37c94cf4a869 = L.circleMarker(
+            var circle_marker_713786992396af1f00c743076e7a91c7 = L.circleMarker(
                 [-1.037657, -80.458908],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_81e5691f91ea798b775f92d0f644ecbd = L.popup({
-  "maxWidth": 300,
-});
+        var popup_7347d31dd981262ae16d864bddb0baf5 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f0d469ca81e14d2c8c0afc38c387b5aa = $(`<div id="html_f0d469ca81e14d2c8c0afc38c387b5aa" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:01:05-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
-                popup_81e5691f91ea798b775f92d0f644ecbd.setContent(html_f0d469ca81e14d2c8c0afc38c387b5aa);
+                var html_0c7340a8748fd279019a54bceb73719a = $(`<div id="html_0c7340a8748fd279019a54bceb73719a" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:01:05-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
+                popup_7347d31dd981262ae16d864bddb0baf5.setContent(html_0c7340a8748fd279019a54bceb73719a);
             
         
 
-        circle_marker_5cc2589d21ba95b824ec37c94cf4a869.bindPopup(popup_81e5691f91ea798b775f92d0f644ecbd)
+        circle_marker_713786992396af1f00c743076e7a91c7.bindPopup(popup_7347d31dd981262ae16d864bddb0baf5)
         ;
 
         
     
     
-            var circle_marker_0e23295809313ae02d8e44614efac867 = L.circleMarker(
+            var circle_marker_dbf55062718175f4291f6f10a44d08a2 = L.circleMarker(
                 [-0.952556, -90.963672],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_3f5ab77b090f89ea99879e8d7255e989 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_3cfb0a251b7e46f63b002d2c7155dbea = L.popup({"maxWidth": 300});
 
         
             
-                var html_aa5a453a6ab6c13ddf25046f0ec851f6 = $(`<div id="html_aa5a453a6ab6c13ddf25046f0ec851f6" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00190<br>         <b>Latitud:</b> -0.952556<br>         <b>Longitud:</b> -90.963672<br>         <b>Altura:</b> 7.0<br>         <b>División:</b> Galápagos-Isabela-Puerto Villamil<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_3f5ab77b090f89ea99879e8d7255e989.setContent(html_aa5a453a6ab6c13ddf25046f0ec851f6);
+                var html_39aa28f9958bf5ae9abeb226802443b5 = $(`<div id="html_39aa28f9958bf5ae9abeb226802443b5" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00190<br>         <b>Latitud:</b> -0.952556<br>         <b>Longitud:</b> -90.963672<br>         <b>Altura:</b> 7.0<br>         <b>División:</b> Galápagos-Isabela-Puerto Villamil<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_3cfb0a251b7e46f63b002d2c7155dbea.setContent(html_39aa28f9958bf5ae9abeb226802443b5);
             
         
 
-        circle_marker_0e23295809313ae02d8e44614efac867.bindPopup(popup_3f5ab77b090f89ea99879e8d7255e989)
+        circle_marker_dbf55062718175f4291f6f10a44d08a2.bindPopup(popup_3cfb0a251b7e46f63b002d2c7155dbea)
         ;
 
         
     
     
-            var circle_marker_1d8520b89cfaa945976aa541efe098e9 = L.circleMarker(
+            var circle_marker_593aea2f5a0b8873af0941bf87264b92 = L.circleMarker(
                 [-0.43917, -76.99806],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_5b280a66cb9ed9654f81971a7fc7d0e8 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_519a61a5136df42864eb35a5359dee1d = L.popup({"maxWidth": 300});
 
         
             
-                var html_04dc21a7a15b7df6c249f3856d723cfa = $(`<div id="html_04dc21a7a15b7df6c249f3856d723cfa" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 10:00:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 2.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_5b280a66cb9ed9654f81971a7fc7d0e8.setContent(html_04dc21a7a15b7df6c249f3856d723cfa);
+                var html_9467b3194c63fea782639666a6f2a827 = $(`<div id="html_9467b3194c63fea782639666a6f2a827" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 10:00:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 2.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_519a61a5136df42864eb35a5359dee1d.setContent(html_9467b3194c63fea782639666a6f2a827);
             
         
 
-        circle_marker_1d8520b89cfaa945976aa541efe098e9.bindPopup(popup_5b280a66cb9ed9654f81971a7fc7d0e8)
+        circle_marker_593aea2f5a0b8873af0941bf87264b92.bindPopup(popup_519a61a5136df42864eb35a5359dee1d)
         ;
 
         
     
     
-            var circle_marker_dc46f3764ceac5518bd23bd8aef7ae73 = L.circleMarker(
+            var circle_marker_bd501be69670e3e4834070e1a9133526 = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_e464d46e7d1ab81dd7ba3abc2bfaba05 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_2d25bb1c75462d4f0eec5f9bbc060bfd = L.popup({"maxWidth": 300});
 
         
             
-                var html_e66c495f7058600f5f140e2d3d9b339f = $(`<div id="html_e66c495f7058600f5f140e2d3d9b339f" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:34:17-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0..m         </div>`)[0];
-                popup_e464d46e7d1ab81dd7ba3abc2bfaba05.setContent(html_e66c495f7058600f5f140e2d3d9b339f);
+                var html_b42349919db42bdbecd31dc232a80b96 = $(`<div id="html_b42349919db42bdbecd31dc232a80b96" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:34:17-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0..m         </div>`)[0];
+                popup_2d25bb1c75462d4f0eec5f9bbc060bfd.setContent(html_b42349919db42bdbecd31dc232a80b96);
             
         
 
-        circle_marker_dc46f3764ceac5518bd23bd8aef7ae73.bindPopup(popup_e464d46e7d1ab81dd7ba3abc2bfaba05)
+        circle_marker_bd501be69670e3e4834070e1a9133526.bindPopup(popup_2d25bb1c75462d4f0eec5f9bbc060bfd)
         ;
 
         
     
     
-            var circle_marker_c4f110277bbbe426e7b4120c9a00a07c = L.circleMarker(
+            var circle_marker_2c571b49af8e78d4df5150f4dc0b963c = L.circleMarker(
                 [-1.037657, -80.458908],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_90e015fbb17ac8c96d8b6367092e10e5 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_4425973b7781c78dc92ff21ff7e47aed = L.popup({"maxWidth": 300});
 
         
             
-                var html_f1b66a5aaafdf1298910d97bb8270c30 = $(`<div id="html_f1b66a5aaafdf1298910d97bb8270c30" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:01:02-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
-                popup_90e015fbb17ac8c96d8b6367092e10e5.setContent(html_f1b66a5aaafdf1298910d97bb8270c30);
+                var html_ff02d7eeb5efd3952e42ca36c2960ca6 = $(`<div id="html_ff02d7eeb5efd3952e42ca36c2960ca6" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:01:02-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
+                popup_4425973b7781c78dc92ff21ff7e47aed.setContent(html_ff02d7eeb5efd3952e42ca36c2960ca6);
             
         
 
-        circle_marker_c4f110277bbbe426e7b4120c9a00a07c.bindPopup(popup_90e015fbb17ac8c96d8b6367092e10e5)
+        circle_marker_2c571b49af8e78d4df5150f4dc0b963c.bindPopup(popup_4425973b7781c78dc92ff21ff7e47aed)
         ;
 
         
     
     
-            var circle_marker_6402e3b8f07c1ec459647a119527c8f5 = L.circleMarker(
+            var circle_marker_380d328709722a79fcbcc58e1adcf6c9 = L.circleMarker(
                 [0.04975, -77.32854],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_5b3d8cc6dee7ff171ed4065aa47f06cd = L.popup({
-  "maxWidth": 300,
-});
+        var popup_146b09e2a3ead48b9f030a43a34a7bb9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_af16cbf98557860b7f27d11b103c2d0a = $(`<div id="html_af16cbf98557860b7f27d11b103c2d0a" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:40:00-05<br>         <b>Código:</b> EC00157<br>         <b>Latitud:</b> 0.04975<br>         <b>Longitud:</b> -77.32854<br>         <b>Altura:</b> 489.0<br>         <b>División:</b> Sucumbios-Gonzalo Pizarro-Lumbaqui<br>         <b>Valor:</b> 44.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_5b3d8cc6dee7ff171ed4065aa47f06cd.setContent(html_af16cbf98557860b7f27d11b103c2d0a);
+                var html_29f5376900c30b04741fe0cfe8fffb71 = $(`<div id="html_29f5376900c30b04741fe0cfe8fffb71" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:40:00-05<br>         <b>Código:</b> EC00157<br>         <b>Latitud:</b> 0.04975<br>         <b>Longitud:</b> -77.32854<br>         <b>Altura:</b> 489.0<br>         <b>División:</b> Sucumbios-Gonzalo Pizarro-Lumbaqui<br>         <b>Valor:</b> 44.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_146b09e2a3ead48b9f030a43a34a7bb9.setContent(html_29f5376900c30b04741fe0cfe8fffb71);
             
         
 
-        circle_marker_6402e3b8f07c1ec459647a119527c8f5.bindPopup(popup_5b3d8cc6dee7ff171ed4065aa47f06cd)
+        circle_marker_380d328709722a79fcbcc58e1adcf6c9.bindPopup(popup_146b09e2a3ead48b9f030a43a34a7bb9)
         ;
 
         
     
     
-            var circle_marker_0bff58e73e9db965081fef0fa49c2bfa = L.circleMarker(
+            var circle_marker_75b4dec125ca919b2e16665d9fe699ff = L.circleMarker(
                 [-0.213273, -78.087508],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_c21f64c3d65338db161816341b5fd31d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_d1aa0e3f4d65d81890254e3207bf79f8 = L.popup({"maxWidth": 300});
 
         
             
-                var html_74cb6ce9c2437e5d860fff881ab9b788 = $(`<div id="html_74cb6ce9c2437e5d860fff881ab9b788" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:24:00-05<br>         <b>Código:</b> EC00163<br>         <b>Latitud:</b> -0.213273<br>         <b>Longitud:</b> -78.087508<br>         <b>Altura:</b> 3202.0<br>         <b>División:</b> Napo-El Chaco-Oyacachi<br>         <b>Valor:</b> 16.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_c21f64c3d65338db161816341b5fd31d.setContent(html_74cb6ce9c2437e5d860fff881ab9b788);
+                var html_901f196fc28a4a54a3ad1fa903364863 = $(`<div id="html_901f196fc28a4a54a3ad1fa903364863" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:24:00-05<br>         <b>Código:</b> EC00163<br>         <b>Latitud:</b> -0.213273<br>         <b>Longitud:</b> -78.087508<br>         <b>Altura:</b> 3202.0<br>         <b>División:</b> Napo-El Chaco-Oyacachi<br>         <b>Valor:</b> 16.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_d1aa0e3f4d65d81890254e3207bf79f8.setContent(html_901f196fc28a4a54a3ad1fa903364863);
             
         
 
-        circle_marker_0bff58e73e9db965081fef0fa49c2bfa.bindPopup(popup_c21f64c3d65338db161816341b5fd31d)
+        circle_marker_75b4dec125ca919b2e16665d9fe699ff.bindPopup(popup_d1aa0e3f4d65d81890254e3207bf79f8)
         ;
 
         
     
     
-            var circle_marker_b45a1b92e5590e83e59e7e615d7820f5 = L.circleMarker(
+            var circle_marker_842e211afdedb00d816155aebbb2ed24 = L.circleMarker(
                 [-0.43917, -76.99806],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_8e7eb1e69f3acaf164eff7bbfca29d5d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_3e3261634578a35810479cbd8c0b18ab = L.popup({"maxWidth": 300});
 
         
             
-                var html_8b3e99bafc830eddb058dbfd271d03b4 = $(`<div id="html_8b3e99bafc830eddb058dbfd271d03b4" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 09:45:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 4.4 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_8e7eb1e69f3acaf164eff7bbfca29d5d.setContent(html_8b3e99bafc830eddb058dbfd271d03b4);
+                var html_ef2ba9ec727bd4920b1b456cd09f3d50 = $(`<div id="html_ef2ba9ec727bd4920b1b456cd09f3d50" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 09:45:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 4.4 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_3e3261634578a35810479cbd8c0b18ab.setContent(html_ef2ba9ec727bd4920b1b456cd09f3d50);
             
         
 
-        circle_marker_b45a1b92e5590e83e59e7e615d7820f5.bindPopup(popup_8e7eb1e69f3acaf164eff7bbfca29d5d)
+        circle_marker_842e211afdedb00d816155aebbb2ed24.bindPopup(popup_3e3261634578a35810479cbd8c0b18ab)
         ;
 
         
     
     
-            var circle_marker_80ecd0799ec0aef59a09474a5cb3d16e = L.circleMarker(
+            var circle_marker_20d918944de1412ef8762bc60397b450 = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_ecd990f6d8826af27bb4a5fff9dfbbc2 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_5b509252cb0782cc35f08bd6885e37fa = L.popup({"maxWidth": 300});
 
         
             
-                var html_e2cd7e5034006fe94f0a266a0e66bc09 = $(`<div id="html_e2cd7e5034006fe94f0a266a0e66bc09" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:23:22-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
-                popup_ecd990f6d8826af27bb4a5fff9dfbbc2.setContent(html_e2cd7e5034006fe94f0a266a0e66bc09);
+                var html_b7d929ef742162cce3a086671a7c8299 = $(`<div id="html_b7d929ef742162cce3a086671a7c8299" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:23:22-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
+                popup_5b509252cb0782cc35f08bd6885e37fa.setContent(html_b7d929ef742162cce3a086671a7c8299);
             
         
 
-        circle_marker_80ecd0799ec0aef59a09474a5cb3d16e.bindPopup(popup_ecd990f6d8826af27bb4a5fff9dfbbc2)
+        circle_marker_20d918944de1412ef8762bc60397b450.bindPopup(popup_5b509252cb0782cc35f08bd6885e37fa)
         ;
 
         
     
     
-            var circle_marker_3bff2cb4c972d6569c8610e3ef01fd9e = L.circleMarker(
+            var circle_marker_489a237c07be0908d3326cda41bf847c = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_e90a3cbe963ffa9779d72d7fe530653b = L.popup({
-  "maxWidth": 300,
-});
+        var popup_9076f3aad7edb2a315dd968effd9f354 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f1ef79f665f07016960be22e25115f69 = $(`<div id="html_f1ef79f665f07016960be22e25115f69" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:32:23-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.6 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de y la filtración del suelo sigue ligera y esto está provocando que los sistemas de riego se multipliquen         </div>`)[0];
-                popup_e90a3cbe963ffa9779d72d7fe530653b.setContent(html_f1ef79f665f07016960be22e25115f69);
+                var html_9b254b341cd55c929d598e91a314ff57 = $(`<div id="html_9b254b341cd55c929d598e91a314ff57" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:32:23-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.6 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de y la filtración del suelo sigue ligera y esto está provocando que los sistemas de riego se multipliquen         </div>`)[0];
+                popup_9076f3aad7edb2a315dd968effd9f354.setContent(html_9b254b341cd55c929d598e91a314ff57);
             
         
 
-        circle_marker_3bff2cb4c972d6569c8610e3ef01fd9e.bindPopup(popup_e90a3cbe963ffa9779d72d7fe530653b)
+        circle_marker_489a237c07be0908d3326cda41bf847c.bindPopup(popup_9076f3aad7edb2a315dd968effd9f354)
         ;
 
         
     
     
-            var circle_marker_cdc07714432622a4c8102b27fc01ea65 = L.circleMarker(
+            var circle_marker_401281de4488d892e7c2896d52378b20 = L.circleMarker(
                 [-1.037657, -80.458908],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_b66d5ce0d039ff55f6edaa102073d50c = L.popup({
-  "maxWidth": 300,
-});
+        var popup_74a640248fd0404a568de665a0fd3d0a = L.popup({"maxWidth": 300});
 
         
             
-                var html_42f2eb9d3cc63b0c5c773f33b8cd2f69 = $(`<div id="html_42f2eb9d3cc63b0c5c773f33b8cd2f69" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> llovizna en la madrugada         </div>`)[0];
-                popup_b66d5ce0d039ff55f6edaa102073d50c.setContent(html_42f2eb9d3cc63b0c5c773f33b8cd2f69);
+                var html_c43d6bcfa9b0ff84ac9f4509a83374f2 = $(`<div id="html_c43d6bcfa9b0ff84ac9f4509a83374f2" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> llovizna en la madrugada         </div>`)[0];
+                popup_74a640248fd0404a568de665a0fd3d0a.setContent(html_c43d6bcfa9b0ff84ac9f4509a83374f2);
             
         
 
-        circle_marker_cdc07714432622a4c8102b27fc01ea65.bindPopup(popup_b66d5ce0d039ff55f6edaa102073d50c)
+        circle_marker_401281de4488d892e7c2896d52378b20.bindPopup(popup_74a640248fd0404a568de665a0fd3d0a)
         ;
 
         
     
     
-            var circle_marker_b2076641119892d1b4e554e866a6bc56 = L.circleMarker(
+            var circle_marker_1fc27573d2dfb8c9d5dacab6850d9c5a = L.circleMarker(
                 [-4.196835, -79.536481],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_ee8dd0ff34c631117e32f777f7039189 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_b5726771ed3b5d8cfa9d09d99783bfbf = L.popup({"maxWidth": 300});
 
         
             
-                var html_360f5103d12f96789046083b887f58df = $(`<div id="html_360f5103d12f96789046083b887f58df" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 05:49:00-05<br>         <b>Código:</b> EC00196<br>         <b>Latitud:</b> -4.196835<br>         <b>Longitud:</b> -79.536481<br>         <b>Altura:</b> 1830.0<br>         <b>División:</b> Loja-Gonzanama-Changaimina<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_ee8dd0ff34c631117e32f777f7039189.setContent(html_360f5103d12f96789046083b887f58df);
+                var html_3f97f839dc5b140ad37a9d1b2dc81f11 = $(`<div id="html_3f97f839dc5b140ad37a9d1b2dc81f11" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 05:49:00-05<br>         <b>Código:</b> EC00196<br>         <b>Latitud:</b> -4.196835<br>         <b>Longitud:</b> -79.536481<br>         <b>Altura:</b> 1830.0<br>         <b>División:</b> Loja-Gonzanama-Changaimina<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_b5726771ed3b5d8cfa9d09d99783bfbf.setContent(html_3f97f839dc5b140ad37a9d1b2dc81f11);
             
         
 
-        circle_marker_b2076641119892d1b4e554e866a6bc56.bindPopup(popup_ee8dd0ff34c631117e32f777f7039189)
+        circle_marker_1fc27573d2dfb8c9d5dacab6850d9c5a.bindPopup(popup_b5726771ed3b5d8cfa9d09d99783bfbf)
         ;
 
         
     
     
-            var circle_marker_831272027e3f0d8ed8d58f4de06d0606 = L.circleMarker(
+            var circle_marker_60d90674e5b89a59bfb255f13e53cff4 = L.circleMarker(
                 [-4.0276412, -79.7278939],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_cfe6ad689f7a28ec3f166ec02e5edcf5 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_5736b8a4d6eb5cf4f5f0550f4fd18582 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9c0686ea2e0d702bdf33e489c9cbb4f3 = $(`<div id="html_9c0686ea2e0d702bdf33e489c9cbb4f3" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 05:51:00-05<br>         <b>Código:</b> EC00198<br>         <b>Latitud:</b> -4.0276412<br>         <b>Longitud:</b> -79.7278939<br>         <b>Altura:</b> 945.0<br>         <b>División:</b> Loja-Paltas-Casanga<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_cfe6ad689f7a28ec3f166ec02e5edcf5.setContent(html_9c0686ea2e0d702bdf33e489c9cbb4f3);
+                var html_67040bb2eabf04f55d8fa496aa1440c6 = $(`<div id="html_67040bb2eabf04f55d8fa496aa1440c6" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 05:51:00-05<br>         <b>Código:</b> EC00198<br>         <b>Latitud:</b> -4.0276412<br>         <b>Longitud:</b> -79.7278939<br>         <b>Altura:</b> 945.0<br>         <b>División:</b> Loja-Paltas-Casanga<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_5736b8a4d6eb5cf4f5f0550f4fd18582.setContent(html_67040bb2eabf04f55d8fa496aa1440c6);
             
         
 
-        circle_marker_831272027e3f0d8ed8d58f4de06d0606.bindPopup(popup_cfe6ad689f7a28ec3f166ec02e5edcf5)
+        circle_marker_60d90674e5b89a59bfb255f13e53cff4.bindPopup(popup_5736b8a4d6eb5cf4f5f0550f4fd18582)
         ;
 
         
     
     
-            var circle_marker_5096158c0249260cc4657fa8f009fa6f = L.circleMarker(
+            var circle_marker_008d79ff7f6ac25df0a2c9129a9f5f7f = L.circleMarker(
                 [-4.0750559, -79.3129304],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_7cd4ccd0a823acdaa7b946cfd15ab4f6 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_f6fb830defac390f40ddfc8b9b1afad5 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3dc534624e53aee7b5dbb66f7e19deb8 = $(`<div id="html_3dc534624e53aee7b5dbb66f7e19deb8" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:39:00-05<br>         <b>Código:</b> EC00200<br>         <b>Latitud:</b> -4.0750559<br>         <b>Longitud:</b> -79.3129304<br>         <b>Altura:</b> 777.0<br>         <b>División:</b> Loja-Catamayo-El Tambo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_7cd4ccd0a823acdaa7b946cfd15ab4f6.setContent(html_3dc534624e53aee7b5dbb66f7e19deb8);
+                var html_33f40e9d71710d3801845d4be63782ab = $(`<div id="html_33f40e9d71710d3801845d4be63782ab" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:39:00-05<br>         <b>Código:</b> EC00200<br>         <b>Latitud:</b> -4.0750559<br>         <b>Longitud:</b> -79.3129304<br>         <b>Altura:</b> 777.0<br>         <b>División:</b> Loja-Catamayo-El Tambo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_f6fb830defac390f40ddfc8b9b1afad5.setContent(html_33f40e9d71710d3801845d4be63782ab);
             
         
 
-        circle_marker_5096158c0249260cc4657fa8f009fa6f.bindPopup(popup_7cd4ccd0a823acdaa7b946cfd15ab4f6)
+        circle_marker_008d79ff7f6ac25df0a2c9129a9f5f7f.bindPopup(popup_f6fb830defac390f40ddfc8b9b1afad5)
         ;
 
         
     
     
-            var circle_marker_cbf0f3d8ff41d91a85a532b0ddca46d0 = L.circleMarker(
+            var circle_marker_39cb8797ea4e70939b0c2fc8d2414b41 = L.circleMarker(
                 [-4.0228367, -79.9794717],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_4d8e975380a4f308073eca62d61eca7b = L.popup({
-  "maxWidth": 300,
-});
+        var popup_700e6d9b5e8bf23d03aa0b93a87ee9e0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_318981b35cfb33b17983a84e96b06b89 = $(`<div id="html_318981b35cfb33b17983a84e96b06b89" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:49:00-05<br>         <b>Código:</b> EC00202<br>         <b>Latitud:</b> -4.0228367<br>         <b>Longitud:</b> -79.9794717<br>         <b>Altura:</b> 1135.0<br>         <b>División:</b> Loja-Puyango-Mercadillo<br>         <b>Valor:</b> 0.6 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_4d8e975380a4f308073eca62d61eca7b.setContent(html_318981b35cfb33b17983a84e96b06b89);
+                var html_22ecee25637566e65a68188ea540c997 = $(`<div id="html_22ecee25637566e65a68188ea540c997" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:49:00-05<br>         <b>Código:</b> EC00202<br>         <b>Latitud:</b> -4.0228367<br>         <b>Longitud:</b> -79.9794717<br>         <b>Altura:</b> 1135.0<br>         <b>División:</b> Loja-Puyango-Mercadillo<br>         <b>Valor:</b> 0.6 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_700e6d9b5e8bf23d03aa0b93a87ee9e0.setContent(html_22ecee25637566e65a68188ea540c997);
             
         
 
-        circle_marker_cbf0f3d8ff41d91a85a532b0ddca46d0.bindPopup(popup_4d8e975380a4f308073eca62d61eca7b)
+        circle_marker_39cb8797ea4e70939b0c2fc8d2414b41.bindPopup(popup_700e6d9b5e8bf23d03aa0b93a87ee9e0)
         ;
 
         
     
     
-            var circle_marker_77c43d876288de21ef67f31625dc30fb = L.circleMarker(
+            var circle_marker_277429d03ad7b7c2b335d145e21ed436 = L.circleMarker(
                 [-0.108217, -77.130771],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_7d1563be2869c5a736b0dbaeb93a5173 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_77027810e38cdc2f66a778ed13703386 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9aef4e8d8f92b5c0da8111bbc4e4d540 = $(`<div id="html_9aef4e8d8f92b5c0da8111bbc4e4d540" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:25:00-05<br>         <b>Código:</b> EC00165<br>         <b>Latitud:</b> -0.108217<br>         <b>Longitud:</b> -77.130771<br>         <b>Altura:</b> 346.0<br>         <b>División:</b> Orellana-Joya de los Sachas-San Sebastián del Coca<br>         <b>Valor:</b> 8.4 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_7d1563be2869c5a736b0dbaeb93a5173.setContent(html_9aef4e8d8f92b5c0da8111bbc4e4d540);
+                var html_9f743f6729e491a660fcdb4a9cb5be6f = $(`<div id="html_9f743f6729e491a660fcdb4a9cb5be6f" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:25:00-05<br>         <b>Código:</b> EC00165<br>         <b>Latitud:</b> -0.108217<br>         <b>Longitud:</b> -77.130771<br>         <b>Altura:</b> 346.0<br>         <b>División:</b> Orellana-Joya de los Sachas-San Sebastián del Coca<br>         <b>Valor:</b> 8.4 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_77027810e38cdc2f66a778ed13703386.setContent(html_9f743f6729e491a660fcdb4a9cb5be6f);
             
         
 
-        circle_marker_77c43d876288de21ef67f31625dc30fb.bindPopup(popup_7d1563be2869c5a736b0dbaeb93a5173)
+        circle_marker_277429d03ad7b7c2b335d145e21ed436.bindPopup(popup_77027810e38cdc2f66a778ed13703386)
         ;
 
         
     
     
-            var circle_marker_847d7f37dac2cd18d3cd5bd6e3102736 = L.circleMarker(
+            var circle_marker_4e86e99bb67f86a277c361516b0df4b1 = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_fde95a241c9d6560fa281326bdc5c219 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_dac66185d9660f79833485205b9735b4 = L.popup({"maxWidth": 300});
 
         
             
-                var html_16d0925994c7b7cef780363a399ffb87 = $(`<div id="html_16d0925994c7b7cef780363a399ffb87" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 09:02:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_fde95a241c9d6560fa281326bdc5c219.setContent(html_16d0925994c7b7cef780363a399ffb87);
+                var html_a8a50ad52e5bc38e5e8a2b3591e3b0e1 = $(`<div id="html_a8a50ad52e5bc38e5e8a2b3591e3b0e1" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 09:02:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_dac66185d9660f79833485205b9735b4.setContent(html_a8a50ad52e5bc38e5e8a2b3591e3b0e1);
             
         
 
-        circle_marker_847d7f37dac2cd18d3cd5bd6e3102736.bindPopup(popup_fde95a241c9d6560fa281326bdc5c219)
+        circle_marker_4e86e99bb67f86a277c361516b0df4b1.bindPopup(popup_dac66185d9660f79833485205b9735b4)
         ;
 
         
     
     
-            var circle_marker_ebe4770b42e5b6cf0c3497b1e0b00a06 = L.circleMarker(
+            var circle_marker_d16a6900efb1fb816cc853d2af31da7c = L.circleMarker(
                 [-1.589252, -80.06345],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_1f254555e0e28a8c0c773d396db4bddd = L.popup({
-  "maxWidth": 300,
-});
+        var popup_b85b9506dc9af6690aca67bec55c7a89 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d7f601683013df1f448c249ef6d94ebb = $(`<div id="html_d7f601683013df1f448c249ef6d94ebb" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00097<br>         <b>Latitud:</b> -1.589252<br>         <b>Longitud:</b> -80.06345<br>         <b>Altura:</b> 34.0<br>         <b>División:</b> Guayas-Colimes-San Jacinto<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_1f254555e0e28a8c0c773d396db4bddd.setContent(html_d7f601683013df1f448c249ef6d94ebb);
+                var html_27b02f03167f68e990085c530e91226b = $(`<div id="html_27b02f03167f68e990085c530e91226b" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00097<br>         <b>Latitud:</b> -1.589252<br>         <b>Longitud:</b> -80.06345<br>         <b>Altura:</b> 34.0<br>         <b>División:</b> Guayas-Colimes-San Jacinto<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_b85b9506dc9af6690aca67bec55c7a89.setContent(html_27b02f03167f68e990085c530e91226b);
             
         
 
-        circle_marker_ebe4770b42e5b6cf0c3497b1e0b00a06.bindPopup(popup_1f254555e0e28a8c0c773d396db4bddd)
+        circle_marker_d16a6900efb1fb816cc853d2af31da7c.bindPopup(popup_b85b9506dc9af6690aca67bec55c7a89)
         ;
 
         
     
     
-            var circle_marker_08c40d1a4c18012c168d1f72251a0b0e = L.circleMarker(
+            var circle_marker_2687e5152f4d788e2bfe07aca79d83fa = L.circleMarker(
                 [-0.703272, -80.167776],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_1e004426236b913459620b7a69a00427 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_5ad416bd482249d7aca51a9611760265 = L.popup({"maxWidth": 300});
 
         
             
-                var html_adc78f5ffb264b1a5cae1dd1e4308f32 = $(`<div id="html_adc78f5ffb264b1a5cae1dd1e4308f32" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00052<br>         <b>Latitud:</b> -0.703272<br>         <b>Longitud:</b> -80.167776<br>         <b>Altura:</b> 8.0<br>         <b>División:</b> Manabí-Chone-San Antonio<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_1e004426236b913459620b7a69a00427.setContent(html_adc78f5ffb264b1a5cae1dd1e4308f32);
+                var html_5d7fa631dac1ea26d49bb255de4967fc = $(`<div id="html_5d7fa631dac1ea26d49bb255de4967fc" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00052<br>         <b>Latitud:</b> -0.703272<br>         <b>Longitud:</b> -80.167776<br>         <b>Altura:</b> 8.0<br>         <b>División:</b> Manabí-Chone-San Antonio<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_5ad416bd482249d7aca51a9611760265.setContent(html_5d7fa631dac1ea26d49bb255de4967fc);
             
         
 
-        circle_marker_08c40d1a4c18012c168d1f72251a0b0e.bindPopup(popup_1e004426236b913459620b7a69a00427)
+        circle_marker_2687e5152f4d788e2bfe07aca79d83fa.bindPopup(popup_5ad416bd482249d7aca51a9611760265)
         ;
 
         
     
     
-            var circle_marker_e6c6ca174751514eed48ed9ce3fb02c6 = L.circleMarker(
+            var circle_marker_01d82a397e7838c8715f830fa21370d0 = L.circleMarker(
                 [-1.76453, -80.171387],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_c4bbdeddd8bf8a26721d70bd64e98a35 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_8e559b7774c0fb1a3e5a759ea050a9d3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_e579d2af2d746b1929ee254b9ab2c353 = $(`<div id="html_e579d2af2d746b1929ee254b9ab2c353" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:32:00-05<br>         <b>Código:</b> EC00110<br>         <b>Latitud:</b> -1.76453<br>         <b>Longitud:</b> -80.171387<br>         <b>Altura:</b> 54.45<br>         <b>División:</b> Guayas-Pedro Carbo-Valle de la Virgen<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_c4bbdeddd8bf8a26721d70bd64e98a35.setContent(html_e579d2af2d746b1929ee254b9ab2c353);
+                var html_1e226e9ebe2bc27d16a0e57d528a7ac9 = $(`<div id="html_1e226e9ebe2bc27d16a0e57d528a7ac9" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:32:00-05<br>         <b>Código:</b> EC00110<br>         <b>Latitud:</b> -1.76453<br>         <b>Longitud:</b> -80.171387<br>         <b>Altura:</b> 54.45<br>         <b>División:</b> Guayas-Pedro Carbo-Valle de la Virgen<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_8e559b7774c0fb1a3e5a759ea050a9d3.setContent(html_1e226e9ebe2bc27d16a0e57d528a7ac9);
             
         
 
-        circle_marker_e6c6ca174751514eed48ed9ce3fb02c6.bindPopup(popup_c4bbdeddd8bf8a26721d70bd64e98a35)
+        circle_marker_01d82a397e7838c8715f830fa21370d0.bindPopup(popup_8e559b7774c0fb1a3e5a759ea050a9d3)
         ;
 
         
     
     
-            var circle_marker_47614a644c007161e18ec5adada7e212 = L.circleMarker(
+            var circle_marker_98872069afc1bba5d0796c10be67e53f = L.circleMarker(
                 [-0.90611, -89.6052],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_57aaba7229473aca82ec0d719d494061 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_b3fece122d34a5034559cbaa167af5d7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_42e69cfa97384cff38b3ab3a8bb21221 = $(`<div id="html_42e69cfa97384cff38b3ab3a8bb21221" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:20:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_57aaba7229473aca82ec0d719d494061.setContent(html_42e69cfa97384cff38b3ab3a8bb21221);
+                var html_9eee407d17553973322c42110087c6c6 = $(`<div id="html_9eee407d17553973322c42110087c6c6" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:20:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_b3fece122d34a5034559cbaa167af5d7.setContent(html_9eee407d17553973322c42110087c6c6);
             
         
 
-        circle_marker_47614a644c007161e18ec5adada7e212.bindPopup(popup_57aaba7229473aca82ec0d719d494061)
+        circle_marker_98872069afc1bba5d0796c10be67e53f.bindPopup(popup_b3fece122d34a5034559cbaa167af5d7)
         ;
 
         
     
     
-            var circle_marker_d1de6d0000186d7efbdea57bbd26e49c = L.circleMarker(
+            var circle_marker_6babb221964376cf6d2aa275c508d38c = L.circleMarker(
                 [-1.47187, -79.923421],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_bcdee7864866dfe865c741a0ba3ae2bc = L.popup({
-  "maxWidth": 300,
-});
+        var popup_a40b4d8e0c4eeaf76107ff7a4d431371 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b500bf1b7874c9460a1c2fbc4062ac67 = $(`<div id="html_b500bf1b7874c9460a1c2fbc4062ac67" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:19:00-05<br>         <b>Código:</b> EC00115<br>         <b>Latitud:</b> -1.47187<br>         <b>Longitud:</b> -79.923421<br>         <b>Altura:</b> 22.0<br>         <b>División:</b> Guayas-Balzar-Balzar<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
-                popup_bcdee7864866dfe865c741a0ba3ae2bc.setContent(html_b500bf1b7874c9460a1c2fbc4062ac67);
+                var html_4492b950238eda67d47fb976ddaaa404 = $(`<div id="html_4492b950238eda67d47fb976ddaaa404" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:19:00-05<br>         <b>Código:</b> EC00115<br>         <b>Latitud:</b> -1.47187<br>         <b>Longitud:</b> -79.923421<br>         <b>Altura:</b> 22.0<br>         <b>División:</b> Guayas-Balzar-Balzar<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> Reportado via Whatsapp         </div>`)[0];
+                popup_a40b4d8e0c4eeaf76107ff7a4d431371.setContent(html_4492b950238eda67d47fb976ddaaa404);
             
         
 
-        circle_marker_d1de6d0000186d7efbdea57bbd26e49c.bindPopup(popup_bcdee7864866dfe865c741a0ba3ae2bc)
+        circle_marker_6babb221964376cf6d2aa275c508d38c.bindPopup(popup_a40b4d8e0c4eeaf76107ff7a4d431371)
         ;
 
         
     
     
-            var circle_marker_10908fab3da85a6edd9a977b99e328ff = L.circleMarker(
+            var circle_marker_8299bb44d305f4159e1ac572f16262de = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_7d2c81782e3fcd61b13f90696557d7b1 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_efe3b3fe2c2354ba7b00cbabfaa49b03 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3280aed321b2dd590759086d3ccc7c5d = $(`<div id="html_3280aed321b2dd590759086d3ccc7c5d" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:12:46-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.8 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y en la noche tenemos temperatura de frío alta y la filtración del suelo sigue mucho más ligera         </div>`)[0];
-                popup_7d2c81782e3fcd61b13f90696557d7b1.setContent(html_3280aed321b2dd590759086d3ccc7c5d);
+                var html_ec4c2d796d4f326b1fea3d8097b572e6 = $(`<div id="html_ec4c2d796d4f326b1fea3d8097b572e6" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:12:46-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.8 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y en la noche tenemos temperatura de frío alta y la filtración del suelo sigue mucho más ligera         </div>`)[0];
+                popup_efe3b3fe2c2354ba7b00cbabfaa49b03.setContent(html_ec4c2d796d4f326b1fea3d8097b572e6);
             
         
 
-        circle_marker_10908fab3da85a6edd9a977b99e328ff.bindPopup(popup_7d2c81782e3fcd61b13f90696557d7b1)
+        circle_marker_8299bb44d305f4159e1ac572f16262de.bindPopup(popup_efe3b3fe2c2354ba7b00cbabfaa49b03)
         ;
 
         
     
     
-            var circle_marker_40e0c4d3ae1133f5d21ac871d5ca0a70 = L.circleMarker(
+            var circle_marker_457699c0cecd6c43e197e02d37e69b2c = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_9e9abd9f7cd0700ada8cca1f3abece1c = L.popup({
-  "maxWidth": 300,
-});
+        var popup_22a37884c7faa138a869733f82ded7b6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2b0b41b90356cfa945fcbcc13e2e44fa = $(`<div id="html_2b0b41b90356cfa945fcbcc13e2e44fa" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:10:56-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 2.0 mm<br>         <b>Comentarios:</b> 2.m         </div>`)[0];
-                popup_9e9abd9f7cd0700ada8cca1f3abece1c.setContent(html_2b0b41b90356cfa945fcbcc13e2e44fa);
+                var html_d9d38abf14e1d7a4a164ba39b6908ff7 = $(`<div id="html_d9d38abf14e1d7a4a164ba39b6908ff7" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:10:56-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 2.0 mm<br>         <b>Comentarios:</b> 2.m         </div>`)[0];
+                popup_22a37884c7faa138a869733f82ded7b6.setContent(html_d9d38abf14e1d7a4a164ba39b6908ff7);
             
         
 
-        circle_marker_40e0c4d3ae1133f5d21ac871d5ca0a70.bindPopup(popup_9e9abd9f7cd0700ada8cca1f3abece1c)
+        circle_marker_457699c0cecd6c43e197e02d37e69b2c.bindPopup(popup_22a37884c7faa138a869733f82ded7b6)
         ;
 
         
     
     
-            var circle_marker_689d6e17ed9ef678af19e8f06a3aae77 = L.circleMarker(
+            var circle_marker_2eb24c5804a21eadf8e369721b28cc81 = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_e49017fbc60aa06818d0674621e39b64 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_1d6074f5ad65ca06039db40ab56fd1b7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d3c1a686c942dddc2d5b44be2512979e = $(`<div id="html_d3c1a686c942dddc2d5b44be2512979e" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:11:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_e49017fbc60aa06818d0674621e39b64.setContent(html_d3c1a686c942dddc2d5b44be2512979e);
+                var html_8822e4e5290d2ab91d5c7c3059c922cc = $(`<div id="html_8822e4e5290d2ab91d5c7c3059c922cc" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:11:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_1d6074f5ad65ca06039db40ab56fd1b7.setContent(html_8822e4e5290d2ab91d5c7c3059c922cc);
             
         
 
-        circle_marker_689d6e17ed9ef678af19e8f06a3aae77.bindPopup(popup_e49017fbc60aa06818d0674621e39b64)
+        circle_marker_2eb24c5804a21eadf8e369721b28cc81.bindPopup(popup_1d6074f5ad65ca06039db40ab56fd1b7)
         ;
 
         
     
     
-            var circle_marker_1798a1000bb35f3f12e8f2266daf0ae5 = L.circleMarker(
+            var circle_marker_bfd841cbfd600ba864ba5d9b7249343d = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_f35f2202b3bcaf7eb64d2a13860b82da = L.popup({
-  "maxWidth": 300,
-});
+        var popup_fae7ce55f7be5080ba94d491a36c53f6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b627cabed72efb03e9b54fe55145e0e0 = $(`<div id="html_b627cabed72efb03e9b54fe55145e0e0" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:58:24-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
-                popup_f35f2202b3bcaf7eb64d2a13860b82da.setContent(html_b627cabed72efb03e9b54fe55145e0e0);
+                var html_82f5e5a3588201f1817080c27077ea15 = $(`<div id="html_82f5e5a3588201f1817080c27077ea15" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:58:24-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
+                popup_fae7ce55f7be5080ba94d491a36c53f6.setContent(html_82f5e5a3588201f1817080c27077ea15);
             
         
 
-        circle_marker_1798a1000bb35f3f12e8f2266daf0ae5.bindPopup(popup_f35f2202b3bcaf7eb64d2a13860b82da)
+        circle_marker_bfd841cbfd600ba864ba5d9b7249343d.bindPopup(popup_fae7ce55f7be5080ba94d491a36c53f6)
         ;
 
         
     
     
-            var circle_marker_b60cbf85cb96407d57e8e21871a40ac8 = L.circleMarker(
+            var circle_marker_19564befe504e889e80358c335b8c63f = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_bceaf6c0a2a0efaa1d74a47dc359d7b9 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_f8fc45d284631a17c62d9a94381fa7aa = L.popup({"maxWidth": 300});
 
         
             
-                var html_3ca34f085f0b6a8afc35972ab1d03670 = $(`<div id="html_3ca34f085f0b6a8afc35972ab1d03670" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:39:15-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando los trabajos de la colocación de piedra escolleras         </div>`)[0];
-                popup_bceaf6c0a2a0efaa1d74a47dc359d7b9.setContent(html_3ca34f085f0b6a8afc35972ab1d03670);
+                var html_9e384f3aa893ce64b6da34413fd409b9 = $(`<div id="html_9e384f3aa893ce64b6da34413fd409b9" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:39:15-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando los trabajos de la colocación de piedra escolleras         </div>`)[0];
+                popup_f8fc45d284631a17c62d9a94381fa7aa.setContent(html_9e384f3aa893ce64b6da34413fd409b9);
             
         
 
-        circle_marker_b60cbf85cb96407d57e8e21871a40ac8.bindPopup(popup_bceaf6c0a2a0efaa1d74a47dc359d7b9)
+        circle_marker_19564befe504e889e80358c335b8c63f.bindPopup(popup_f8fc45d284631a17c62d9a94381fa7aa)
         ;
 
         
     
     
-            var circle_marker_1e23169899211a29c5d7b551857f0acc = L.circleMarker(
+            var circle_marker_7ccdb3979b3c280eb7f665b953a390da = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_c2b534bcdd7d5b75f476b2d58b13b00b = L.popup({
-  "maxWidth": 300,
-});
+        var popup_25e2bbc10a9071251f92b5af89f0e764 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9cbc420b295b50f0371e007e15b7ad8f = $(`<div id="html_9cbc420b295b50f0371e007e15b7ad8f" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:10:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_c2b534bcdd7d5b75f476b2d58b13b00b.setContent(html_9cbc420b295b50f0371e007e15b7ad8f);
+                var html_7c359bb25cb5d28c52877c789d2d9afe = $(`<div id="html_7c359bb25cb5d28c52877c789d2d9afe" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:10:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_25e2bbc10a9071251f92b5af89f0e764.setContent(html_7c359bb25cb5d28c52877c789d2d9afe);
             
         
 
-        circle_marker_1e23169899211a29c5d7b551857f0acc.bindPopup(popup_c2b534bcdd7d5b75f476b2d58b13b00b)
+        circle_marker_7ccdb3979b3c280eb7f665b953a390da.bindPopup(popup_25e2bbc10a9071251f92b5af89f0e764)
         ;
 
         
     
     
-            var circle_marker_5a45c0eacbc851ba1db564bde3c1aefb = L.circleMarker(
+            var circle_marker_0258985968cf27822ff54cdbd0901086 = L.circleMarker(
                 [-0.43917, -76.99806],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_7a2cb9fcefb2cea4b4fe03b234ff7eff = L.popup({
-  "maxWidth": 300,
-});
+        var popup_9aa54ad01134ceeb8745fb397981eabf = L.popup({"maxWidth": 300});
 
         
             
-                var html_39f4591d6e6ed45f32a7b417aa362f24 = $(`<div id="html_39f4591d6e6ed45f32a7b417aa362f24" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:16:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 13.8 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_7a2cb9fcefb2cea4b4fe03b234ff7eff.setContent(html_39f4591d6e6ed45f32a7b417aa362f24);
+                var html_65cb29a9912c379d18953c025bb00676 = $(`<div id="html_65cb29a9912c379d18953c025bb00676" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:16:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 13.8 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_9aa54ad01134ceeb8745fb397981eabf.setContent(html_65cb29a9912c379d18953c025bb00676);
             
         
 
-        circle_marker_5a45c0eacbc851ba1db564bde3c1aefb.bindPopup(popup_7a2cb9fcefb2cea4b4fe03b234ff7eff)
+        circle_marker_0258985968cf27822ff54cdbd0901086.bindPopup(popup_9aa54ad01134ceeb8745fb397981eabf)
         ;
 
         
     
     
-            var circle_marker_5057171a30cb37382d085a39a604dc19 = L.circleMarker(
+            var circle_marker_15c91ae92fbad83d375797d5e76951b7 = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_c1209b2f1977380def81ba674dde7848 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_3eb034937935559aaf0860f85917acc3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_bf23e58ddad5d512e81e42ef2fdc5e39 = $(`<div id="html_bf23e58ddad5d512e81e42ef2fdc5e39" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:05:14-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
-                popup_c1209b2f1977380def81ba674dde7848.setContent(html_bf23e58ddad5d512e81e42ef2fdc5e39);
+                var html_aea40a49b9655961d7157a8fe458723b = $(`<div id="html_aea40a49b9655961d7157a8fe458723b" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:05:14-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
+                popup_3eb034937935559aaf0860f85917acc3.setContent(html_aea40a49b9655961d7157a8fe458723b);
             
         
 
-        circle_marker_5057171a30cb37382d085a39a604dc19.bindPopup(popup_c1209b2f1977380def81ba674dde7848)
+        circle_marker_15c91ae92fbad83d375797d5e76951b7.bindPopup(popup_3eb034937935559aaf0860f85917acc3)
         ;
 
         
     
     
-            var circle_marker_04efd44940bf69ec93429e70199befea = L.circleMarker(
+            var circle_marker_429018134e165a70fca4211b0adab848 = L.circleMarker(
                 [-1.037657, -80.458908],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_36ed01f90d82974cc2f7b0db9fbe8194 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_d00216fdab4459590d47170209568bba = L.popup({"maxWidth": 300});
 
         
             
-                var html_79ee250a636eec73551455675d9fe8d4 = $(`<div id="html_79ee250a636eec73551455675d9fe8d4" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
-                popup_36ed01f90d82974cc2f7b0db9fbe8194.setContent(html_79ee250a636eec73551455675d9fe8d4);
+                var html_ef3c13ebd98f83fec99ba78be22a75ed = $(`<div id="html_ef3c13ebd98f83fec99ba78be22a75ed" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
+                popup_d00216fdab4459590d47170209568bba.setContent(html_ef3c13ebd98f83fec99ba78be22a75ed);
             
         
 
-        circle_marker_04efd44940bf69ec93429e70199befea.bindPopup(popup_36ed01f90d82974cc2f7b0db9fbe8194)
+        circle_marker_429018134e165a70fca4211b0adab848.bindPopup(popup_d00216fdab4459590d47170209568bba)
         ;
 
         
     
     
-            var circle_marker_704611155032c6bbce1754d93fcaf1dd = L.circleMarker(
+            var circle_marker_5ebbb1c9869127e463c0ded7c91cfb8b = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_6f4e4d892402e83a699396d8f4e7c2b4 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_f5f8ac5ea694f2090836f79b4802c78e = L.popup({"maxWidth": 300});
 
         
             
-                var html_ca8ff4bfd54c122db2e727b998427b54 = $(`<div id="html_ca8ff4bfd54c122db2e727b998427b54" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:21:53-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que este dato es del día martes 3 de junio del 2025 no se pudo enviar por falta de energía         </div>`)[0];
-                popup_6f4e4d892402e83a699396d8f4e7c2b4.setContent(html_ca8ff4bfd54c122db2e727b998427b54);
+                var html_3b96f8a259537ec4d5f804248b6f0848 = $(`<div id="html_3b96f8a259537ec4d5f804248b6f0848" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:21:53-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que este dato es del día martes 3 de junio del 2025 no se pudo enviar por falta de energía         </div>`)[0];
+                popup_f5f8ac5ea694f2090836f79b4802c78e.setContent(html_3b96f8a259537ec4d5f804248b6f0848);
             
         
 
-        circle_marker_704611155032c6bbce1754d93fcaf1dd.bindPopup(popup_6f4e4d892402e83a699396d8f4e7c2b4)
+        circle_marker_5ebbb1c9869127e463c0ded7c91cfb8b.bindPopup(popup_f5f8ac5ea694f2090836f79b4802c78e)
         ;
 
         
     
     
-            var circle_marker_a036ac75ae4922a961de2d9d67eaee86 = L.circleMarker(
+            var circle_marker_c93a20b0e35a5249c51d29b093cce6d9 = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_0be2a0fb2db711380c05dfb6c0cef547 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_a5f0dd8b5b652b743638e630cc7b2b1b = L.popup({"maxWidth": 300});
 
         
             
-                var html_1dc4500580dd85711cd40482cf1b92d5 = $(`<div id="html_1dc4500580dd85711cd40482cf1b92d5" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:23:26-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> informo que este dato es del día miércoles 4 de junio del 2025 la temperatura de la calor está nuevamente subiendo y en la madrugada sigue el frío fuerte y la filtración del suelo está ligera         </div>`)[0];
-                popup_0be2a0fb2db711380c05dfb6c0cef547.setContent(html_1dc4500580dd85711cd40482cf1b92d5);
+                var html_2c859a12c33edb0f9eb7a7c40f2e39ae = $(`<div id="html_2c859a12c33edb0f9eb7a7c40f2e39ae" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:23:26-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> informo que este dato es del día miércoles 4 de junio del 2025 la temperatura de la calor está nuevamente subiendo y en la madrugada sigue el frío fuerte y la filtración del suelo está ligera         </div>`)[0];
+                popup_a5f0dd8b5b652b743638e630cc7b2b1b.setContent(html_2c859a12c33edb0f9eb7a7c40f2e39ae);
             
         
 
-        circle_marker_a036ac75ae4922a961de2d9d67eaee86.bindPopup(popup_0be2a0fb2db711380c05dfb6c0cef547)
+        circle_marker_c93a20b0e35a5249c51d29b093cce6d9.bindPopup(popup_a5f0dd8b5b652b743638e630cc7b2b1b)
         ;
 
         
     
     
-            var circle_marker_3aa1aa3c8cbcb5099336988c473a3372 = L.circleMarker(
+            var circle_marker_670ae0437255aef730c4161e24280473 = L.circleMarker(
                 [-0.43917, -76.99806],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_98ccc28ca261cf720773a51b5aa8c844 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_5b5be36c4e74764d99e1fd8d9f4055fa = L.popup({"maxWidth": 300});
 
         
             
-                var html_da50c1e20981a4af1d34d18418c11824 = $(`<div id="html_da50c1e20981a4af1d34d18418c11824" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:25:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_98ccc28ca261cf720773a51b5aa8c844.setContent(html_da50c1e20981a4af1d34d18418c11824);
+                var html_5c058dce0ecb88b6ce0a04f9346712c7 = $(`<div id="html_5c058dce0ecb88b6ce0a04f9346712c7" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:25:00-05<br>         <b>Código:</b> EC00120<br>         <b>Latitud:</b> -0.43917<br>         <b>Longitud:</b> -76.99806<br>         <b>Altura:</b> 265.0<br>         <b>División:</b> Orellana-Francisco de Orellana-El coca<br>         <b>Valor:</b> 1.4 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_5b5be36c4e74764d99e1fd8d9f4055fa.setContent(html_5c058dce0ecb88b6ce0a04f9346712c7);
             
         
 
-        circle_marker_3aa1aa3c8cbcb5099336988c473a3372.bindPopup(popup_98ccc28ca261cf720773a51b5aa8c844)
+        circle_marker_670ae0437255aef730c4161e24280473.bindPopup(popup_5b5be36c4e74764d99e1fd8d9f4055fa)
         ;
 
         
     
     
-            var circle_marker_00e656b83da50e275b4231c5356f8903 = L.circleMarker(
+            var circle_marker_81d32d4dd0019c0a547e8d7fd63ce1c4 = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_3ccd29c964b753b10bd0bb93d7daaa4a = L.popup({
-  "maxWidth": 300,
-});
+        var popup_2371effc11e27a017e0052ebdfd18b52 = L.popup({"maxWidth": 300});
 
         
             
-                var html_37939353535cf69a8460e064bb26c268 = $(`<div id="html_37939353535cf69a8460e064bb26c268" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:58:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_3ccd29c964b753b10bd0bb93d7daaa4a.setContent(html_37939353535cf69a8460e064bb26c268);
+                var html_f01e6da485e8aa3ff65f5d46c4166f4f = $(`<div id="html_f01e6da485e8aa3ff65f5d46c4166f4f" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:58:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_2371effc11e27a017e0052ebdfd18b52.setContent(html_f01e6da485e8aa3ff65f5d46c4166f4f);
             
         
 
-        circle_marker_00e656b83da50e275b4231c5356f8903.bindPopup(popup_3ccd29c964b753b10bd0bb93d7daaa4a)
+        circle_marker_81d32d4dd0019c0a547e8d7fd63ce1c4.bindPopup(popup_2371effc11e27a017e0052ebdfd18b52)
         ;
 
         
     
     
-            var circle_marker_1b143b2aab28b2c84f9cbe8d29097711 = L.circleMarker(
+            var circle_marker_2a0661bf72aad1470ce76e498710c568 = L.circleMarker(
                 [-0.90611, -89.6052],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_9ba193a6fd66f23ca2ea2d8b2328b34d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_6163f5446f04d792f1953d8f8f6754f8 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5374a2c524f527a9a696e88049d4f688 = $(`<div id="html_5374a2c524f527a9a696e88049d4f688" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:30:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_9ba193a6fd66f23ca2ea2d8b2328b34d.setContent(html_5374a2c524f527a9a696e88049d4f688);
+                var html_9a39722d387819a33a4e3b19a0c11f6e = $(`<div id="html_9a39722d387819a33a4e3b19a0c11f6e" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:30:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_6163f5446f04d792f1953d8f8f6754f8.setContent(html_9a39722d387819a33a4e3b19a0c11f6e);
             
         
 
-        circle_marker_1b143b2aab28b2c84f9cbe8d29097711.bindPopup(popup_9ba193a6fd66f23ca2ea2d8b2328b34d)
+        circle_marker_2a0661bf72aad1470ce76e498710c568.bindPopup(popup_6163f5446f04d792f1953d8f8f6754f8)
         ;
 
         
     
     
-            var circle_marker_763a7fe67b816ae58fe20b46cdcaaa15 = L.circleMarker(
+            var circle_marker_841fc2d9add65aacde8ad0473f4c4643 = L.circleMarker(
                 [-2.014112, -80.578024],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_963f569d25bbe974f33d0b37cd5a5bc8 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_f9ba04c2821dd42c1adb30ac858d3e5d = L.popup({"maxWidth": 300});
 
         
             
-                var html_b0a4fad02c75d13ca7174b5a58877bd3 = $(`<div id="html_b0a4fad02c75d13ca7174b5a58877bd3" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:27:53-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
-                popup_963f569d25bbe974f33d0b37cd5a5bc8.setContent(html_b0a4fad02c75d13ca7174b5a58877bd3);
+                var html_5016662c1f2add6f39e8646762768efb = $(`<div id="html_5016662c1f2add6f39e8646762768efb" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 06:27:53-05<br>         <b>Código:</b> EC00101<br>         <b>Latitud:</b> -2.014112<br>         <b>Longitud:</b> -80.578024<br>         <b>Altura:</b> 30.0<br>         <b>División:</b> Santa Elena-Santa Elena-Colonche<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> 0.m         </div>`)[0];
+                popup_f9ba04c2821dd42c1adb30ac858d3e5d.setContent(html_5016662c1f2add6f39e8646762768efb);
             
         
 
-        circle_marker_763a7fe67b816ae58fe20b46cdcaaa15.bindPopup(popup_963f569d25bbe974f33d0b37cd5a5bc8)
+        circle_marker_841fc2d9add65aacde8ad0473f4c4643.bindPopup(popup_f9ba04c2821dd42c1adb30ac858d3e5d)
         ;
 
         
     
     
-            var circle_marker_b326dd70bfffcee8b2968aba7e41ee99 = L.circleMarker(
+            var circle_marker_9ed0d7e0b39478ddc3aa1df007c986b6 = L.circleMarker(
                 [-1.037657, -80.458908],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_d92f7ff454c70ac78073be49e213cfb6 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_fe480b4727daaae57ab9b8c7b327dee1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b9281f6787d76cb9aa0f0254af5ae28e = $(`<div id="html_b9281f6787d76cb9aa0f0254af5ae28e" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
-                popup_d92f7ff454c70ac78073be49e213cfb6.setContent(html_b9281f6787d76cb9aa0f0254af5ae28e);
+                var html_d18a3765ff74576ed8b515a6ee902d47 = $(`<div id="html_d18a3765ff74576ed8b515a6ee902d47" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:00:00-05<br>         <b>Código:</b> EC00073<br>         <b>Latitud:</b> -1.037657<br>         <b>Longitud:</b> -80.458908<br>         <b>Altura:</b> 47.0<br>         <b>División:</b> Manabí-Portoviejo-Portoviejo<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> no hubo lluvias         </div>`)[0];
+                popup_fe480b4727daaae57ab9b8c7b327dee1.setContent(html_d18a3765ff74576ed8b515a6ee902d47);
             
         
 
-        circle_marker_b326dd70bfffcee8b2968aba7e41ee99.bindPopup(popup_d92f7ff454c70ac78073be49e213cfb6)
+        circle_marker_9ed0d7e0b39478ddc3aa1df007c986b6.bindPopup(popup_fe480b4727daaae57ab9b8c7b327dee1)
         ;
 
         
     
     
-            var circle_marker_ea884c56a9554fd00c3d139d3ae76320 = L.circleMarker(
+            var circle_marker_7c85e4dfa140e4777c81291537b1390a = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_9ce24f0ace832d2799120754bae5036d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_55cbc245cbebfd78f223064336c60a1f = L.popup({"maxWidth": 300});
 
         
             
-                var html_b0dd9f7bf49d9eddab11bfb4ae87b6dd = $(`<div id="html_b0dd9f7bf49d9eddab11bfb4ae87b6dd" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:16:26-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.6 mm<br>         <b>Comentarios:</b> informo que este dato es del día lunes 2 de abril del 2025 informo que envié la información pero no a estado registrado porque se me configuro el teléfono         </div>`)[0];
-                popup_9ce24f0ace832d2799120754bae5036d.setContent(html_b0dd9f7bf49d9eddab11bfb4ae87b6dd);
+                var html_0b402526b00d611513450bb974468fd2 = $(`<div id="html_0b402526b00d611513450bb974468fd2" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:16:26-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.6 mm<br>         <b>Comentarios:</b> informo que este dato es del día lunes 2 de abril del 2025 informo que envié la información pero no a estado registrado porque se me configuro el teléfono         </div>`)[0];
+                popup_55cbc245cbebfd78f223064336c60a1f.setContent(html_0b402526b00d611513450bb974468fd2);
             
         
 
-        circle_marker_ea884c56a9554fd00c3d139d3ae76320.bindPopup(popup_9ce24f0ace832d2799120754bae5036d)
+        circle_marker_7c85e4dfa140e4777c81291537b1390a.bindPopup(popup_55cbc245cbebfd78f223064336c60a1f)
         ;
 
         
     
     
-            var circle_marker_4fe83c40141597fdbfb7bb63022c0587 = L.circleMarker(
+            var circle_marker_da2c8a867411adfcc1f076fc767d6d30 = L.circleMarker(
                 [-2.79969, -79.70765],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_61497f1f49cfe28b60e013db93d995c0 = L.popup({
-  "maxWidth": 300,
-});
+        var popup_7adb89cea1a2de66357b892826a9bc07 = L.popup({"maxWidth": 300});
 
         
             
-                var html_81b1c6fafa31a2a43970c442c34db7bd = $(`<div id="html_81b1c6fafa31a2a43970c442c34db7bd" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:19:17-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que este dato es del día de hoy 5 de junio del 2025 la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y la filtración del suelo sigue ligera y se observa que se está incrementando más el sistema de riego         </div>`)[0];
-                popup_61497f1f49cfe28b60e013db93d995c0.setContent(html_81b1c6fafa31a2a43970c442c34db7bd);
+                var html_fd404fdb3a0f89462b616d7f950d9b24 = $(`<div id="html_fd404fdb3a0f89462b616d7f950d9b24" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:19:17-05<br>         <b>Código:</b> EC00144<br>         <b>Latitud:</b> -2.79969<br>         <b>Longitud:</b> -79.70765<br>         <b>Altura:</b> 100.0<br>         <b>División:</b> Guayas-Naranjal-Jaime Roldos<br>         <b>Valor:</b> 1.0 mm<br>         <b>Comentarios:</b> informo que este dato es del día de hoy 5 de junio del 2025 la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y la filtración del suelo sigue ligera y se observa que se está incrementando más el sistema de riego         </div>`)[0];
+                popup_7adb89cea1a2de66357b892826a9bc07.setContent(html_fd404fdb3a0f89462b616d7f950d9b24);
             
         
 
-        circle_marker_4fe83c40141597fdbfb7bb63022c0587.bindPopup(popup_61497f1f49cfe28b60e013db93d995c0)
+        circle_marker_da2c8a867411adfcc1f076fc767d6d30.bindPopup(popup_7adb89cea1a2de66357b892826a9bc07)
         ;
 
         
     
     
-            var circle_marker_fc06024f50d3caeacbb4eccbe114d3a0 = L.circleMarker(
+            var circle_marker_67b883c107bf1b47f2da4e2ebe2b81d0 = L.circleMarker(
                 [-1.06215, -80.58621],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_d3c9728095730f8faab88b1f93b3b15e = L.popup({
-  "maxWidth": 300,
-});
+        var popup_ec4152ac310d3b6e72a7409f7c84bde2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_e9d06820fa9c45e52ed4aff81a5e01a8 = $(`<div id="html_e9d06820fa9c45e52ed4aff81a5e01a8" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:16:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_d3c9728095730f8faab88b1f93b3b15e.setContent(html_e9d06820fa9c45e52ed4aff81a5e01a8);
+                var html_9c18f1e0258a7918a0e96e90a4d8b478 = $(`<div id="html_9c18f1e0258a7918a0e96e90a4d8b478" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 08:16:00-05<br>         <b>Código:</b> EC00124<br>         <b>Latitud:</b> -1.06215<br>         <b>Longitud:</b> -80.58621<br>         <b>Altura:</b> 248.0<br>         <b>División:</b> Manabí-Montecristi-Montecristi<br>         <b>Valor:</b> 0.0 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_ec4152ac310d3b6e72a7409f7c84bde2.setContent(html_9c18f1e0258a7918a0e96e90a4d8b478);
             
         
 
-        circle_marker_fc06024f50d3caeacbb4eccbe114d3a0.bindPopup(popup_d3c9728095730f8faab88b1f93b3b15e)
+        circle_marker_67b883c107bf1b47f2da4e2ebe2b81d0.bindPopup(popup_ec4152ac310d3b6e72a7409f7c84bde2)
         ;
 
         
     
     
-            var circle_marker_adcfbc2144e42c2fc2e8f2aae8d40d57 = L.circleMarker(
+            var circle_marker_8994a9ba0c5f6fe2802a5c8b424ede61 = L.circleMarker(
                 [-0.90611, -89.6052],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
-            ).addTo(map_ccefbda66da7510c067dcf6b750d9942);
+            ).addTo(map_b58564a707436519633e0ef63513dd03);
         
     
-        var popup_08e943a4f8632e1ed824a607deec732d = L.popup({
-  "maxWidth": 300,
-});
+        var popup_7b65205f8789baa646397bb4ffd429b4 = L.popup({"maxWidth": 300});
 
         
             
-                var html_8b95899ebae386c65115da0f820bf90f = $(`<div id="html_8b95899ebae386c65115da0f820bf90f" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:20:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
-                popup_08e943a4f8632e1ed824a607deec732d.setContent(html_8b95899ebae386c65115da0f820bf90f);
+                var html_270e0c6596e108a06803318cc7e9e68c = $(`<div id="html_270e0c6596e108a06803318cc7e9e68c" style="width: 100.0%; height: 100.0%;">         <b>Hora:</b> 07:20:00-05<br>         <b>Código:</b> EC00204<br>         <b>Latitud:</b> -0.90611<br>         <b>Longitud:</b> -89.6052<br>         <b>Altura:</b> 60.0<br>         <b>División:</b> Galápagos-San Cristóbal-Puerto Baquerizo Moreno<br>         <b>Valor:</b> 0.6 mm<br>         <b>Comentarios:</b> nan         </div>`)[0];
+                popup_7b65205f8789baa646397bb4ffd429b4.setContent(html_270e0c6596e108a06803318cc7e9e68c);
             
         
 
-        circle_marker_adcfbc2144e42c2fc2e8f2aae8d40d57.bindPopup(popup_08e943a4f8632e1ed824a607deec732d)
+        circle_marker_8994a9ba0c5f6fe2802a5c8b424ede61.bindPopup(popup_7b65205f8789baa646397bb4ffd429b4)
         ;
 
         
