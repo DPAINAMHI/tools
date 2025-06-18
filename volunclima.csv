@@ -1,1 +1,13 @@
-
+DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
+2025-06-18,06:07:59-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-06-18,06:29:14-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.5,"el días de hayer estubo en 0,2 no pude reportar por q estube fuera de casa saludos"
+2025-06-18,06:52:15-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura del frío sigue subiendo en La noche
+2025-06-18,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-06-18,07:30:25-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.4,
+2025-06-18,07:50:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,20.2,None
+2025-06-18,07:55:01-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
+2025-06-18,08:23:27-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,3.0,
+2025-06-18,08:24:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,30.0,None
+2025-06-18,08:36:00-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.0,
+2025-06-18,08:37:31-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.6,
+2025-06-18,08:49:53-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.0,
