@@ -1,9 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-06-21,06:08:17-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,1.8,
-2025-06-21,06:17:14-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-06-21,06:42:41-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-06-21,06:56:44-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa filtración ligera del suelo
-2025-06-21,07:09:45-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,2.2,
-2025-06-21,08:41:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-06-21,09:48:55-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-06-21,09:00:21-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-06-22,06:41:44-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.4,
+2025-06-22,07:20:38-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,p0.m
+2025-06-22,07:30:36-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-06-22,07:36:29-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que el día de ayer tuvimos un fuerte temblor en nuestro sector en la montaña se sintió mucho más fuerte y se siguen monitoreando los sectores de la jurisdicción de naranjal ya que el epicentro salió de la jurisdicción cantonal los mantendremos informados
+2025-06-22,08:28:49-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
+2025-06-22,09:00:20-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,2.0,
+2025-06-22,09:17:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,1.0,None
+2025-06-22,08:38:37-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-06-22,09:49:24-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
