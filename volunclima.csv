@@ -1,17 +1,15 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-06-24,05:28:58-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-06-24,06:25:53-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-06-24,06:28:06-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-06-24,06:28:14-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,5.0,
-2025-06-24,07:09:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-06-24,07:14:43-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-06-24,07:23:13-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,1.0,
-2025-06-24,07:23:14-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
-2025-06-24,07:43:27-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
-2025-06-24,07:48:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,50.2,None
-2025-06-24,08:00:52-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,0.0,
-2025-06-24,07:05:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-06-24,08:07:40-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte igualmente la temperatura del frío en la noche y se observa la nieblina baja en las plantaciones agricolas
-2025-06-24,07:31:03-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
-2025-06-24,08:50:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,4.2,None
-2025-06-24,10:00:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,7.8,None
+2025-06-25,06:13:56-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-06-25,06:50:56-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-06-25,06:52:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-06-25,07:09:07-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
+2025-06-25,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,cero lluvias
+2025-06-25,07:18:23-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-06-25,07:32:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte igualmente la del frío en la noche y se sigue observando la nieblina baja
+2025-06-25,08:05:13-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,1.7,
+2025-06-25,08:25:28-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,3.0,
+2025-06-25,08:44:26-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
+2025-06-25,08:57:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,12.8,None
+2025-06-25,09:04:42-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,2.2,
+2025-06-25,09:30:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,8.2,None
+2025-06-25,08:05:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.4,
