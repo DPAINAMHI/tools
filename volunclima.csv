@@ -1,15 +1,17 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-06-25,06:13:56-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-06-25,06:50:56-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-06-25,06:52:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-06-25,07:09:07-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
-2025-06-25,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,cero lluvias
-2025-06-25,07:18:23-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-06-25,07:32:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte igualmente la del frío en la noche y se sigue observando la nieblina baja
-2025-06-25,08:05:13-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,1.7,
-2025-06-25,08:25:28-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,3.0,
-2025-06-25,08:44:26-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
-2025-06-25,08:57:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,12.8,None
-2025-06-25,09:04:42-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,2.2,
-2025-06-25,09:30:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,8.2,None
-2025-06-25,08:05:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.4,
+2025-06-26,05:57:28-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-06-26,06:13:36-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-06-26,06:26:53-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-06-26,07:18:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-06-26,07:28:02-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.2,
+2025-06-26,07:32:55-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,1.2,
+2025-06-26,07:43:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,1.6,None
+2025-06-26,07:54:03-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
+2025-06-26,08:05:07-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2025-06-26,07:29:13-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
+2025-06-26,09:13:01-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.4,
+2025-06-26,08:00:00-05,EC00190,-0.952556,-90.963672,7.0,Galápagos-Isabela-Puerto Villamil,0.0,None
+2025-06-26,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-06-26,08:54:37-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-06-26,09:04:50-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.0,
+2025-06-26,09:07:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,1.8,None
