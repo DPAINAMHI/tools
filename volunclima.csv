@@ -1,7 +1,13 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-06-29,06:28:49-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-06-29,06:58:27-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-06-29,07:00:11-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-06-29,07:25:10-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,
-2025-06-29,08:25:41-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,12.0,
-2025-06-29,08:55:46-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y la nieblina en la tarde y noche está baja y está afectando la producción agrícola
+2025-06-30,05:34:06-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-06-30,06:43:48-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-06-30,06:48:18-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.2,
+2025-06-30,07:07:41-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-06-30,07:11:09-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.0,
+2025-06-30,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-06-30,07:43:40-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2025-06-30,08:26:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,36.6,None
+2025-06-30,08:36:42-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa la nieblina baja y está afectando la plantaciones agricolas
+2025-06-30,08:47:28-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-06-30,08:56:00-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.8,
+2025-06-30,09:26:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,104.4,None
