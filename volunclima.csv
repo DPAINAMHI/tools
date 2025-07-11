@@ -1,15 +1,13 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-07-10,06:09:03-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-07-10,06:27:25-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-07-10,06:34:08-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-07-10,06:47:44-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-07-10,07:09:27-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-07-10,07:38:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento
-2025-07-10,08:02:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,15.0,None
-2025-07-10,08:27:25-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,3.0,
-2025-07-10,08:38:15-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.4,
-2025-07-10,09:16:32-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,4.8,4.m80
-2025-07-10,09:30:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,5.0,None
-2025-07-10,08:35:03-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,1.0,
-2025-07-10,09:44:21-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2025-07-10,07:30:00-05,EC00190,-0.952556,-90.963672,7.0,Galápagos-Isabela-Puerto Villamil,1.4,None
+2025-07-11,06:07:48-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-07-11,06:13:24-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-07-11,06:51:01-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-07-11,07:09:43-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-07-11,07:26:16-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-07-11,07:36:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,11.4,None
+2025-07-11,07:53:54-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.4,
+2025-07-11,08:11:45-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,0.2,
+2025-07-11,08:29:29-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-07-11,08:49:45-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,7.0,Muestra tomada desde el día miércoles 9 por encontrarme de viaje
+2025-07-11,09:02:14-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-07-11,09:06:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,2.0,None
