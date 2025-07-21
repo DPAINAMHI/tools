@@ -1,6 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-07-20,06:14:46-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-07-20,06:39:55-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.0,
-2025-07-20,06:41:22-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y nuevamente tuvimos movimiento telúrico en nuestro sector pero fue leve y la temperatura del frío sigue subiendo
-2025-07-20,07:38:22-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-07-20,09:37:39-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-07-21,06:05:41-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-07-21,06:18:28-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.0,
+2025-07-21,06:26:03-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
+2025-07-21,06:27:41-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-07-21,06:26:41-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el viernes estubo 0.0 el sábado y domingo estubo 0.0 no ha llovido en espindola
+2025-07-21,06:29:20-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-07-21,07:01:24-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-07-21,07:34:29-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-07-21,08:24:11-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
