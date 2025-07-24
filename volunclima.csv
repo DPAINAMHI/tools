@@ -1,12 +1,13 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-07-23,06:05:42-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-07-23,06:33:49-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-07-23,06:40:52-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-07-23,07:08:42-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.4,informo que este dato es del día martes 22 de julio del 2025 no se pudo enviar por falta de energía eléctrica
-2025-07-23,07:09:43-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que este dato es del día miércoles 23 de julio del 2024 igualmente seguimos monitoreando el comportamiento de la nieblina nuevamente ya que en la madrugada se observa que está baja y afecta la producción agrícola
-2025-07-23,07:15:36-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-07-23,07:36:15-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-07-23,07:37:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,13.6,None
-2025-07-23,07:45:43-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-07-23,08:20:41-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,0.0,
-2025-07-23,08:50:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-07-24,05:57:26-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-07-24,05:58:21-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-07-24,06:14:48-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-07-24,06:49:08-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-07-24,07:00:32-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-07-24,07:30:16-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-07-24,07:36:30-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento
+2025-07-24,07:51:48-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-07-24,08:12:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,7.2,None
+2025-07-24,08:19:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-07-24,09:17:01-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-07-24,08:59:35-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
