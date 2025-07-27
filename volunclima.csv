@@ -1,9 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-07-26,04:34:35-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-07-26,06:00:49-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-07-26,06:02:08-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,4.2,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y en la madrugada nuevamente está subiendo la temperatura del frío
-2025-07-26,06:34:12-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-07-26,06:43:12-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.2,
-2025-07-26,08:00:49-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.8,
-2025-07-26,08:14:47-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-07-26,09:51:45-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-07-27,06:06:25-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-07-27,06:29:27-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-07-27,06:38:22-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.2,
+2025-07-27,06:38:46-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,0.0
+2025-07-27,08:20:15-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-07-27,08:22:59-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-07-27,09:53:05-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
