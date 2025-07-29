@@ -1,12 +1,15 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-07-28,06:21:43-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-07-28,06:36:25-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-07-28,06:42:27-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-07-28,07:04:17-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-07-28,07:11:34-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-07-28,07:23:59-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.2,informo que la temperatura del frío subió y la nieblina nuevamente está baja afectando las producción agrícola
-2025-07-28,07:25:03-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,4.2,informo que la temperatura del frio sigue fuerte y está la nieblina severamente baja y está afectando la salud de los niños y afectando la producción agrícola
-2025-07-28,08:20:49-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-07-28,09:04:42-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el día de hayer domingo también estubo en0.0 no hay lluvia en estos dias
-2025-07-28,10:00:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,1.6,None
-2025-07-28,09:27:02-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.6,
+2025-07-29,05:55:25-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-07-29,06:33:38-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.2,
+2025-07-29,06:38:35-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-07-29,06:53:43-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-07-29,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-07-29,07:10:03-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que la temperatura del frío sigue subiendo y se observa la nieblina baja afectando los cultivos agricola
+2025-07-29,07:39:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,2.0,None
+2025-07-29,07:55:15-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
+2025-07-29,08:04:04-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-07-29,08:17:25-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,2.2,
+2025-07-29,08:28:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2025-07-29,09:43:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,8.2,None
+2025-07-29,08:51:46-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-07-29,09:02:22-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,1.0,
