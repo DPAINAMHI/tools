@@ -1,9 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-03,05:19:37-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el día de hayer sabado estubo en 0.0
-2025-08-03,06:16:11-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-03,06:28:21-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,1.8,
-2025-08-03,06:57:34-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.2,
-2025-08-03,07:17:10-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-08-03,07:59:35-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-03,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
-2025-08-03,09:01:43-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-04,05:22:04-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que este dato es del día 3 de agosto del 2025 no se pudo enviar por falta de energía eléctrica
+2025-08-04,06:04:31-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-08-04,06:11:12-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que este dato es del día lunes 4 de agosto del 2025 igualmente la temperatura del frío sigue subiendo y se observa nuevamente la nieblina baja y ya se está pronunciando la perdida de los productos agricola por el exceso de frío
+2025-08-04,06:45:18-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-08-04,07:01:28-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-08-04,09:37:30-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-04,08:42:48-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-08-04,09:59:20-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,4.0,
+2025-08-04,09:01:02-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.0,
