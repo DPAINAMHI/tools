@@ -1,13 +1,17 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-06,06:03:23-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-06,07:01:58-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-08-06,07:22:34-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que está información es del día martes 5 de agosto del 2025 no se pudo enviar por falta de internet
-2025-08-06,07:23:41-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,está información es del día miércoles 6 dé agosto del 2025 informo que la temperatura del frío sigue fuerte y se observa la nieblina baja y se observa afectacio en el sector agrícola por el exceso de frío
-2025-08-06,07:37:58-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-06,08:00:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-08-06,08:07:15-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-08-06,09:00:00-05,EC00190,-0.952556,-90.963672,7.0,Galápagos-Isabela-Puerto Villamil,0.0,None
-2025-08-06,09:33:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.6,None
-2025-08-06,08:54:14-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2025-08-06,09:55:03-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-08-06,09:58:25-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-07,06:02:13-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,5.0,5.m
+2025-08-07,06:09:00-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-08-07,06:43:39-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.1,
+2025-08-07,07:04:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,1.0,None
+2025-08-07,07:23:03-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2025-08-07,07:36:12-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-08-07,07:39:03-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2025-08-07,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-08-07,07:40:22-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-07,07:55:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.4,None
+2025-08-07,08:20:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,1.8,None
+2025-08-07,07:33:51-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
+2025-08-07,08:44:18-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,0.0,
+2025-08-07,08:52:16-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-08-07,08:59:31-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-08-07,09:06:28-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.4,
