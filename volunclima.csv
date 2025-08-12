@@ -1,9 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-11,05:47:56-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-08-11,06:00:04-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-11,06:10:04-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-11,06:12:10-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura del frío sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando el comportamiento de la nieblina baja
-2025-08-11,06:30:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-08-11,06:41:10-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-08-11,08:34:17-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-08-11,08:50:03-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-08-12,07:00:16-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-08-12,07:16:53-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-08-12,07:22:33-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que la temperatura del frío sigue fuerte y se observa la nieblina baja y hay poca movimiento de viento
+2025-08-12,07:24:38-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-08-12,07:39:40-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
+2025-08-12,07:57:11-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-08-12,07:40:29-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,1.0,
