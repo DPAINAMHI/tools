@@ -1,11 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-16,06:22:08-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.2,
-2025-08-16,06:22:18-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-16,06:39:36-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
-2025-08-16,07:05:08-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-08-16,07:22:41-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-16,07:26:04-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.4,
-2025-08-16,07:45:29-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-08-16,08:39:47-05,EC00189,-1.630887,-79.25731,337.0,Bolivar-Caluma-Caluma,0.0,
-2025-08-16,08:46:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,1.0,None
-2025-08-16,10:00:19-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-08-17,05:13:38-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,los dias viernes sabado igual estubo en 0.0 está época de verano
+2025-08-17,06:01:25-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.8,
+2025-08-17,06:22:51-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,1.4,1.40
+2025-08-17,06:33:46-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-08-17,07:12:10-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que este dato es del día sábado 16 de agosto del 2025 no se pudo enviar por falta de energía eléctrica
+2025-08-17,07:13:12-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato es del día domingo 17 de agosto del 2025 igualmente seguimos monitoreando el comportamiento de la nieblina sigue baja y está afectando al sector agrícola
+2025-08-17,08:30:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-08-17,08:30:21-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-17,08:35:09-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
