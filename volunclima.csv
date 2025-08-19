@@ -1,27 +1,32 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-18,05:41:49-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-08-18,05:53:12-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-18,06:00:15-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-18,06:27:20-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y la nieblina sigue baja afectando los cultivos agricola
-2025-08-18,06:50:28-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
-2025-08-18,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-08-18,07:38:24-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,El domingo igual estuvo en 0.0
-2025-08-18,07:51:31-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-08-18,08:30:17-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-08-18,05:48:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
-2025-08-18,06:06:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-08-18,06:14:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2025-08-18,06:15:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
-2025-08-18,06:45:00-05,EC00132,-1.4330396,-79.3394014,202.0,Los Ríos-Ventanas-Los Ángeles,0.0,Reportado via Whatsapp
-2025-08-18,06:47:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2025-08-18,06:52:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
-2025-08-18,06:58:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.0,Reportado via Whatsapp
-2025-08-18,07:12:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,0.4,Reportado via Whatsapp
-2025-08-18,07:44:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
-2025-08-18,08:01:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,Reportado via Whatsapp
-2025-08-18,08:07:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,1.4,Reportado via Whatsapp
-2025-08-18,09:45:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,16.8,None
-2025-08-18,08:09:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
-2025-08-18,08:24:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-08-18,08:49:53-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.2,
-2025-08-18,08:53:31-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-08-19,05:31:37-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-08-19,05:41:23-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-08-19,06:04:40-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-08-19,06:28:30-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura del frío sigue fuerte y se observa la nieblina baja
+2025-08-19,07:00:43-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-08-19,07:11:34-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,0.0,
+2025-08-19,07:28:26-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-08-19,07:43:19-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-19,08:08:50-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,2.0,Sin presencia de lluvia
+2025-08-19,07:31:27-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.5,Día nublado con llovizna
+2025-08-19,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,1.0,None
+2025-08-19,09:12:14-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.8,
+2025-08-19,04:30:00-05,EC00104,-2.12683,-80.01535,50.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
+2025-08-19,05:24:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.0,Reportado via Whatsapp
+2025-08-19,05:42:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-08-19,06:12:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
+2025-08-19,06:18:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-08-19,06:44:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.0,Reportado via Whatsapp
+2025-08-19,06:45:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
+2025-08-19,06:46:00-05,EC00132,-1.4330396,-79.3394014,202.0,Los Ríos-Ventanas-Los Ángeles,0.2,Reportado via Whatsapp
+2025-08-19,06:47:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
+2025-08-19,06:49:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
+2025-08-19,07:02:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
+2025-08-19,08:10:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,Reportado via Whatsapp
+2025-08-19,08:11:00-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,9.4,Reportado via Whatsapp
+2025-08-19,08:31:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,1.0,Reportado via Whatsapp
+2025-08-19,08:41:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
+2025-08-19,09:34:00-05,EC00121,-0.31472,-77.01944,282.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.4,Reportado via Whatsapp
+2025-08-19,09:51:00-05,EC00200,-4.0750559,-79.3129304,777.0,Loja-Catamayo-El Tambo,0.0,Reportado via Whatsapp
+2025-08-19,09:50:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
+2025-08-19,10:00:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.4,None
