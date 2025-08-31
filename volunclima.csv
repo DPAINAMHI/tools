@@ -1,12 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-08-30,06:00:39-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-08-30,06:07:00-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.2,
-2025-08-30,06:13:00-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-08-30,06:13:53-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-08-30,06:39:33-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue subiendo y la temperatura del frío sigue fuerte en la madrugada se observa poco movimiento de viento
-2025-08-30,06:41:15-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-08-30,07:36:43-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-08-30,08:13:34-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-08-30,07:24:24-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2025-08-30,08:48:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,2.0,None
-2025-08-30,09:20:43-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.2,
+2025-08-31,06:44:38-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-08-31,06:47:57-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.0,
+2025-08-31,07:11:50-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura del frío sigue fuerte en la madrugada y la de la calor sigue subiendo y se observa poco movimiento de viento
+2025-08-31,07:28:49-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-08-31,08:27:56-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-08-31,09:13:06-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-08-31,09:02:34-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
