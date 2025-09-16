@@ -1,28 +1,33 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-09-15,04:48:05-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el día sábado y domingo igual estubo en cero punto cero está verano
-2025-09-15,05:25:15-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-09-15,07:00:56-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
-2025-09-15,07:09:26-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y la temperatura del frío se mantiene en la madrugada y se observa poco movimiento de viento
-2025-09-15,07:28:12-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-09-15,07:44:22-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-09-15,07:37:14-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.2,
-2025-09-15,08:45:29-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-09-15,08:46:49-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-09-15,05:59:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
-2025-09-15,06:00:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2025-09-15,06:00:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-09-15,06:12:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
-2025-09-15,06:28:00-05,EC00200,-4.0750559,-79.3129304,777.0,Loja-Catamayo-El Tambo,0.0,Reportado via Whatsapp
-2025-09-15,06:31:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
-2025-09-15,06:39:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,0.0,Reportado via Whatsapp
-2025-09-15,06:40:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,0.2,Reportado via Whatsapp
-2025-09-15,06:49:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-09-15,06:50:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
-2025-09-15,07:01:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,0.0,Reportado via Whatsapp
-2025-09-15,07:08:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
-2025-09-15,07:16:00-05,EC00127,-1.3473,-80.7371,27.0,Manabí-Jipijapa-Puerto Cayo,0.0,Reportado via Whatsapp
-2025-09-15,07:30:00-05,EC00132,-1.4330396,-79.3394014,202.0,Los Ríos-Ventanas-Los Ángeles,0.0,Reportado via Whatsapp
-2025-09-15,07:35:00-05,EC00121,-0.31472,-77.01944,282.0,Orellana-Joya de los Sachas-San Sebastián del Coca,10.2,Reportado via Whatsapp
-2025-09-15,07:41:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
-2025-09-15,08:46:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2025-09-15,09:38:00-05,EC00104,-2.12683,-80.01535,50.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
+2025-09-16,05:57:40-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-09-16,06:03:54-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-09-16,06:10:59-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-09-16,06:21:28-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-09-16,06:33:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-09-16,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-09-16,07:06:40-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato de 1.6 es del día domingo 14 de septiembre no se pudo enviar por falta de internet agradezco mucho su comprensión y entendimiento gracias
+2025-09-16,07:08:48-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que este dato 1.2 es del día de hoy martes 16 de septiembre del 2025 también comunico que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y la temperatura del frío sigue fuerte en la madrugada
+2025-09-16,05:46:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
+2025-09-16,05:48:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-09-16,05:54:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
+2025-09-16,06:19:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
+2025-09-16,08:24:27-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-09-16,06:20:00-05,EC00200,-4.0750559,-79.3129304,777.0,Loja-Catamayo-El Tambo,0.0,Reportado via Whatsapp
+2025-09-16,06:22:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
+2025-09-16,06:23:00-05,EC00132,-1.4330396,-79.3394014,202.0,Los Ríos-Ventanas-Los Ángeles,0.0,Reportado via Whatsapp
+2025-09-16,06:30:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,1.0,Reportado via Whatsapp
+2025-09-16,06:30:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-09-16,06:31:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.0,Reportado via Whatsapp
+2025-09-16,06:41:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
+2025-09-16,06:44:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,Reportado via Whatsapp
+2025-09-16,07:04:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
+2025-09-16,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
+2025-09-16,07:37:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
+2025-09-16,07:50:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,1.6,Reportado via Whatsapp
+2025-09-16,08:24:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,0.0,Reportado via Whatsapp
+2025-09-16,08:27:00-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,3.4,Reportado via Whatsapp
+2025-09-16,08:46:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
+2025-09-16,08:55:00-05,EC00121,-0.31472,-77.01944,282.0,Orellana-Joya de los Sachas-San Sebastián del Coca,3.0,Reportado via Whatsapp
+2025-09-16,09:01:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.0,None
+2025-09-16,08:30:00-05,EC00190,-0.952556,-90.963672,7.0,Galápagos-Isabela-Puerto Villamil,1.2,None
+2025-09-16,08:05:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,3.4,
