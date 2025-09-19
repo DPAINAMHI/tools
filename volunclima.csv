@@ -1,25 +1,35 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-09-18,06:13:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-09-18,06:39:01-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y seguimos con la temperatura del frío fuerte en la madrugada
-2025-09-18,06:42:39-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-09-18,06:42:51-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
-2025-09-18,06:58:31-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-09-18,08:08:40-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-09-18,08:11:17-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.3,
-2025-09-18,06:23:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
-2025-09-18,06:26:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,Reportado via Whatsapp
-2025-09-18,06:26:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-09-18,06:33:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
-2025-09-18,06:50:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2025-09-18,06:54:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
-2025-09-18,06:55:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.0,Reportado via Whatsapp
-2025-09-18,07:03:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2025-09-18,07:06:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.4,"Modificado para mantener la metodología de reportar el valor indicado por la línea más cercana al nivel de agua, para arriba o para abajo. Original: 0.3"
-2025-09-18,08:53:55-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,36.4,
-2025-09-18,07:08:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
-2025-09-18,07:13:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
-2025-09-18,07:22:00-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,12.2,Reportado via Whatsapp
-2025-09-18,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
-2025-09-18,07:55:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
-2025-09-18,08:05:47-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2025-09-18,08:10:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,1.8,Reportado via Whatsapp
+2025-09-19,05:59:52-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-09-19,06:04:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-09-19,06:15:50-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-09-19,06:25:01-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,0.0,
+2025-09-19,06:39:53-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.
+2025-09-19,06:42:49-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,3.2,
+2025-09-19,07:01:48-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-09-19,07:32:53-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,6.0,
+2025-09-19,07:40:19-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el día de hayer igual cero punto cero rstacion verano
+2025-09-19,07:51:59-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
+2025-09-19,08:03:08-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-09-19,08:15:13-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
+2025-09-19,08:23:32-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-09-19,07:33:29-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
+2025-09-19,05:33:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.0,Reportado via Whatsapp
+2025-09-19,05:42:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-09-19,05:46:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
+2025-09-19,05:52:00-05,EC00132,-1.4330396,-79.3394014,202.0,Los Ríos-Ventanas-Los Ángeles,0.0,Reportado via Whatsapp
+2025-09-19,06:10:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,0.0,Reportado via Whatsapp
+2025-09-19,06:19:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
+2025-09-19,06:28:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,1.8,Reportado via Whatsapp
+2025-09-19,06:31:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
+2025-09-19,06:31:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
+2025-09-19,06:34:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,0.0,Reportado via Whatsapp
+2025-09-19,06:48:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,4.8,Reportado via Whatsapp
+2025-09-19,07:17:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
+2025-09-19,07:20:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,0.0,Reportado via Whatsapp
+2025-09-19,07:31:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
+2025-09-19,08:00:00-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,2.4,Reportado via Whatsapp
+2025-09-19,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,1.0,Reportado via Whatsapp: se reportan leves brisas.
+2025-09-19,08:22:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,1.0,Reportado via Whatsapp
+2025-09-19,09:15:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,6.2,None
+2025-09-19,09:36:05-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,2.2,
+2025-09-19,08:39:27-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
