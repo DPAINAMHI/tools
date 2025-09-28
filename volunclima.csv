@@ -1,10 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-09-27,06:08:18-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-09-27,06:45:36-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
-2025-09-27,06:48:13-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,3.8,
-2025-09-27,07:03:31-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,hayer igual estubo en cer. cero
-2025-09-27,07:09:17-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-09-27,07:19:46-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que este dato 1.6 es del día viernes 26 de septiembre del 2015  no se pudo enviar por falta de internet
-2025-09-27,07:21:34-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que este dato de 1.2 es del día sábado 27 de septiembre del 2025 también informo que la temperatura de la calor sigue fuerte y la temperatura del frío sigue subiendo nuevamente y se observa fuerte vientos en nuestro sector
-2025-09-27,08:58:00-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-09-27,09:41:17-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
+2025-09-28,06:36:14-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,0.m
+2025-09-28,06:55:19-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
+2025-09-28,07:29:13-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.2,
+2025-09-28,07:53:52-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
+2025-09-28,08:19:29-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y la temperatura del frío sigue fuerte
+2025-09-28,08:21:42-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-09-28,08:47:52-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-09-28,08:47:38-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-09-28,09:33:01-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
