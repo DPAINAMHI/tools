@@ -1,13 +1,15 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-10-13,05:45:17-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-10-13,06:23:48-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,22.4,
-2025-10-13,06:38:18-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,59.0,hayer lluvio fuerte
-2025-10-13,07:24:21-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.8,
-2025-10-13,06:30:01-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,7.8,
-2025-10-13,07:37:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,1.6,None
-2025-10-13,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,1.2,llovizna correspondienta del día jueves hasta el sábado
-2025-10-13,07:48:13-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.8,
-2025-10-13,08:15:33-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,2.0,
-2025-10-13,07:43:35-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
-2025-10-13,09:02:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,0.0,None
-2025-10-13,09:09:23-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-10-14,06:15:28-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-10-14,06:16:14-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que este dato es del día 13 de octubre del 2025 no se pudo enviar por falta de internet la temperatura de la calor sigue subiendo y la temperatura del frío sigue fuerte
+2025-10-14,06:18:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que este dato es del día martes 14 de octubre del 2025 la temperatura de la calor sigue subiendo y se observa la nieblina baja y está afectando al sector agrícola y la temperatura del frío sigue fuerte
+2025-10-14,06:41:24-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.2,hayer no lluvio
+2025-10-14,06:49:44-05,EC00049,-1.347916,-79.335087,120.0,Los Ríos-Ventanas-Zapotal,0.3,
+2025-10-14,06:55:42-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
+2025-10-14,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-10-14,07:16:56-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-10-14,06:57:43-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,4.6,
+2025-10-14,08:15:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,68.8,Presencia de lluvia desde horas de la madrugada.
+2025-10-14,08:20:22-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-10-14,07:47:20-05,EC00204,-0.90611,-89.6052,60.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,
+2025-10-14,09:37:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,13.0,None
+2025-10-14,07:35:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,10.0,None
