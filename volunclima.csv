@@ -1,11 +1,5 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-10-18,05:52:09-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-10-18,05:53:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-10-18,06:06:12-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-10-18,06:25:13-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,4.4,
-2025-10-18,07:18:38-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que la temperatura de la calor sigue subiendo y la temperatura del frío sigue fuerte y se observa poco movimiento de viento
-2025-10-18,07:57:37-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
-2025-10-18,09:03:58-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-10-18,09:35:44-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-10-18,09:53:02-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2025-10-18,10:00:26-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.2,
+2025-10-19,05:48:52-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que la temperatura del frío es muy fuerte y se observa poco movimiento de viento y seguimos con la nieblina baja y está afectando la producción agrícola
+2025-10-19,06:57:08-05,EC00128,-1.9309,-80.68547,10.0,Santa Elena-Santa Elena-Manglaralto,5.2,
+2025-10-19,07:33:18-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-10-19,09:34:22-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
