@@ -1,28 +1,12 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-10-21,05:26:07-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-10-21,06:07:07-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
-2025-10-21,06:09:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-10-21,06:22:31-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-10-21,06:24:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos con la temperatura del frío y la nieblina baja sigue afectando la producción agrícola
-2025-10-21,06:30:40-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-10-21,07:05:38-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay lluvias hoy el día está despejado
-2025-10-21,07:40:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.6,None
-2025-10-21,08:34:32-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-10-21,05:21:00-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,Reportado via Whatsapp
-2025-10-21,05:22:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,0.0,Reportado via Whatsapp
-2025-10-21,05:23:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
-2025-10-21,05:30:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-10-21,05:30:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2025-10-21,05:56:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
-2025-10-21,06:08:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.0,Reportado via Whatsapp
-2025-10-21,06:09:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2025-10-21,06:10:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,2.4,Reportado via Whatsapp
-2025-10-21,06:18:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
-2025-10-21,06:20:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.0,Reportado via Whatsapp
-2025-10-21,07:08:00-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.0,Reportado via Whatsapp
-2025-10-21,07:10:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.0,Reportado via Whatsapp
-2025-10-21,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
-2025-10-21,07:19:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-10-21,07:21:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
-2025-10-21,07:24:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,0.0,Reportado via Whatsapp
-2025-10-21,08:56:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.2,None
+2025-10-22,05:17:53-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-10-22,06:09:25-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura del frío sigue fuerte y se está presentando más desde que hubo el temblor anoche que se sintió fuerte en nuestro sector y la cordillera y en otras jurisdicción del país también informo que la nieblina sigue baja afectando los cultivos agricola
+2025-10-22,06:15:06-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-10-22,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hubo lluvias
+2025-10-22,07:27:45-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-10-22,07:27:27-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-10-22,07:30:21-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-10-22,07:38:43-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-10-22,07:54:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.6,None
+2025-10-22,08:23:52-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-10-22,08:45:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.0,None
