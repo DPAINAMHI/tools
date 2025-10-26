@@ -1,12 +1,5 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-10-25,05:57:30-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-10-25,06:08:52-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-10-25,06:10:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,2.0,None
-2025-10-25,06:17:43-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2025-10-25,06:45:37-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y la temperatura del frío sigue fuerte y se observa nuevamente la nieblina baja afectando los cultivos agricola
-2025-10-25,06:50:04-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-10-25,07:08:52-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-10-25,08:03:08-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-10-25,08:05:25-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-10-25,08:20:21-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
-2025-10-25,08:34:26-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.2,
+2025-10-26,06:39:04-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-10-26,07:09:52-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-10-26,07:14:24-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-10-26,07:38:45-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.2,
