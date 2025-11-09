@@ -1,12 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-11-08,05:40:28-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-11-08,05:55:41-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-11-08,06:01:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-11-08,06:00:57-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
-2025-11-08,06:38:55-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
-2025-11-08,07:23:42-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.4,
-2025-11-08,08:31:02-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
-2025-11-08,08:32:06-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura del frío sigue fuerte y la nieblina sigue baja está afectando los cultivos agricola y se observa poco movimiento de viento
-2025-11-08,07:45:25-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2025-11-08,08:49:40-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-11-08,08:51:58-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,1.0,
+2025-11-09,05:04:34-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento
+2025-11-09,06:36:51-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-11-09,07:28:14-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
+2025-11-09,07:35:11-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-11-09,07:37:06-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2025-11-09,07:58:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-11-09,08:31:49-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-11-09,07:56:57-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-11-09,08:03:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
