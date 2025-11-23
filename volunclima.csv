@@ -1,10 +1,7 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-11-22,05:58:09-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-11-22,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-11-22,06:35:57-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-11-22,07:14:14-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,13.6,Acompañado  de tormentas eléctricas
-2025-11-22,07:28:43-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.4,
-2025-11-22,07:32:53-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,1.0,
-2025-11-22,07:38:42-05,EC00049,-1.347916,-79.335087,120.0,Los Ríos-Ventanas-Zapotal,1.6,
-2025-11-22,08:41:18-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue subiendo y está muy variable ya se están presentando los síntomas gripales severos en adultos mayores y niños
-2025-11-22,09:10:33-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-11-23,06:22:15-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-11-23,07:04:30-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2025-11-23,07:35:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y seguimos con la afectaciones de los cuadros gripales severos en nuestro sector con niños y adultos mayores
+2025-11-23,08:01:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-11-23,09:09:47-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.1,
+2025-11-23,08:27:54-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
