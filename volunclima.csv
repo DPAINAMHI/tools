@@ -1,7 +1,11 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-11-23,06:22:15-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-11-23,07:04:30-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
-2025-11-23,07:35:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y seguimos con la afectaciones de los cuadros gripales severos en nuestro sector con niños y adultos mayores
-2025-11-23,08:01:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-11-23,09:09:47-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.1,
-2025-11-23,08:27:54-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-11-24,05:59:59-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.4,"el día de hayer Domingo estuvo en2.4 y el sábado estuvo en ,11.2"
+2025-11-24,06:09:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-11-24,07:06:11-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que la temperatura de la calor sigue fuerte y el día de ayer se presentó al médio día un cambio brusco de la temperatura con una llovizna y elevando más la temperatura y también se presentó un temblor con movimiento leves sin provocar daños
+2025-11-24,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
+2025-11-24,08:10:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,4.8,None
+2025-11-24,08:11:34-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.4,
+2025-11-24,08:19:27-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,1.0,
+2025-11-24,08:24:29-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-11-24,09:30:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,67.6,None
+2025-11-24,09:03:59-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
