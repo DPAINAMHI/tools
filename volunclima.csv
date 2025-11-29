@@ -1,12 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-11-28,06:06:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-11-28,06:38:57-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura de la calor sigue subiendo y anoche se presentó nuevamente la temperatura del frío fuerte y se observo vientos fuertes pero no hay novedades de daños
-2025-11-28,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
-2025-11-28,07:30:16-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.0,
-2025-11-28,07:49:06-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,42.6,mañana con fuerte lluvia
-2025-11-28,07:19:24-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,1.0,
-2025-11-28,08:20:57-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.4,
-2025-11-28,08:30:44-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,29.4,
-2025-11-28,08:34:33-05,EC00137,-0.74074,-90.30252,14.0,Galápagos-Santa Cruz-Puerto Ayora,0.0,
-2025-11-28,10:00:27-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.6,
-2025-11-28,09:57:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,31.8,"Presencia de lluvias leves, durante la medicion."
+2025-11-29,06:03:37-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,10.2,
+2025-11-29,06:14:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-11-29,07:09:39-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,2.0,
+2025-11-29,07:17:26-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,54.4,
+2025-11-29,07:31:01-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-11-29,07:40:18-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,2.0,
+2025-11-29,08:13:13-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
