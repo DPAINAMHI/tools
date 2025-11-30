@@ -1,8 +1,6 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-11-29,06:03:37-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,10.2,
-2025-11-29,06:14:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-11-29,07:09:39-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,2.0,
-2025-11-29,07:17:26-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,54.4,
-2025-11-29,07:31:01-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-11-29,07:40:18-05,EC00188,-1.3647,-79.1424,393.0,Bolivar-Caluma-Caluma,2.0,
-2025-11-29,08:13:13-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-11-30,05:58:35-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-11-30,06:50:12-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato de 1.4 es del día sábado 29 de noviembre del 2025 no se pudo enviar por falta de internet
+2025-11-30,06:51:43-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que este dato de 1.2 es del día domingo 30 de noviembre del 2025 y se observa nuevamente la temperatura de la calor muy fuerte y poco movimiento de viento y en la tarde se presentó un fuerte remolino de viento pero no causo daños esto duro aproximadamente  1 minuto
+2025-11-30,08:55:50-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-11-30,09:57:47-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,1.2,
