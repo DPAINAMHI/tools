@@ -1,9 +1,7 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-05,05:50:54-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-12-05,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2025-12-05,07:33:25-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,2.8,
-2025-12-05,07:36:07-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
-2025-12-05,08:21:24-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-12-05,08:26:24-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,4.8,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y seguimos con la gripe fuerte afectando a los niños y adultos mayores
-2025-12-05,09:35:34-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-12-05,09:02:57-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-12-06,05:53:27-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,hayer estuvo en 0.0
+2025-12-06,05:54:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-12-06,06:26:08-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-12-06,06:44:08-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-12-06,07:49:30-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento la gripe sigue afectando a los niños y adultos mayores
+2025-12-06,08:06:42-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
