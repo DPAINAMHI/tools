@@ -1,7 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-13,05:58:56-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-12-13,06:07:49-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-12-13,06:21:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.5,informo que la temperatura de la calor sigue fuerte y en la madrugada cambio el clima comenzó a sentirse el frío
-2025-12-13,07:05:20-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-12-13,08:28:59-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
-2025-12-13,08:11:56-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-12-14,05:54:53-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-12-14,06:15:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2025-12-14,06:38:27-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y se mantiene la temperatura del frío en la madrugada
+2025-12-14,07:11:00-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2025-12-14,07:36:04-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,6.2,
+2025-12-14,08:02:43-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-12-14,09:00:26-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,10.8,
+2025-12-14,08:00:50-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-12-14,09:00:13-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
