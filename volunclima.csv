@@ -1,31 +1,14 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-18,05:30:39-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,17.2,
-2025-12-18,05:51:08-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue subiendo y la temperatura del frío sigue fuerte en la madrugada y se observa poco movimiento de viento
-2025-12-18,06:41:18-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-12-18,06:50:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,None
-2025-12-18,07:02:47-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.4,
-2025-12-18,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
-2025-12-18,07:45:36-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,11.4,
-2025-12-18,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.8,None
-2025-12-18,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,None
-2025-12-18,05:49:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,0.0,Reportado via Whatsapp
-2025-12-18,05:49:00-05,EC00096,-1.586687,-80.070637,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-12-18,05:57:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,6.2,Reportado via Whatsapp
-2025-12-18,09:01:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,21.8,None
-2025-12-18,06:00:00-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,Reportado via Whatsapp
-2025-12-18,06:02:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,0.0,Reportado via Whatsapp
-2025-12-18,06:44:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,0.6,Reportado via Whatsapp
-2025-12-18,06:21:00-05,EC00192,-4.491392,-79.425645,1500.0,Loja-Espíndola-Amaluza,14.0,Reportado via Whatsapp
-2025-12-18,06:48:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,0.0,Reportado via Whatsapp
-2025-12-18,06:48:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2025-12-18,07:31:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
-2025-12-18,07:46:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.0,Reportado via Whatsapp
-2025-12-18,07:47:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.0,Reportado via Whatsapp
-2025-12-18,07:49:00-05,EC00131,-1.726531,-80.24902,73.0,Guayas-Pedro Carbo-Jerusalén,0.0,Reportado via Whatsapp
-2025-12-18,06:38:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,2.0,Reportado via Whatsapp
-2025-12-18,09:16:35-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-12-18,08:00:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,2.0,Reportado via Whatsapp
-2025-12-18,08:15:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,0.0,Reportado via Whatsapp
-2025-12-18,06:20:00-05,EC00121,-0.31472,-77.01944,282.0,Orellana-Joya de los Sachas-San Sebastián del Coca,29.6,Reportado via Whatsapp
-2025-12-18,09:25:21-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-12-18,09:21:00-05,EC00200,-4.0750559,-79.3129304,777.0,Loja-Catamayo-El Tambo,8.0,Reportado via Whatsapp
+2025-12-19,06:23:17-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y la temperatura de frío sigue subiendo
+2025-12-19,06:37:57-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,13.6,
+2025-12-19,07:08:15-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-12-19,07:24:12-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.3,
+2025-12-19,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
+2025-12-19,07:39:26-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-12-19,06:56:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,1.0,
+2025-12-19,08:48:28-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-12-19,07:30:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,None
+2025-12-19,09:09:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,4.2,None
+2025-12-19,08:32:42-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2025-12-19,09:38:34-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,5.0,
+2025-12-19,09:43:14-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
