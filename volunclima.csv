@@ -1,5 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-20,06:44:37-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-12-20,08:04:12-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-12-20,09:49:00-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2025-12-20,09:58:00-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-12-21,05:22:51-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que este dato de 1.1 es del día sábado 20 de diciembre del 2025 no se pudo enviar por falta de energía
+2025-12-21,05:25:55-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que este dato 1.0  es del día de hoy Domingo 21 de diciembre del 2025 la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y la temperatura del frío sigue subiendo en la madrugada
+2025-12-21,06:25:42-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-12-21,07:32:19-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,8.0,
+2025-12-21,07:52:40-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2025-12-21,08:31:12-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2025-12-21,09:04:36-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
