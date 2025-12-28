@@ -1,8 +1,9 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-27,06:12:17-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2025-12-27,06:14:29-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-12-27,06:19:35-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,el día de hayer igual estubo en0.0
-2025-12-27,07:39:23-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2025-12-27,07:43:51-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-12-27,09:37:28-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
-2025-12-27,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.6,
+2025-12-28,06:26:03-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que este dato de 1.1 es del día viernes 26 de diciembre del 2025 no se pudo enviar por falta de energía eléctrica
+2025-12-28,06:27:21-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que este dato de 1.6 es del día sábado 27 de diciembre del 2025 no se pudo enviar por falta de internet
+2025-12-28,06:28:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que este dato de 1.0 es del día domingo 28 de diciembre del 2025 informo que la temperatura de la calor sigue fuerte y se observa fuerte movimiento de viento durante el día
+2025-12-28,07:29:38-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-12-28,08:08:25-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-12-28,09:01:38-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-12-28,09:06:07-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2025-12-28,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
