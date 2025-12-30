@@ -1,9 +1,7 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2025-12-28,06:26:03-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que este dato de 1.1 es del día viernes 26 de diciembre del 2025 no se pudo enviar por falta de energía eléctrica
-2025-12-28,06:27:21-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que este dato de 1.6 es del día sábado 27 de diciembre del 2025 no se pudo enviar por falta de internet
-2025-12-28,06:28:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que este dato de 1.0 es del día domingo 28 de diciembre del 2025 informo que la temperatura de la calor sigue fuerte y se observa fuerte movimiento de viento durante el día
-2025-12-28,07:29:38-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2025-12-28,08:08:25-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2025-12-28,09:01:38-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
-2025-12-28,09:06:07-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2025-12-28,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
+2025-12-30,05:49:07-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2025-12-30,05:46:04-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.2,informo que la temperatura de la calor sigue subiendo y se observa que el río puerto inca de la jurisdicción de naranjal ya presentó la primera creciente el día de ayer porque está lloviendo fuerte en la cordillera
+2025-12-30,06:48:03-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2025-12-30,06:58:57-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2025-12-30,07:37:26-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2025-12-30,08:35:08-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,9.6,
