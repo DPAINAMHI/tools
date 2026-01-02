@@ -1,8 +1,12 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-01,07:47:55-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,27.0,
-2026-01-01,08:10:44-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,22.0,
-2026-01-01,08:20:23-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2026-01-01,08:27:41-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y los ríos están bajando su caudal
-2026-01-01,09:13:45-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,3.6,
-2026-01-01,06:44:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.4,
-2026-01-01,09:49:36-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2026-01-02,06:23:11-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.6,
+2026-01-02,06:33:07-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento
+2026-01-02,06:37:16-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,75.0,
+2026-01-02,06:56:41-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2026-01-02,07:02:45-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2026-01-02,07:51:58-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,23.6,
+2026-01-02,08:35:01-05,EC00049,-1.347916,-79.335087,120.0,Los Ríos-Ventanas-Zapotal,11.0,
+2026-01-02,08:58:26-05,EC00111,-1.47088,-80.426721,424.0,Manabí-Jipijapa-La Unión,13.0,
+2026-01-02,09:28:49-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-01-02,09:44:46-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2026-01-02,09:45:43-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,43.6,
