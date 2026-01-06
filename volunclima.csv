@@ -1,10 +1,15 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-05,04:58:45-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y la temperatura del frío sigue fuerte en la madrugada
-2026-01-05,06:07:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-01-05,07:11:58-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
-2026-01-05,07:17:17-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2026-01-05,07:32:08-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.4,
-2026-01-05,07:32:55-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2026-01-05,08:02:25-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,87.8,lluvias del 31 de diciembre
-2026-01-05,08:47:52-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
-2026-01-05,09:26:22-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2026-01-06,05:32:53-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
+2026-01-06,05:35:22-05,EC00070,-0.936612,-80.23629,69.0,Manabí-Junin-Junín,0.0,
+2026-01-06,06:13:20-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.0,
+2026-01-06,06:40:03-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2026-01-06,06:56:03-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,12.6,
+2026-01-06,07:13:53-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.2,
+2026-01-06,07:25:30-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,5.4,mañana con chubasco
+2026-01-06,07:38:17-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,10.2,
+2026-01-06,08:00:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-01-06,08:00:23-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,día nublado
+2026-01-06,08:31:38-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-01-06,08:55:32-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.0,
+2026-01-06,09:08:13-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,0.0,
+2026-01-06,09:53:33-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
