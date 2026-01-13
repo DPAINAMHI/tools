@@ -1,13 +1,12 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-12,06:22:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-01-12,07:19:09-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.2,
-2026-01-12,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,no hay presencia de lluvias
-2026-01-12,08:03:24-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,6.0,
-2026-01-12,08:16:38-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,6.8,
-2026-01-12,07:33:35-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,1.4,
-2026-01-12,08:40:43-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,1.1,
-2026-01-12,09:07:34-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,10.0,
-2026-01-12,09:26:53-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,4.0,
-2026-01-12,09:36:09-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2026-01-12,09:36:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,3.6,informo que la temperatura de la calor sigue fuerte y se observa que está lloviendo fuerte en la cordillera
-2026-01-12,09:41:46-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,5.4,
+2026-01-13,08:03:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,día nublado
+2026-01-13,06:13:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-01-13,06:30:35-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,26.3,
+2026-01-13,06:46:14-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2026-01-13,07:10:58-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,100.4,
+2026-01-13,07:24:21-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,22.8,mañana nublado
+2026-01-13,08:36:44-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,75.8,
+2026-01-13,08:50:02-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,8.2,
+2026-01-13,08:54:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,9.2,None
+2026-01-13,09:22:50-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2026-01-13,09:50:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,6.0,None
