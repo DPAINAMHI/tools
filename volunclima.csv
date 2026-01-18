@@ -1,8 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-17,05:39:34-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y se está presentando derrumbe en el muro en el río jagua del sector de las damas la toma el playon
-2026-01-17,06:05:00-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,1.6,
-2026-01-17,06:09:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-01-17,07:05:45-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.2,
-2026-01-17,07:38:54-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2026-01-17,07:45:23-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,20.0,
-2026-01-17,08:14:42-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,6.2,
+2026-01-18,06:24:15-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.3,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento
+2026-01-18,07:03:06-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2026-01-18,07:29:33-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-01-18,07:29:31-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,4.0,
+2026-01-18,07:30:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,None
+2026-01-18,08:24:09-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,3.6,
+2026-01-18,08:29:12-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,2.0,
+2026-01-18,08:33:47-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.2,
+2026-01-18,08:53:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
