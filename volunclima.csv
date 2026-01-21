@@ -1,14 +1,11 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-20,06:13:20-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato de 1.4 mm es del día lunes 19 de enero del 2026 no se pudo enviar por falta de internet
-2026-01-20,06:30:11-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2026-01-20,06:49:15-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,1.8,
-2026-01-20,06:50:17-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.3,
-2026-01-20,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
-2026-01-20,07:47:12-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,5.0,
-2026-01-20,08:16:24-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,25.0,
-2026-01-20,08:36:55-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,0.0,
-2026-01-20,08:47:41-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.8,
-2026-01-20,08:09:12-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,8.0,mañana con chubasco
-2026-01-20,08:58:18-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,22.4,
-2026-01-20,09:54:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,37.2,Al momento se observa presencia de lluvia desde horas de la mañana.
-2026-01-20,08:37:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.8,None
+2026-01-21,05:56:47-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue fuerte y se observa que está lloviendo en la cordillera y se mantiene el caudal del río jagua
+2026-01-21,06:16:25-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2026-01-21,06:26:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-01-21,06:52:33-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-01-21,06:57:24-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,10.0,
+2026-01-21,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
+2026-01-21,07:17:59-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,11.0,
+2026-01-21,08:02:22-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,10.0,
+2026-01-21,09:57:09-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,36.2,
+2026-01-21,08:48:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.0,None
