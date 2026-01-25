@@ -1,9 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-24,05:20:50-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,4.4,informo que la temperatura de la calor sigue subiendo y se observa poco movimiento de viento y seguimos con el caudal del río jagua alto porque sigue lloviendo en la cordillera
-2026-01-24,05:35:52-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,17.2,
-2026-01-24,06:11:47-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,7.1,
-2026-01-24,06:20:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-01-24,06:33:57-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,1.4,
-2026-01-24,07:46:19-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.2,
-2026-01-24,08:40:30-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.2,
-2026-01-24,09:51:47-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
+2026-01-25,07:15:48-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,10.1,
+2026-01-25,08:06:29-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,112.4,informo que la temperatura de la calor sigue fuerte y nos llovió desde las 7.00 pm de la noche hasta las 7.20 am seguimos monitoreando los 4 puntos crítico del río jagua
+2026-01-25,08:14:33-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,23.4,
+2026-01-25,08:37:14-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,19.0,
+2026-01-25,09:03:51-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
+2026-01-25,09:08:37-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,84.0,
+2026-01-25,09:34:07-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.6,
+2026-01-25,09:55:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,1.0,None
+2026-01-25,09:57:34-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,8.4,
