@@ -1,10 +1,11 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-01-25,07:15:48-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,10.1,
-2026-01-25,08:06:29-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,112.4,informo que la temperatura de la calor sigue fuerte y nos llovió desde las 7.00 pm de la noche hasta las 7.20 am seguimos monitoreando los 4 puntos crítico del río jagua
-2026-01-25,08:14:33-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,23.4,
-2026-01-25,08:37:14-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,19.0,
-2026-01-25,09:03:51-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
-2026-01-25,09:08:37-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,84.0,
-2026-01-25,09:34:07-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.6,
-2026-01-25,09:55:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,1.0,None
-2026-01-25,09:57:34-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,8.4,
+2026-01-26,06:10:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-01-26,06:11:31-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,4.3,
+2026-01-26,06:54:48-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,2.4,
+2026-01-26,07:00:02-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
+2026-01-26,07:09:54-05,EC00130,-1.3947621,-80.2066644,61.0,Manabí-Olmedo-Olmedo,16.0,
+2026-01-26,07:49:42-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,6.8,Desde sábado 24 y domingo 25 de enero
+2026-01-26,08:13:03-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2026-01-26,08:39:00-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,0.0,
+2026-01-26,09:49:53-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,3.6,
+2026-01-26,07:48:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,2.0,None
