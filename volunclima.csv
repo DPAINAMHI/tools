@@ -1,23 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-02-13,06:50:33-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,16.0,
-2026-02-13,07:13:31-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
-2026-02-13,07:15:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-02-13,07:19:52-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.0,
-2026-02-13,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
-2026-02-13,07:43:39-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,27.1,
-2026-02-13,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
-2026-02-13,08:25:57-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,2.6,
-2026-02-13,09:05:34-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,5.0,
-2026-02-13,07:00:00-05,EC00111,-1.47088,-80.426721,424.0,Manabí-Jipijapa-La Unión,1.0,
-2026-02-13,09:28:39-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.2,
-2026-02-13,05:22:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.2,Reportado via Whatsapp
-2026-02-13,05:57:00-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,0.0,Reportado via Whatsapp
-2026-02-13,05:57:00-05,EC00104,-2.12683,-80.01535,50.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2026-02-13,09:22:22-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
-2026-02-13,06:20:00-05,EC00008,-2.1223054,-79.971067,57.0,Guayas-Guayaquil-Guayaquil,0.0,Reportado via Whatsapp
-2026-02-13,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,1.8,None
-2026-02-13,06:44:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,1.2,Reportado via Whatsapp
-2026-02-13,07:27:00-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2026-02-13,06:59:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,2.0,Reportado via Whatsapp
-2026-02-13,07:13:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,27.8,Reportado via Whatsapp
-2026-02-13,07:14:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,76.2,Reportado via Whatsapp
+2026-02-14,07:02:32-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.2,
+2026-02-14,07:00:00-05,EC00111,-1.47088,-80.426721,424.0,Manabí-Jipijapa-La Unión,0.8,
+2026-02-14,07:17:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-02-14,07:22:52-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.1,
+2026-02-14,07:43:12-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.2,
+2026-02-14,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
+2026-02-14,08:01:40-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,1.0,
+2026-02-14,08:37:26-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,31.0,
+2026-02-14,09:19:50-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
