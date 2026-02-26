@@ -1,26 +1,15 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-02-25,06:30:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,4.2,None
-2026-02-25,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
-2026-02-25,07:33:32-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,58.8,mañana lluvioso
-2026-02-25,07:36:01-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,19.2,Continúa una tenue llovizna
-2026-02-25,07:42:40-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,1.8,
-2026-02-25,07:55:12-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
-2026-02-25,07:55:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,77.6,"Se reporta lluvias desde horas de la noche y madrugada en la parroquia Lumbaqui, al momento el cielo se encuentra nublado con probabilidad que continúen las precipitaciones."
-2026-02-25,07:55:39-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.8,
-2026-02-25,08:22:01-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.2,
-2026-02-25,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,21.0,None
-2026-02-25,08:43:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,20.2,None
-2026-02-25,06:05:00-05,EC00113,-1.453605,-80.164281,70.9,Guayas-Colimes-Colimes,0.0,Reportado via Whatsapp
-2026-02-25,06:10:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,0.0,Reportado via Whatsapp
-2026-02-25,06:27:00-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,6.0,Reportado via Whatsapp
-2026-02-25,06:43:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,41.4,Reportado via Whatsapp
-2026-02-25,06:49:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,0.0,Reportado via Whatsapp
-2026-02-25,07:12:00-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,39.2,Reportado via Whatsapp
-2026-02-25,07:20:00-05,EC00114,-1.474411,-80.426109,419.0,Manabí-Jipijapa-La Unión,0.0,Reportado via Whatsapp
-2026-02-25,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
-2026-02-25,07:24:00-05,EC00198,-4.0276412,-79.7278939,945.0,Loja-Paltas-Casanga,0.4,"Reportado via Whatsapp: Modificado para mantener la metodología de reportar el valor indicado por la línea más cercana al nivel de agua,"
-2026-02-25,07:30:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,1.0,Reportado via Whatsapp
-2026-02-25,07:43:00-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,1.8,Reportado via Whatsapp
-2026-02-25,07:44:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,16.0,Reportado via Whatsapp
-2026-02-25,08:12:00-05,EC00194,-4.3269,-79.7903759,1480.0,Loja-Sozoranga-Sozoranga,4.2,Reportado via Whatsapp
-2026-02-25,09:40:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,105.2,None
+2026-02-26,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-02-26,06:35:33-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,0.2,
+2026-02-26,07:26:47-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,16.2,mañana nublado
+2026-02-26,07:34:49-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,94.6,
+2026-02-26,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando via WhatsApp
+2026-02-26,08:02:41-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.3,
+2026-02-26,08:08:10-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,1.0,
+2026-02-26,08:28:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2026-02-26,07:00:00-05,EC00111,-1.47088,-80.426721,424.0,Manabí-Jipijapa-La Unión,26.4,
+2026-02-26,08:53:56-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,6.0,
+2026-02-26,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.4,None
+2026-02-26,06:37:00-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.6,
+2026-02-26,09:47:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,5.4,None
+2026-02-26,09:50:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,12.6,None
