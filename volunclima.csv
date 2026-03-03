@@ -1,5 +1,24 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-03-01,08:20:47-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.0,
-2026-03-01,08:58:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,4.6,None
-2026-03-01,08:59:52-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,1.3,
-2026-03-01,09:49:02-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-03-03,06:47:54-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,11.2,
+2026-03-03,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
+2026-03-03,07:55:07-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.2,
+2026-03-03,08:09:31-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,3.0,
+2026-03-03,08:16:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.0,"Desde tempranas horas de la mañana se observa día soleado, al igual que desde el fin de semana se ha venido presentando, debido a la falta de lluvia las vías se encuentran con una cantidad enorme de polvo, que ha generado malestar visual y a las vías respiratiorias de las personas, Lumbaqui y GP."
+2026-03-03,08:39:20-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,22.0,
+2026-03-03,08:49:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,0.0,None
+2026-03-03,06:13:00-05,EC00101,-2.014112,-80.578024,30.0,Santa Elena-Santa Elena-Colonche,1.2,Reportado via Whatsapp
+2026-03-03,06:29:00-05,EC00196,-4.196835,-79.536481,1830.0,Loja-Gonzanama-Changaimina,0.0,Reportado via Whatsapp
+2026-03-03,06:46:00-05,EC00193,-4.5487974,-79.420629,1825.0,Loja-Espíndola-Amaluza,0.2,"Reportado via Whatsapp: Modificado para mantener la metodología de reportar el valor indicado por la línea más cercana al nivel de agua,"
+2026-03-03,08:57:30-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,55.4,
+2026-03-03,06:48:00-05,EC00115,-1.47187,-79.923421,22.0,Guayas-Balzar-Balzar,2.8,Reportado via Whatsapp
+2026-03-03,06:53:00-05,EC00095,-1.88816,-79.274572,41.0,Los Ríos-Montalvo-Montalvo,35.0,Reportado via Whatsapp
+2026-03-03,06:57:00-05,ECX0001,-1.789895,-79.784786,9.0,Guayas-Salitre-General Vernaza,2.2,Reportado via Whatsapp
+2026-03-03,06:59:00-05,EC00097,-1.589252,-80.06345,34.0,Guayas-Colimes-San Jacinto,0.4,Reportado via Whatsapp
+2026-03-03,07:03:00-05,EC00202,-4.0228367,-79.9794717,1135.0,Loja-Puyango-Mercadillo,7.4,Reportado via Whatsapp
+2026-03-03,07:16:00-05,EC00195,-4.241055,-79.88673,425.0,Loja-Macará-Larama,6.2,"Reportado via Whatsapp: Modificado para mantener la metodología de reportar el valor indicado por la línea más cercana al nivel de agua,"
+2026-03-03,07:48:00-05,EC00110,-1.76453,-80.171387,54.45,Guayas-Pedro Carbo-Valle de la Virgen,2.6,Reportado via Whatsapp
+2026-03-03,07:58:00-05,EC00200,-4.0750559,-79.3129304,777.0,Loja-Catamayo-El Tambo,0.0,Reportado via Whatsapp
+2026-03-03,08:05:00-05,EC00117,-1.47153,-80.53735,370.0,Manabí-Jipijapa-El Anegado,50.0,Reportado via Whatsapp
+2026-03-03,07:00:00-05,EC00052,-0.703272,-80.167776,8.0,Manabí-Chone-San Antonio,0.0,Reportado via Whatsapp
+2026-03-03,09:12:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.0,None
+2026-03-03,08:11:40-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,1.1,
