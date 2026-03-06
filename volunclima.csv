@@ -1,11 +1,9 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-03-05,06:08:17-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,6.0,
-2026-03-05,06:11:11-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2026-03-05,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,2.0,None
-2026-03-05,07:28:12-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,26.1,
-2026-03-05,07:33:20-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,9.4,mañana con chubasco
-2026-03-05,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
-2026-03-05,08:27:27-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,21.8,
-2026-03-05,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,None
-2026-03-05,09:32:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,42.4,"Desde horas de la madrugada se presentó lluvias intensas, hasta las 08:00 a.m. y posterior solo lloviznas."
-2026-03-05,09:29:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,2.2,None
+2026-03-06,05:47:25-05,EC00109,-1.666813,-80.216623,88.0,Manabí-Paján-Guale,15.0,
+2026-03-06,06:04:13-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,52.0,
+2026-03-06,06:26:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-03-06,07:39:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,2.0,None
+2026-03-06,07:40:25-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.2,mañana nublado
+2026-03-06,08:16:37-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,14.0,
+2026-03-06,08:41:08-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,2.0,
+2026-03-06,08:43:51-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
