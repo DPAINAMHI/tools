@@ -1,11 +1,31 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-03-18,07:01:20-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,22.0,
-2026-03-18,07:24:50-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.2,
-2026-03-18,07:29:56-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
-2026-03-18,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-03-18,07:40:13-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,9.2,
-2026-03-18,06:47:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,10.6,
-2026-03-18,07:53:24-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2026-03-18,08:49:13-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,9.0,
-2026-03-18,09:36:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.4,None
-2026-03-18,09:48:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,0.0,None
+2026-03-19,07:00:34-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-03-19,07:10:31-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.0,
+2026-03-19,07:22:41-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
+2026-03-19,07:24:26-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,13.8,
+2026-03-19,07:34:42-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2026-03-19,07:38:15-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.0,Desde horas de la mañana soleado.
+2026-03-19,07:42:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-03-19,06:34:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,11.0,
+2026-03-19,07:27:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.2,None
+2026-03-19,08:04:57-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.2,
+2026-03-19,08:55:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,0.0,None
+2026-03-19,09:22:45-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,80.6,informo que este dato de 80.6 es del día Domingo 1/3/2026
+2026-03-19,09:24:51-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,237.2,informo que este dato 237.2  es dél día lunes 2/3/2026
+2026-03-19,09:25:53-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.4,informo que este dato 2.4 es del día martes 3/3/2026
+2026-03-19,09:29:09-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,18.6,informo que este dato de 18.6 es del día miércoles 4/3/2026
+2026-03-19,09:30:37-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que este dato de 2.8 es del día jueves 5/3/2026
+2026-03-19,09:32:37-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato de 1.4  es del día viernes 6/3/2026
+2026-03-19,09:33:35-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.8,informo que este dato de 2.8 es del día sábado 7/3/2026
+2026-03-19,09:35:08-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que este dato 1.2  es del día domingo 8/3/2026
+2026-03-19,09:36:11-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,10.6,informo que este dato 10.6 es del lunes 9/3/2026
+2026-03-19,09:37:06-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato de 1.4 es del día martes 10/3/2026
+2026-03-19,09:37:58-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,108.6,informo que este dato de 108.6 es del día miércoles 11 de marzo del 2026
+2026-03-19,09:39:39-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,10.6,informo que este dato de 10.6 es del día jueves 12/3/2026
+2026-03-19,09:40:47-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,8.2,informo que este dato de 8.2 es del día viernes 13/3/2026
+2026-03-19,09:41:42-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.6,informo que este dato de 1.6 es del día sábado 14/3/2026
+2026-03-19,09:42:46-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.6,informo que este dato de 2.6 es del día domingo 14/3/2026
+2026-03-19,09:44:52-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,2.2,informo que este dato de 2.2 es del día lunes 16/3/2026
+2026-03-19,09:46:47-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,4.6,informo que este dato de 4.6 es del día martes 17/3/2026
+2026-03-19,09:48:19-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,5.2,informo que este dato de 5.2 es del día miércoles 18/3/2026
+2026-03-19,09:49:13-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,11.4,informo que este dato de 11.4 es del día jueves 19/3/2026
