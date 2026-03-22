@@ -1,9 +1,10 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-03-21,05:35:31-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento sigue trabajando la prefectura del Guayas en la reconstrucción de los muros colapsosados en el rio jagua
-2026-03-21,06:06:52-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2026-03-21,06:20:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-03-21,06:59:07-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,1.0,
-2026-03-21,07:04:18-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
-2026-03-21,08:18:59-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,0.0,Desde horas de la mañana soleado.
-2026-03-21,08:59:01-05,EC00007,-0.644443,-80.419549,5.0,Manabí-Sucre-Leonidas Plaza,0.0,
-2026-03-21,09:03:12-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,1.0,
+2026-03-22,06:01:28-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando los trabajos del río jagua que está realizando la prefectura del Guayas
+2026-03-22,06:18:43-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.4,
+2026-03-22,07:45:18-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
+2026-03-22,08:04:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,0.0,None
+2026-03-22,08:08:11-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-03-22,08:16:36-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2026-03-22,08:19:06-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-03-22,08:31:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-03-22,09:55:25-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,0.0,
