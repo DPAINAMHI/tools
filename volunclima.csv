@@ -1,8 +1,9 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-03-30,06:10:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-03-30,07:06:02-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-03-30,07:13:23-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2026-03-30,07:15:44-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,10.0,
-2026-03-30,08:47:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,4.4,None
-2026-03-30,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,3.2,None
-2026-03-30,07:30:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,None
+2026-03-31,06:07:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-03-31,06:10:59-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-03-31,07:34:36-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-03-31,08:04:32-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.2,
+2026-03-31,08:16:27-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,16.0,
+2026-03-31,08:26:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,17.4,None
+2026-03-31,06:42:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
+2026-03-31,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,1.8,None
