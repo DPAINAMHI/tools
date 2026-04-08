@@ -1,10 +1,11 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-04-07,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-04-07,07:36:05-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,1.4,mañana nublado
-2026-04-07,07:39:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,10.2,None
-2026-04-07,08:18:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,3.8,None
-2026-04-07,08:29:11-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa fuerte vientos desde la noche
-2026-04-07,08:42:19-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2026-04-07,06:44:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.2,
-2026-04-07,08:34:21-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,2.0,
-2026-04-07,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.8,None
+2026-04-08,06:07:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-04-08,07:00:00-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-04-08,07:23:57-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-04-08,07:43:33-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,21.4,
+2026-04-08,07:58:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,74.6,Lluvias intensas desde la madrugada.
+2026-04-08,08:14:05-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-04-08,06:44:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
+2026-04-08,08:15:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,9.4,None
+2026-04-08,08:59:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,3.6,None
+2026-04-08,08:47:28-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
