@@ -1,11 +1,7 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-04-10,05:45:56-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
-2026-04-10,06:15:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-04-10,06:36:52-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2026-04-10,06:40:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,¡21 días sin lluvias!
-2026-04-10,07:27:59-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-04-10,07:41:11-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,8.0,
-2026-04-10,08:31:00-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,0.0,
-2026-04-10,07:05:22-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,33.4,mañana nublado
-2026-04-10,09:43:00-05,EC00157,0.04975,-77.32854,489.0,Sucumbios-Gonzalo Pizarro-Lumbaqui,31.6,None
-2026-04-10,07:20:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.8,
+2026-04-11,05:37:44-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y ya está afectando al sector agrícola por la filtración ligera del suelo
+2026-04-11,06:10:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-04-11,07:38:38-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-04-11,07:53:05-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,58.4,
+2026-04-11,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
+2026-04-11,09:01:38-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
