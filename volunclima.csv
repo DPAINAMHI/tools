@@ -1,7 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-04-11,05:37:44-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y ya está afectando al sector agrícola por la filtración ligera del suelo
-2026-04-11,06:10:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-04-11,07:38:38-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2026-04-11,07:53:05-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,58.4,
-2026-04-11,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
-2026-04-11,09:01:38-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-04-12,05:36:56-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue fuerte y se sigue monitoreando los caudales de los ríos ya que por el exceso de la temperatura del sol están bajando sus caudales
+2026-04-12,06:47:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-04-12,07:22:12-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.8,
+2026-04-12,08:08:32-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-04-12,07:30:00-05,EC00094,-0.341,-80.2158,171.0,Manabí-Sucre-San Isidro,0.0,None
+2026-04-12,06:46:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.0,
+2026-04-12,08:05:15-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
