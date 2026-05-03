@@ -1,10 +1,11 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-05-02,05:55:18-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.4,informo que este dato1.4mm es del día viernes 1 de mayo del 2026 no se pudo enviar por falta de internet
-2026-05-02,05:57:08-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,"informo que este dato de 1,1mm es del día sábado 2 de mayo del 2026 se observa poco movimiento de viento"
-2026-05-02,06:03:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-05-02,08:01:22-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.0,
-2026-05-02,08:27:00-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
-2026-05-02,08:27:15-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.3,
-2026-05-02,08:51:33-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-02,08:52:12-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-02,06:49:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.6,
+2026-05-03,07:23:43-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando el comportamiento de la temperatura y la filtración del suelo
+2026-05-03,07:46:26-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
+2026-05-03,08:16:37-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.0,
+2026-05-03,09:07:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-05-03,09:12:00-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
+2026-05-03,06:50:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,3.0,
+2026-05-03,09:23:25-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,2.4,
+2026-05-03,09:39:41-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,9.6,
+2026-05-03,09:53:19-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-03,09:54:16-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
