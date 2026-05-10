@@ -1,9 +1,8 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-05-09,05:40:01-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa filtración muy ligera del suelo
-2026-05-09,07:42:52-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-09,07:43:05-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-09,08:24:57-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-09,08:25:11-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-09,09:01:53-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.4,
-2026-05-09,09:02:36-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2026-05-09,06:55:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,5.8,
+2026-05-10,07:12:19-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.6,
+2026-05-10,07:56:13-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-10,07:56:25-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-05-10,08:02:33-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
+2026-05-10,08:04:56-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-10,08:05:09-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-10,07:06:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.4,
