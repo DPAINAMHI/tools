@@ -1,12 +1,14 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-05-19,05:06:26-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se sintió movimiento telúrico leves en nuestro sector aunque no se a pronunciado en las redes
-2026-05-19,07:09:42-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-05-19,08:17:41-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-19,08:17:54-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-19,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,5.6,Día nublado con un poco de garúa leve
-2026-05-19,09:00:21-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2026-05-19,09:10:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,21.8,Lloviznas durante la medición.
-2026-05-19,08:23:20-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,2.4,
-2026-05-19,09:43:50-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
-2026-05-19,09:44:00-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-19,06:45:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,0.6,
+2026-05-20,05:32:27-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y sigue la filtración del suelo mucho más ligera
+2026-05-20,06:42:40-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.4,
+2026-05-20,06:05:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,1.0,
+2026-05-20,07:35:34-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-05-20,07:46:17-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,3.4,
+2026-05-20,08:02:59-05,EC00189,-1.630887,-79.25731,337.0,Bolivar-Caluma-Caluma,1.0,
+2026-05-20,08:07:10-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-20,08:07:29-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-20,08:00:00-05,EC00120,-0.43917,-76.99806,265.0,Orellana-Francisco de Orellana-El coca,2.0,None
+2026-05-20,09:32:42-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-20,09:32:59-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-05-20,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,6.2,Día nublado con llovizna
+2026-05-20,08:54:25-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,1.1,
