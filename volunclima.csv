@@ -1,8 +1,5 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-05-23,05:46:26-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se siente movimiento telúrico leves y se observa poco movimiento de viento
-2026-05-23,06:09:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-05-23,08:11:38-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,40.0,
-2026-05-23,08:39:15-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
-2026-05-23,08:39:32-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-23,09:19:00-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-23,09:19:20-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-24,06:22:25-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando la filtración del suelo
+2026-05-24,08:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-05-24,08:54:37-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-24,08:54:49-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
