@@ -1,12 +1,13 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-05-27,05:37:33-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa que la filtración del suelo está mucho más ligera por las altas temperaturas y está afectando al sector agrícola
-2026-05-27,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
-2026-05-27,06:50:00-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
-2026-05-27,07:04:47-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-05-27,07:10:59-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,0.6,mañana nublado
-2026-05-27,08:15:07-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.4,
-2026-05-27,08:23:17-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-27,08:23:28-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-27,08:45:02-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-05-27,08:45:19-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
-2026-05-27,07:30:00-05,EC00204,-0.90736,-89.60546,50.0,Galápagos-San Cristóbal-Puerto Baquerizo Moreno,0.0,None
+2026-05-28,05:31:16-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
+2026-05-28,06:12:00-05,EC00124,-1.06215,-80.58621,248.0,Manabí-Montecristi-Montecristi,0.0,None
+2026-05-28,07:06:19-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-05-28,07:52:48-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2026-05-28,08:05:13-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-28,08:06:02-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-28,07:00:50-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,12.0,mañana nublado
+2026-05-28,08:21:48-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.6,
+2026-05-28,06:08:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,1.2,
+2026-05-28,09:08:45-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-05-28,09:08:58-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-05-28,09:11:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,2.3,None
