@@ -1,6 +1,14 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-06-14,05:01:20-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-14,05:01:33-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-14,09:16:23-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2026-06-14,09:21:46-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,1.4,
-2026-06-14,09:30:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,48.8,None
+2026-06-15,04:30:23-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.8,informo que este dato de 1.8 es del día domingo 14 de junio del 2026 no se pudo enviar por falta de internet
+2026-06-15,04:42:18-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,8.6,informo que este dato 8.6  es del día lunes 15 de junio del 2026 se observa poco movimiento de viento y seguimos monitoreando el comportamiento del río jagua porque está lloviendo fuerte en la cordillera
+2026-06-15,07:03:57-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-06-15,07:20:49-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.0,
+2026-06-15,06:35:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,4.8,
+2026-06-15,07:54:32-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2026-06-15,08:04:17-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,12.4,
+2026-06-15,08:21:25-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-15,08:21:45-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-15,08:54:45-05,EC00209,-1.625782,-79.98012,10.0,Guayas-Palestina-Palestina,0.0,
+2026-06-15,09:03:00-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-15,09:03:14-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-06-15,09:18:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,20.2,None
