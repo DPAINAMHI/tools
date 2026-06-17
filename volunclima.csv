@@ -1,15 +1,12 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-06-16,05:08:47-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento
-2026-06-16,06:41:15-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,2.0,
-2026-06-16,07:08:04-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,5.4,mañana con lluvia
-2026-06-16,07:29:20-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
-2026-06-16,07:47:03-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
-2026-06-16,07:50:20-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.0,
-2026-06-16,06:53:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,2.0,
-2026-06-16,07:57:53-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,6.0,
-2026-06-16,08:15:48-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-16,08:16:03-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-16,08:20:43-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
-2026-06-16,08:23:54-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-16,08:42:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,4.4,None
-2026-06-16,08:39:51-05,EC00211,-1.27405,-90.48776,9.0,Galápagos-San Cristóbal-Santa María ,0.0,
+2026-06-17,05:26:00-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.2,informo que la temperatura de la calor sigue fuerte y se observa que está lloviendo fuerte en la cordillera seguimos monitoreando el comportamiento del caudal del río jagua
+2026-06-17,07:21:29-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,6.0,
+2026-06-17,07:21:46-05,EC00073,-1.037657,-80.458908,47.0,Manabí-Portoviejo-Portoviejo,0.0,Reportando vía WhatsApp
+2026-06-17,07:43:33-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,2.0,
+2026-06-17,08:00:20-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,2.8,
+2026-06-17,08:19:47-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-17,08:23:12-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.2,
+2026-06-17,08:49:44-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.8,
+2026-06-17,08:50:06-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-06-17,08:59:00-05,EC00163,-0.213273,-78.087508,3202.0,Napo-El Chaco-Oyacachi,4.0,None
+2026-06-17,06:30:00-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,4.6,
