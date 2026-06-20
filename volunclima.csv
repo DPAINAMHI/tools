@@ -1,13 +1,9 @@
 DATE,HOUR,CODE,LAT,LON,ALTITUDE,DIVISION,VALUE,COMMENTS
-2026-06-19,05:06:16-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.1,informo que la temperatura de la calor sigue fuerte y se observa poco movimiento de viento y seguimos monitoreando el comportamiento del río jagua porque está lloviendo fuerte en la cordillera
-2026-06-19,06:40:16-05,EC00001,-0.889218,-80.03837,133.0,Manabí-Bolívar-Calceta,0.0,
-2026-06-19,07:39:00-05,EC00168,0.348899,-77.942256,2121.0,Imbabura-Pimampiro-Pimampiro,0.0,
-2026-06-19,07:47:18-05,EC00210,-0.623016,-80.081634,27.0,Manabí-Chone-Ricaurte,0.6,
-2026-06-19,07:54:04-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-19,07:55:11-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-19,08:27:24-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.3,
-2026-06-19,08:44:47-05,EC00107,-3.977263,-80.072297,1217.0,Loja-Puyango-Alamor,0.2,
-2026-06-19,08:45:04-05,EC00165,-0.108217,-77.130771,346.0,Orellana-Joya de los Sachas-San Sebastián del Coca,8.4,
-2026-06-19,06:05:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,3.2,
-2026-06-19,09:00:42-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
-2026-06-19,09:00:53-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-06-20,05:26:21-05,EC00144,-2.79969,-79.70765,100.0,Guayas-Naranjal-Jaime Roldos,1.0,informo que la temperatura de la calor sigue fuerte y se observa filtración muy ligera del suelo y está afectando el sector agrícola
+2026-06-20,06:01:18-05,EC00208,-4.0577551,-79.6452959,1800.0,Loja-Paltas-Lourdes,0.0,
+2026-06-20,07:23:27-05,ECX0003,-1.958944,-80.654936,37.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-20,07:23:56-05,ECX0004,-2.132936,-80.605617,100.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-20,07:49:30-05,EC00054,-0.551561,-80.041205,77.0,Manabí-Chone-Ricaurte,4.0,
+2026-06-20,09:29:24-05,EC00212,-2.2502806,-80.5763139,30.0,Santa Elena-Santa Elena-Santa Elena,0.0,
+2026-06-20,09:30:04-05,EC00213,-1.910189,-80.652842,50.0,Santa Elena-Santa Elena-Colonche,0.0,
+2026-06-20,06:54:00-05,EC00145,-0.90243,-89.444203,273.7,Galápagos-San Cristóbal-El Progreso,4.4,
